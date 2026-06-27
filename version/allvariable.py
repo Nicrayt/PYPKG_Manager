@@ -2,10 +2,11 @@ default_link_list = "https://pypkg-manager.vercel.app/base.json"
 base_pkg_filename = "base.json"
 base_upgrade_link = "https://pypkg-manager.vercel.app/up.json"
 save_pkg_dir = "pkg/" # Not now
-name = " PasBeau - PKG Manager "
+name = " PasBeau - PyPKG Manager "
 ver = "0.2.11"
 
-change_log = r"""
+change_log = f"""
+The current version is v{ver} and the name of this version is {name}
 Ver 0.2.1
 - Significant robustness improvements to prevent Python crashes and properly handle errors using try/except blocks.
 - Numerous bug fixes, including a fix for the issue in version 0.2.0 that completely prevented PKG downloads.
