@@ -8,6 +8,7 @@ arg_parser = argparse.ArgumentParser()
 arg_parser.add_argument("-dfpkg", "--download-default-list", action="store_true", help="Download the default PKG list and upgrade it")
 arg_parser.add_argument("-g", "--get", action="store_true", help="Download a PKG list")
 arg_parser.add_argument("-up", "--upgrade", action="store_true", help="Download the new version of PKG Manager (Not safe now but its work).")
+arg_parser.add_argument("-chalog", "--changelog", action="store_true", help="If you want to see the change log.")
 arg_parser.add_argument("-u", "--url", type=str, help="URL of the PKG list")
 
 arg_parser.add_argument("-n", "--name", type=str, default=base_pkg_filename, help="Name")
@@ -38,6 +39,9 @@ elif args.searchpkg:
 
 elif args.upgrade:
     upgrade()
+
+elif args.changelog:
+    print(change_log)
 
 else:
     arg_parser.print_help()
