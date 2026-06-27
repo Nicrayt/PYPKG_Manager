@@ -1,6 +1,6 @@
-default_link_list = "http://192.168.1.18:5500/base.json"
+default_link_list = "https://pypkg-manager.vercel.app/base.json"
 base_pkg_filename = "base.json"
-base_upgrade_link = "http://192.168.1.18:5500/up.json"
+base_upgrade_link = "https://pypkg-manager.vercel.app/up.json"
 save_pkg_dir = "pkg/" # Not now
 name = " PasBeau - PKG Manager "
 ver = "0.2.1"
