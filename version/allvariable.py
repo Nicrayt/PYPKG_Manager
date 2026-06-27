@@ -3,7 +3,7 @@ base_pkg_filename = "base.json"
 base_upgrade_link = "https://pypkg-manager.vercel.app/up.json"
 save_pkg_dir = "pkg/" # Not now
 name = " PasBeau - PKG Manager "
-ver = "0.2.1"
+ver = "0.2.11"
 
 change_log = r"""
 Ver 0.2.1
