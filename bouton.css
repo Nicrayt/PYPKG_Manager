@@ -1,0 +1,37 @@
+/* a la base c'est sensé etre des boutons carée stylé sauf que c'est devenus ca et le rendu est plutot bien donc je laisse ca comme ca.*/
+.bouton_card {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid  #1d2b4f;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.bouton_card a {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.bouton_card:hover {
+  background-color: #1d2b4f;
+  cursor: pointer;
+}
+
+/* utilisation de la class bento pour les boutons
+Tu vois la class bento dans base.css, elle est souvent utilisée pour faire une row d'objets.
+<div class="bento">
+  <a href="Lien1" class="bouton_card">Bouton 1</a>
+  <a href="Lien2" class="bouton_card">Bouton 2</a>
+</div>
+
+Ou tu peux utiliser la class invisicontent pour faire un autre style.
+
+Et bien sur, tu peut faire comme ca sans bento ou autre même si le premiers choix est plus propre.
+<a href="Lien1" class="bouton_card">Bouton 1</a>
+*/
