@@ -1,0 +1,18 @@
+[
+    {
+        "filename": "main.py",
+        "url": "https://pypkg-manager.vercel.app/version/main.py"
+    },
+    {
+        "filename": "allvariable.py",
+        "url": "https://pypkg-manager.vercel.app/version/allvariable.py"
+    },
+    {
+        "filename": "alldef.py",
+        "url": "https://pypkg-manager.vercel.app/version/alldef.py"
+    },
+    {
+        "filename": "abandon.py",
+        "url": "https://pypkg-manager.vercel.app/version/abandon.py"
+    }
+]
