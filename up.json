@@ -4,10 +4,6 @@
         "url": "https://pypkg-manager.vercel.app/version/main.py"
     },
     {
-        "filename": "base.json",
-        "url": "https://pypkg-manager.vercel.app/base.json"
-    },
-    {
         "filename": "allvariable.py",
         "url": "https://pypkg-manager.vercel.app/version/allvariable.py"
     },
