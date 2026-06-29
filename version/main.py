@@ -38,7 +38,7 @@ elif type(args.searchpkg) == str:
     searchpkg(name_pkglist=args.selist, name=args.searchpkg)
 
 elif args.upgrade:
-    print("Jte deconseil ca vas juste te peter les couille parce que ta fait toute c'est modifications pour que ca petent maintenent")
+    upgrade()
 
 elif args.changelog:
     print(change_log)

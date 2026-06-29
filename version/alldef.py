@@ -156,7 +156,7 @@ def installpkg(name_pkglist=base_pkg_filename, name_pkg=None):
  # Upgrade
 def upgrade():
     try:
-        downloadpkg(base_upgrade_link, "up.json", True)
+        downloadpkg(base_upgrade_link, "up.json", False)
 
         with open("up.json", "r") as upgrade:
             upgradelist = json.load(upgrade)
