@@ -153,25 +153,23 @@ def installpkg(name_pkglist=base_pkg_filename, name_pkg=None):
 
 
 
-# Dans alldef.py
 def upgrade():
     try:
-        print("Download...")
+        print("Downloading the upgrade list...")
         req = requests.get(base_upgrade_link)
         with open("up.json", "wb") as f:
             f.write(req.content)
+            
         with open("up.json", "r") as upgrade_file:
             upgradelist = json.load(upgrade_file)
 
         for paquet in upgradelist:
-            print(f"Mise à jour de : {paquet['filename']}...")
+            print(f"Upgrading : {paquet['filename']}...")
             downloadpkg(paquet['url'], paquet['filename'], view=False, path=".")
             
-        print("Update successful")
+        print("Finished with Success!")
 
     except FileNotFoundError:
-        print("Error: up.json introuvable après téléchargement.")
+        print("Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
-        print("Error: Problème de connexion avec le serveur de mise à jour.")
-    except Exception as e:
-        print(f"Une erreur imprévue est survenue : {e}")
+        print("Error: 404, the file you want to download is unreachable.")
