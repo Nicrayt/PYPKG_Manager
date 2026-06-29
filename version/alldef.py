@@ -26,7 +26,6 @@ def downloadpkg(url=default_link_list, name_pkglist="Please_use_-n_the_next_time
                     print("Finished with Success!")
             else:
                 print("Finished with Success!")
-                exit()
 
     except FileNotFoundError:
         print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
