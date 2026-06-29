@@ -16,7 +16,7 @@ arg_parser.add_argument("-s", "--show", action="store_true", help="Show the cont
 
 arg_parser.add_argument("-il", "--interactlist", action="store_true", help="List all PKG in the PKG list interactivily")
 arg_parser.add_argument("-sl", "--selist", type=str, default=base_pkg_filename, help="Name of the PKG list to list")
-arg_parser.add_argument("-se", "--searchpkg", action="store_true", help="Search PKG on PKG list (no finished but it safe)")
+arg_parser.add_argument('-se', '--searchpkg', type=str, help="Search PKG on PKG list (no finished but it safe)")
 arg_parser.add_argument("-i", "--install", type=str, help="Install a PKG from the PKG list")
 
 
@@ -34,18 +34,19 @@ elif args.download_default_list:
 elif args.interactlist:
     interactivelistpkg(args.selist)
 
-elif args.searchpkg:
-    searchpkg(name_pkglist=args.selist)
+elif type(args.searchpkg) == str:
+    searchpkg(name_pkglist=args.selist, name=args.searchpkg)
 
 elif args.upgrade:
-    upgrade()
+    print("Jte deconseil ca vas juste te peter les couille parce que ta fait toute c'est modifications pour que ca petent maintenent")
 
 elif args.changelog:
     print(change_log)
+    input("Press Enter to exit...")
 
 else:
     arg_parser.print_help()
     try:
-        input("Press enter to exit...")
+        input("Press Enter to exit...")
     except KeyboardInterrupt:
         exit()

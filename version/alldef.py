@@ -1,37 +1,41 @@
 import json
+import os
 import requests
+import zipfile
 from allvariable import *
 
+os.makedirs(save_pkg_dir, exist_ok=True)
 
-
-
- # Download the PKG list
-def downloadpkg(url=default_link_list, name_pkglist="Please_use_-n_the_next_time", view=True):
+ # Download All
+def downloadpkg(url=default_link_list, name_pkglist="Please_use_-n_the_next_time", view=True, path=save_pkg_dir):
     try:
         if url == default_link_list:
             req = requests.get(default_link_list)
             open("base.json", "wb").write(req.content)
             print("Default Pkg list downloaded!")
-
         else:
+            download = path.strip() + "/".strip() + name_pkglist.strip()
             req = requests.get(url)
-            open(name_pkglist, "wb").write(req.content)
-            print("Finished with Success!")
+            open(download, "wb").write(req.content)
             if view:
                 print(req.text)
+            elif ".zip" in name_pkglist:
+                with zipfile.ZipFile(download, 'r') as easteregg:
+                    easteregg.extractall(path.strip())
+                    print("Unzip completed")
+                    print("Finished with Success!")
+            else:
+                print("Finished with Success!")
+                exit()
 
     except FileNotFoundError:
-        print(f"Error: You didn't specify a name for your file.")
+        print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
         print(f"Error: 404, the file you want to download is unreachable.")
     except (requests.URLRequired, requests.exceptions.MissingSchema):
         print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
     except KeyboardInterrupt:
         exit()
-    except:
-        print("Error: ?")
-
-
 
 
 
@@ -43,7 +47,7 @@ def interactivelistpkg(name_pkglist=base_pkg_filename):
             pkglist = json.load(file)
 
         for paquet in pkglist:
-            print("\n" * 100)
+            os.system('cls' if os.name == 'nt' else 'clear')
             print("-"*20)
             print(f"PKG Name : {paquet['pkgname']}")
             print(f"File Name : {paquet['pkgfilename']}")
@@ -61,63 +65,54 @@ def interactivelistpkg(name_pkglist=base_pkg_filename):
         print("finished")
 
     except FileNotFoundError:
-        print(f"Error: You didn't specify a name for your file.")
+        print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
         print(f"Error: 404, the file you want to download is unreachable.")
     except (requests.URLRequired, requests.exceptions.MissingSchema):
         print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
     except KeyboardInterrupt:
         exit()
-    except:
-        print("Error: ?")
 
 
 
 
-
-def searchpkg(name_pkglist):
+ # Search PKG on a PKG List
+def searchpkg(name_pkglist, name=None):
     try:
         with open(name_pkglist, "r") as file:
             pkglist = json.load(file)
-        while True:
-            usrchoice = input("Search >").strip().lower()
-            for paquet in pkglist:
-                searchcomplet = False
-                if usrchoice in paquet['pkgname']:
-                    searchcomplet = True
-                    print("\n" * 100)
-                    print("-"*20)
-                    print(f"PKG Name : {paquet['pkgname']}")
-                    print(f"File Name : {paquet['pkgfilename']}")
-                    print(f"Description   : {paquet['description']}")
-                    print(f"URL   : {paquet['url']}")
-                    print("")
-                    try:
-                        usrchoice = input("press i if you want to install it > ").lower().strip()
-                        if usrchoice == "i":
-                            downloadpkg(paquet['url'], paquet['pkgfilename'], False)
-                            break
-                    except KeyboardInterrupt:
-                        exit()
-
-            if searchcomplet == False:
-                print("Not founded")
-                continue
+        for paquet in pkglist:
+            if name in paquet['pkgname']:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("-"*20)
+                print(f"PKG Name : {paquet['pkgname']}")
+                print(f"File Name : {paquet['pkgfilename']}")
+                print(f"Description   : {paquet['description']}")
+                print(f"URL   : {paquet['url']}")
+                print("")
+                try:
+                    usrchoice = input("press i if you want to install it > ").lower().strip()
+                    if usrchoice == "i":
+                        downloadpkg(paquet['url'], paquet['pkgfilename'], False)
+                        break
+                    elif usrchoice == "exit":
+                        break
+                except KeyboardInterrupt:
+                    break
 
     except FileNotFoundError:
-        print(f"Error: You didn't specify a name for your file.")
+        print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
         print(f"Error: 404, the file you want to download is unreachable.")
     except (requests.URLRequired, requests.exceptions.MissingSchema):
         print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
     except KeyboardInterrupt:
         exit()
-    except:
-        print("Error: ?")
 
 
 
 
+ # Install a PKG
 def installpkg(name_pkglist=base_pkg_filename, name_pkg=None):
     try:
         with open(name_pkglist, "r") as file:
@@ -148,16 +143,17 @@ def installpkg(name_pkglist=base_pkg_filename, name_pkg=None):
             print(f"{name_pkg}: not found, in this PKG list: {name_pkglist}")
         return
     except FileNotFoundError:
-        print(f"Error: You didn't specify a name for your file.")
+        print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
         print(f"Error: 404, the file you want to download is unreachable.")
     except (requests.URLRequired, requests.exceptions.MissingSchema):
         print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
     except KeyboardInterrupt:
         exit()
-    except:
-        print("Error: ?")
 
+
+
+ # Upgrade
 def upgrade():
     try:
         downloadpkg(base_upgrade_link, "up.json", True)
@@ -167,13 +163,13 @@ def upgrade():
 
         for paquet in upgradelist:
             downloadpkg(paquet['url'], paquet['filename'], False)
-            print("finished")
+            print(paquet['url'], paquet['filename'])
 
     except FileNotFoundError:
-        print(f"Error: You didn't specify a name for your file.")
+        print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
         print(f"Error: 404, the file you want to download is unreachable.")
     except (requests.URLRequired, requests.exceptions.MissingSchema):
         print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
     except KeyboardInterrupt:
-        exit()
+        print("""You probably broke the update, but it's likely not a big deal if you run "-up" again.""")

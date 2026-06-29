@@ -1,12 +1,17 @@
 default_link_list = "https://pypkg-manager.vercel.app/base.json"
 base_pkg_filename = "base.json"
 base_upgrade_link = "https://pypkg-manager.vercel.app/up.json"
-save_pkg_dir = "pkg/" # Not now
-name = " PasBeau - PyPKG Manager "
-ver = "0.2.11"
+save_pkg_dir = "pkg/"
+name = " Onyx - PyPKG Manager "
+ver = "0.3.0"
 
-change_log = f"""
-The current version is v{ver} and the name of this version is {name}
+change_log = f"""The current version is v{ver} and the name of this version is{name}
+
+Ver 0.3.0
+- Numerous bug fixes; package searching is now 100% complete.
+- Added support for extracting zip, 7z, and tar formats.
+- Improved update management; 50% complete, with user interface enhancements (so you can see what is being downloaded...).
+
 Ver 0.2.1
 - Significant robustness improvements to prevent Python crashes and properly handle errors using try/except blocks.
 - Numerous bug fixes, including a fix for the issue in version 0.2.0 that completely prevented PKG downloads.
