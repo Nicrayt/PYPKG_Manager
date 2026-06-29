@@ -1,10 +1,10 @@
 [
     {
-        "pkgname": "pkg_installer",
-        "pkgversion": "0.1.1",
-        "pkgfilename": "mainn.py",
-        "description": "A python-based package installer.",
-        "url": "http://192.168.1.18:5500/pkg/mainn.py"
+        "pkgname": "ziptest",
+        "pkgversion": "0.3.0",
+        "pkgfilename": "lol.zip",
+        "description": "zip.",
+        "url": "https://pypkg-manager.vercel.app/download/latest_stable_version.zip"
     },
     {
         "pkgname": "7zip",
