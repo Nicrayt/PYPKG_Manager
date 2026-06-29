@@ -9,7 +9,7 @@ os.makedirs(save_pkg_dir, exist_ok=True)
  # Download All
 def downloadpkg(url=default_link_list, name_pkglist="Please_use_-n_the_next_time", view=True, path=save_pkg_dir):
     try:
-        if url == default_link_list:
+        if url == default_link_list or name_pkglist == "up.json":
             req = requests.get(default_link_list)
             open("base.json", "wb").write(req.content)
             print("Default Pkg list downloaded!")
@@ -153,23 +153,25 @@ def installpkg(name_pkglist=base_pkg_filename, name_pkg=None):
 
 
 
- # Upgrade
+# Dans alldef.py
 def upgrade():
     try:
-        downloadpkg(base_upgrade_link, "up.json", False)
-
-        with open("up.json", "r") as upgrade:
-            upgradelist = json.load(upgrade)
+        print("Download...")
+        req = requests.get(base_upgrade_link)
+        with open("up.json", "wb") as f:
+            f.write(req.content)
+        with open("up.json", "r") as upgrade_file:
+            upgradelist = json.load(upgrade_file)
 
         for paquet in upgradelist:
-            downloadpkg(paquet['url'], paquet['filename'], False)
-            print(paquet['url'], paquet['filename'])
+            print(f"Mise à jour de : {paquet['filename']}...")
+            downloadpkg(paquet['url'], paquet['filename'], view=False, path=".")
+            
+        print("Update successful")
 
     except FileNotFoundError:
-        print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
+        print("Error: up.json introuvable après téléchargement.")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
-        print(f"Error: 404, the file you want to download is unreachable.")
-    except (requests.URLRequired, requests.exceptions.MissingSchema):
-        print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
-    except KeyboardInterrupt:
-        print("""You probably broke the update, but it's likely not a big deal if you run "-up" again.""")
+        print("Error: Problème de connexion avec le serveur de mise à jour.")
+    except Exception as e:
+        print(f"Une erreur imprévue est survenue : {e}")
