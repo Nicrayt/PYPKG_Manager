@@ -5,7 +5,7 @@
     },
     {
         "filename": "base.json",
-        "url": "https://pypkg-manager.vercel.app/version/base.json"
+        "url": "https://pypkg-manager.vercel.app/base.json"
     },
     {
         "filename": "allvariable.py",
