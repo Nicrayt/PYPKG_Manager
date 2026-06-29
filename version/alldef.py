@@ -172,5 +172,3 @@ def upgrade():
         print("Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
         print("Error: 404, the file you want to download is unreachable.")
-
- test_for_new_update = """I test the update"""
