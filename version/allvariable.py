@@ -3,14 +3,20 @@ base_pkg_filename = "base.json"
 base_upgrade_link = "https://pypkg-manager.vercel.app/up.json"
 save_pkg_dir = "pkg/"
 name = " Onyx - PyPKG Manager "
-ver = "0.3.0"
+ver = "0.3.1"
 
 change_log = f"""The current version is v{ver} and the name of this version is{name}
 
+Ver 0.3.1
+- Numerous bug fixes...
+- The downloaded files are in a specific folder named after it.
+-Nothing else...
+
 Ver 0.3.0
 - Numerous bug fixes; package searching is now 100% complete.
-- Added support for extracting zip, 7z, and tar formats.
-- Improved update management; 50% complete, with user interface enhancements (so you can see what is being downloaded...).
+- Added support for extracting zip formats.
+- Improved update management; 70% complete, with user interface enhancements (so you can see what is being downloaded...).
+Nothing else...
 
 Ver 0.2.1
 - Significant robustness improvements to prevent Python crashes and properly handle errors using try/except blocks.

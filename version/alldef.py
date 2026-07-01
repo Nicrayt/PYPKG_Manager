@@ -7,25 +7,28 @@ from allvariable import *
 os.makedirs(save_pkg_dir, exist_ok=True)
 
  # Download All
-def downloadpkg(url=default_link_list, name_pkglist="Please_use_-n_the_next_time", view=True, path=save_pkg_dir):
+def downloadpkg(url=default_link_list, name_pkg="Please_use_-n_the_next_time", view=True, path=save_pkg_dir):
     try:
-        if url == default_link_list or name_pkglist == "up.json":
+        if url == default_link_list or name_pkg == "up.json":
             req = requests.get(default_link_list)
+
             open("base.json", "wb").write(req.content)
             print("Default Pkg list downloaded!")
         else:
-            download = path.strip() + "/".strip() + name_pkglist.strip()
+            download = path.strip() + "/" + name_pkg.strip() + "/" + name_pkg.strip()
+            os.makedirs(path.strip() + "/" + name_pkg.strip(), exist_ok=True)
             req = requests.get(url)
             open(download, "wb").write(req.content)
             if view:
                 print(req.text)
-            elif ".zip" in name_pkglist:
+            elif ".zip" in name_pkg:
                 with zipfile.ZipFile(download, 'r') as easteregg:
                     easteregg.extractall(path.strip())
                     print("Unzip completed")
                     print("Finished with Success!")
             else:
                 print("Finished with Success!")
+                exit()
 
     except FileNotFoundError:
         print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
