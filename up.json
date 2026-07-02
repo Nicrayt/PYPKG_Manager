@@ -1,19 +1,28 @@
 [
-    {
-        "filename": "main.py",
-        "url": "https://pypkg-manager.vercel.app/version/main.py",
-        "ver": "0.3.21"
-    },
-    {
-        "filename": "allvariable.py",
-        "url": "https://pypkg-manager.vercel.app/version/allvariable.py"
-    },
-    {
-        "filename": "alldef.py",
-        "url": "https://pypkg-manager.vercel.app/version/alldef.py"
-    },
-    {
-        "filename": "abandon.py",
-        "url": "https://pypkg-manager.vercel.app/version/abandon.py"
-    }
+  {
+    "filename": "main.py",
+    "url": "https://pypkg-manager.vercel.app/version/main.py",
+    "ver": "0.3.3",
+    "changelog": "- Numerous optimizations have been made.\n- Some bugs have been fixed.\n- The code is ten times more readable because I used proper variable names instead of names pulled out of thin air.\n- The code is becoming slightly more robust.\n- The code is much less resource-intensive for very low-end machines."
+  },
+  {
+    "filename": "config_variable.py",
+    "url": "https://pypkg-manager.vercel.app/version/config_variable.py",
+  },
+  {
+    "filename": "def_download.py",
+    "url": "https://pypkg-manager.vercel.app/version/def_download.py",
+  },
+  {
+    "filename": "def_install_package.py",
+    "url": "https://pypkg-manager.vercel.app/version/def_install_package.py",
+  },
+  {
+    "filename": "def_search_package.py",
+    "url": "https://pypkg-manager.vercel.app/version/def_search_package.py",
+  },
+  {
+    "filename": "upgrade.py",
+    "url": "https://pypkg-manager.vercel.app/version/upgrade.py",
+  }
 ]
