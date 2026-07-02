@@ -15,6 +15,9 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
+  padding: 3px;
+  gap: 3px;
+  margin: 3px;
   color: #cbcbcb;
   font-family: Arial, Helvetica, sans-serif;
 }
