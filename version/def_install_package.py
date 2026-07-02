@@ -1,0 +1,47 @@
+from config_variable import *
+from def_download import *
+import json
+try: import requests
+except (ImportError, ModuleNotFoundError): print("Error: The 'requests' module is not installed. Please install it to run this script."); exit()
+
+
+def installpkg(package_list_file_name=base_pkg_filename, name_the_pkg=None):
+    try:
+        with open(package_list_file_name, "r") as file:
+            pkglist = json.load(file)
+
+        for paquet in pkglist:
+            if paquet["pkgname"].strip().lower() == name_the_pkg.strip().lower():
+                print("-"*10 + name_of_package_manager + "-"*10)
+                print(f"PKG Name : {paquet['pkgname']}")
+                print(f"File Name : {paquet['pkgfilename']}")
+                print(f"Description   : {paquet['description']}")
+                print(f"URL   : {paquet['url']}")
+                print("")
+
+                try:
+            
+                    usrchoice = input("You want to install it ?: Y or n  > ").lower().strip()
+                    if usrchoice == "y" or usrchoice == "yes":
+                        downloadpkg(paquet['url'], paquet['pkgfilename'], view=False)
+                        break
+
+                    elif usrchoice == "ys" or usrchoice == "yeshow".lower().strip():
+                        downloadpkg(paquet['url'], paquet['pkgfilename'], view=True)
+                        break
+
+                except KeyboardInterrupt:
+                    exit()
+                else:
+                    break
+        else:
+            print(f"{name_the_pkg}: not found, in this PKG list: {package_list_file_name}")
+        return
+    except FileNotFoundError:
+        print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
+    except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
+        print(f"Error: 404, the file you want to download is unreachable.")
+    except (requests.URLRequired, requests.exceptions.MissingSchema):
+        print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
+    except KeyboardInterrupt:
+        exit()
