@@ -17,7 +17,7 @@ try:
     change_log_new_update = upgradelist[0]["changelog"]
 
     if version == ver:
-        usrchoice = input(f"You are already on the latest version {ver}. Do you want to install the latest version {version}? Y or N > ").lower().strip()
+        usrchoice = input(f"You are already on the latest version {ver}. Do you want to reinstall the latest version {version}? Y or N > ").lower().strip()
     else:
         usrchoice = input(f"Do you want to update to the v{version}? The current version is {ver}. \n Change Log: \n{change_log_new_update}  \nY or N >").lower().strip()
 
