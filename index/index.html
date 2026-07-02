@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PyPKG - Manager</title>
     <link rel="stylesheet" href="https://pypkg-manager.vercel.app/index/base.css">
+    <link rel="stylesheet" href="https://pypkg-manager.vercel.app/index/bento.css">
     <link rel="stylesheet" href="https://pypkg-manager.vercel.app/index/bouton.css">
+    <link rel="stylesheet" href="https://pypkg-manager.vercel.app/index/code.css">
+    <link rel="stylesheet" href="https://pypkg-manager.vercel.app/index/image.css">
+    <link rel="stylesheet" href="https://pypkg-manager.vercel.app/index/videoplayer.css">
 </head>
 <body>
+
+    <div class="topbar">
+        <a href="#" class="title">PyPKG Manager</a>
+        <div class="right">
+            <a href="https://github.com/Nicrayt/PYPKG_Manager" target="_blank">GitHub</a>
+        </div>
+    </div>
+
     <div class="content">
         <h1>Welcome to PyPKG - Manager</h1>
+        <h2>Yes, it's a new PKG Manager, and this one is made in PYTHON, THE beginner language.</h2>
+        <p>
+            I didn't know how to code before this project and I still don't know how to code. 
+            I've always wanted to make a python project like this one, 
+            so if you want to judge me because the code absolutely reeks of shit, that's completely OK. 
+            Otherwise, see ya, and enjoy this project that I'll probably abandon in about a week.
+        </p>
+        <blockquote>
+            <strong>Important:</strong> You also need to run <code>-up</code> to update the package manager.
+        </blockquote>
+        
         <div class="bento">
-            <a href="https://pypkg-manager.vercel.app/download/PyPKG_Onyx_0.3.2.zip" class="bouton_card">Download</a>
+            <a href="https://pypkg-manager.vercel.app/" class="bouton_card">
+                Download Latest Version
+            </a>
+            <a href="https://github.com/Nicrayt/PYPKG_Manager" target="_blank" class="bouton_card">
+                View GitHub
+            </a>
         </div>
+    </div>
+
+    <div class="content">
+        <h2>How do I launch it?</h2>
+        <p>You need to have Python and install the <code>requests</code> library.</p>
+        
+        <p>• <strong>Windows:</strong> <code>pip install requests</code></p>
+        <p>• <strong>Ubuntu / Debian / Mint:</strong> <code>sudo apt update && sudo apt install python3-requests</code></p>
+        <p>• <strong>Fedora:</strong> <code>sudo dnf install python3-requests</code></p>
+        <p>• <strong>Arch Linux / Manjaro:</strong> <code>pacman -S python-requests</code></p>
+        <p>• <strong>MacOS:</strong> <code>pip3 install requests</code></p>
+    </div>
+
+    <div class="code">
+        <h1>Launch Command</h1>
+        <pre>
+# Run this command in the directory:
+python main.py
+        </pre>
     </div>
 </body>
 </html>
