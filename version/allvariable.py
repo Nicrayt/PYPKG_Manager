@@ -5,9 +5,12 @@ save_pkg_dir = "pkg/"
 name = " Onyx - PyPKG Manager "
 ver = "0.3.2"
 
-# esque l'auto completion fonctionne ? 
-
 change_log = f"""The current version is v{ver} and the name of this version is{name}
+
+Ver 0.3.2
+- Many bugs fixed: updates now work via their own download system, and ZIP files are extracted into their own dedicated folder.
+- Added basic security measures: `try-except` blocks and a confirmation prompt to verify if you actually want to perform an update.
+- Issues with this update: Minimal optimization (the code is becoming "spaghetti code"), and the same file is downloaded twice during the update process...
 
 Ver 0.3.1
 - Numerous bug fixes...
