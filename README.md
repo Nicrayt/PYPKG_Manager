@@ -10,12 +10,17 @@ The site to download the newer version: <a href="https://pypkg-manager.vercel.ap
 You also need to run '-up' to update the package manager.
 
 ---
-# Warning 
-The latest release (**v0.3.1**) contains several bugs. These will most likely be resolved within the next few days in an upcoming patch.
+### **How do I launch it?**
+You need to have Python and install the `requests` library. 
 
-### Known Issues:
-* **The `-up` option is non-functional:** This is likely due to the newly introduced custom download path for files. A quick fix will be deployed shortly.
-* **ZIP extraction path issue:** ZIP files are successfully extracted, but they remain inside the `pkg` directory instead of being moved to their respective target folders.
+For Windows: `pip install requests`
 
-### Recommendation:
-Even though v0.3.1 addresses many bugs and instability issues found in v0.3.0, we do not recommend updating to this version just yet. Instead, we highly recommend using **version 0.2.1(1)**. It may lack a few of the newer features, but it is highly stable and works flawlessly.
+For Ubuntu / Debian / Mint `sudo apt update && sudo apt install python3-requests`
+
+For Fedora `sudo dnf install python3-requests`
+
+For Arch Linux / Manjaro  `pacman -S python-requests`
+
+For MacOS `pip3 install requests`
+
+And launch it using the command in the directory: `python main.py`
