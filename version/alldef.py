@@ -23,7 +23,7 @@ def downloadpkg(url=default_link_list, name_pkg="Please_use_-n_the_next_time", v
                 print(req.text)
             elif ".zip" in name_pkg:
                 with zipfile.ZipFile(download, 'r') as easteregg:
-                    easteregg.extractall(path.strip())
+                    easteregg.extractall(path.strip() + "/" + name_pkg.strip())
                     print("Unzip completed")
                     print("Finished with Success!")
             else:
@@ -161,17 +161,32 @@ def upgrade():
         req = requests.get(base_upgrade_link)
         with open("up.json", "wb") as f:
             f.write(req.content)
-            
-        with open("up.json", "r") as upgrade_file:
-            upgradelist = json.load(upgrade_file)
 
-        for paquet in upgradelist:
-            print(f"Upgrading : {paquet['filename']}...")
-            downloadpkg(paquet['url'], paquet['filename'], view=False, path=".")
-            
-        print("Finished with Success!")
+        with open("up.json", "r") as ber: # I know what I'm doing is really slow and clunky—especially since the same line appears a few rows down with just a different name but it's for the new version so the fix can be rolled out quickly.
+            version_ver = json.load(ber)
+
+        version = version_ver[0]["ver"]
+
+        usrchoice = input(f"Do you want to update to the v{version}? The current version is {ver}. Y or N > ").lower().strip()
+
+        if usrchoice == "yes" or usrchoice == "y":
+            with open("up.json", "r") as upgrade_file:
+                upgradelist = json.load(upgrade_file)
+
+            for paquet in upgradelist:
+                print(f"Upgrading : {paquet['filename']}...")
+                req = requests.get(paquet['url'])
+
+                with open(paquet['filename'], 'wb') as fichier:
+                        fichier.write(req.content)
+
+            print("Finished with Success!")
+        else:
+            print("GoodBy")
 
     except FileNotFoundError:
         print("Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
         print("Error: 404, the file you want to download is unreachable.")
+    except KeyboardInterrupt:
+        print("The update was interrupted; this may not be serious, but run '-up' again to restart the update.")
