@@ -3,7 +3,7 @@ base_pkg_filename = "base.json"
 base_upgrade_link = "https://pypkg-manager.vercel.app/up.json"
 save_pkg_dir = "pkg/"
 name = " Onyx - PyPKG Manager "
-ver = "0.3.2"
+ver = "0.3.21"
 
 change_log = f"""The current version is v{ver} and the name of this version is{name}
 
