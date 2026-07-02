@@ -2,7 +2,7 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.3.31",
+    "ver": "0.3.32",
     "changelog": "- Numerous optimizations have been made.\n- Some bugs have been fixed.\n- The code is ten times more readable because I used proper variable names instead of names pulled out of thin air.\n- The code is becoming slightly more robust.\n- The code is much less resource-intensive for very low-end machines."
   },
   {
