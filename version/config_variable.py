@@ -6,8 +6,12 @@ name_of_package_manager = " Onyx - PyPKG Manager "
 ver = "0.3.3"
 
 change_log = f"""The current version is v{ver} and the name of this version is{name_of_package_manager}
-
-
+Ver 0.3.3
+- Numerous optimizations have been made.
+- Some bugs have been fixed.
+- The code is ten times more readable because I used proper variable names instead of names pulled out of thin air.
+- The code is becoming slightly more robust.
+- The code is much less resource-intensive for very low-end machines.
 
 Ver 0.3.2
 - Many bugs fixed: updates now work via their own download system, and ZIP files are extracted into their own dedicated folder.
