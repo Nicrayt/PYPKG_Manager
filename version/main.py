@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from config_variable import *
 import argparse
 
