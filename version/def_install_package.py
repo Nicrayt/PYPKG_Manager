@@ -1,27 +1,32 @@
-from config_variable import *
-from def_download import *
-import json
+try:
+    from config_variable import *
+    from def_download import *
+    import json
+except (ImportError, ModuleNotFoundError):  print("Error: The required modules are not installed or not found."); exit()
 try: import requests
 except (ImportError, ModuleNotFoundError): print("Error: The 'requests' module is not installed. Please install it to run this script."); exit()
 
 
-def installpkg(package_list_file_name=base_pkg_filename, name_the_pkg=None):
+def installpkg(package_list_file_name:str=base_pkg_filename, name_the_pkg:str=None):
     try:
         with open(package_list_file_name, "r") as file:
             pkglist = json.load(file)
 
         for paquet in pkglist:
-            if paquet["pkgname"].strip().lower() == name_the_pkg.strip().lower():
+            if paquet["pkgname"].strip().lower() == name_the_pkg.strip().lower() and os.name == paquet['plateforme']:
                 print("-"*10 + name_of_package_manager + "-"*10)
-                print(f"PKG Name : {paquet['pkgname']}")
-                print(f"File Name : {paquet['pkgfilename']}")
-                print(f"Description   : {paquet['description']}")
-                print(f"URL   : {paquet['url']}")
+                print(f"PKG Name    : {paquet['pkgname']}")
+                print(f"File Name   : {paquet['pkgfilename']}")
+                print(f"Platform    : {paquet['plateforme']}")
+                print(f"Bits        : {paquet['bits']}bits")
+                print(f"Description : {paquet['description']}")
+                print(f"URL         : {paquet['url']}")
                 print("")
 
                 try:
             
-                    usrchoice = input("You want to install it ?: Y or n  > ").lower().strip()
+                    usrchoice = input("You want to install it ?: Y or N  > ").lower().strip()
+                    print("")
                     if usrchoice == "y" or usrchoice == "yes":
                         downloadpkg(paquet['url'], paquet['pkgfilename'], view=False)
                         break

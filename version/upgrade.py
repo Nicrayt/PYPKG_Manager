@@ -1,5 +1,7 @@
-from config_variable import *
-import json
+try:
+    from config_variable import *
+    import json
+except (ImportError, ModuleNotFoundError):  print("Error: The required modules are not installed or not found."); exit()
 try:    import requests
 except (ImportError, ModuleNotFoundError):  print("Error: The 'requests' module is not installed. Please install it to run this script."); exit()
 
@@ -13,13 +15,13 @@ try:
     with open("up.json", "r") as upgrade_file:
         upgradelist = json.load(upgrade_file)
 
-    version = upgradelist[0]["ver"]
+    version_new_update = upgradelist[0]["ver"]
     change_log_new_update = upgradelist[0]["changelog"]
 
-    if version == ver:
-        usrchoice = input(f"You are already on the latest version {ver}. Do you want to reinstall the latest version {version}? Y or N > ").lower().strip()
+    if version_new_update == version_of_pkg_manager:
+        usrchoice = input(f"You are already on the latest version {version_of_pkg_manager}. Do you want to reinstall the latest version {version_new_update}? Y or N > ").lower().strip()
     else:
-        usrchoice = input(f"Do you want to update to the v{version}? The current version is {ver}. \n Change Log: \n{change_log_new_update}  \nY or N >").lower().strip()
+        usrchoice = input(f"Do you want to update to the v{version_new_update}? The current version is {version_of_pkg_manager}. \n Change Log: \n{change_log_new_update}  \nY or N >").lower().strip()
 
     if usrchoice == "yes" or usrchoice == "y":
 
@@ -37,4 +39,4 @@ try:
 except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
     print("Error: 404, the file you want to download is unreachable.")
 except KeyboardInterrupt:
-    print("The update was interrupted; this may not be serious, but run '-up' again to restart the update.")
+    print("\nThe update was interrupted; this may not be serious, but run '-up' again to restart the update.")

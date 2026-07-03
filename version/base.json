@@ -1,0 +1,53 @@
+[
+    {
+        "pkgname": "Discord",
+        "pkgversion": "1.0.145",
+        "pkgfilename": "discord-1.0.145.tar.gz",
+        "plateforme": "posix",
+        "bits": "64",
+        "description": "Discord is a free voice, video, and text chat application that enables users, primarily ages thirteen and older, to communicate within communities known as servers. Launched in 2015 by Jason Citron and Stan Vishnevskiy, it was originally designed for gamers, allowing them to connect while playing.",
+        "url": "https://stable.dl2.discordapp.net/apps/linux/1.0.145/discord-1.0.145.tar.gz"
+    },
+    {
+        "pkgname": "Discord",
+        "pkgversion": "1.0.145",
+        "pkgfilename": "DiscordSetup.exe",
+        "plateforme": "nt",
+        "bits": "64",
+        "description": "Discord is a free voice, video, and text chat application that enables users, primarily ages thirteen and older, to communicate within communities known as servers. Launched in 2015 by Jason Citron and Stan Vishnevskiy, it was originally designed for gamers, allowing them to connect while playing.",
+        "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9244/DiscordSetup.exe"
+    },
+
+    
+
+    {
+        "pkgname": "Steam",
+        "pkgversion": "Installer",
+        "pkgfilename": "SteamSetup.exe",
+        "plateforme": "nt",
+        "bits": "64",
+        "description": "Steam is the ultimate destination for playing, discussing, and creating games.",
+        "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
+    },
+    {
+        "pkgname": "Steam",
+        "pkgversion": "1.0.0.87_unofficial_packages",
+        "pkgfilename": "steam_1.0.0.87.tar.gz",
+        "plateforme": "posix",
+        "bits": "64",
+        "description": "Be careful: downloading unofficial packages could expose you to malware. Steam is the ultimate destination for playing, discussing, and creating games.",
+        "url": "https://repo.steampowered.com/steam/archive/precise/steam_1.0.0.87.tar.gz"
+    },
+
+
+    
+    {
+        "pkgname": "VLC",
+        "pkgversion": "3.0.23",
+        "pkgfilename": "vlc-3.0.23-win64.exe",
+        "plateforme": "nt",
+        "bits": "64",
+        "description": "VLC a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.",
+        "url": "https://ftp.free.org/mirrors/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.exe"
+    }
+]
