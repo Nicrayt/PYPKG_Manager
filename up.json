@@ -2,7 +2,7 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.3.4",
+    "ver": "0.3.41",
     "changelog": "- Lots of bug fixes.\n- Slightly optimized performance.\n- Added cross-platform support (Linux, Windows).\n- Tweaked the interface for a better look.\n- Made library imports much more stable to prevent crashes.\n- Cleaned up the code by removing a few unnecessary features.\n- Added more details for package lists (OS, Bits, etc.)."
   },
   {
