@@ -16,6 +16,7 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
             if search_name.strip().lower() in paquet['pkgname'].strip().lower() and os.name == paquet['plateforme']:
                 print("-"*10 + name_of_package_manager + "-"*10)
                 print(f"PKG Name    : {paquet['pkgname']}")
+                print(f"PKG Version : {paquet['pkgversion']}")
                 print(f"File Name   : {paquet['pkgfilename']}")
                 print(f"Platform    : {paquet['plateforme']}")
                 print(f"Bits        : {paquet['bits']}bits")
