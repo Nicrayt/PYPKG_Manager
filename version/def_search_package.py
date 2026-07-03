@@ -7,13 +7,21 @@ except (ImportError, ModuleNotFoundError):  print("Error: The required modules a
 try:    import requests
 except (ImportError, ModuleNotFoundError):  print("Error: The 'requests' module is not installed. Please install it to run this script."); exit()
 
+os_name = os.name
+
 def searchpkg(package_list_file_name:str, search_name:str=None):
     try:
         with open(package_list_file_name, "r") as file:
             in_package_list = json.load(file)
 
+        compatible_packages = False
+        package_found = False
+
         for paquet in in_package_list:
-            if search_name.strip().lower() in paquet['pkgname'].strip().lower() and os.name == paquet['plateforme']:
+            if paquet["pkgname"].strip().lower() == search_name.strip().lower() and os_name == paquet['plateforme']:
+                package_found = True
+                compatible_packages = True
+
                 print("-"*10 + name_of_package_manager + "-"*10)
                 print(f"PKG Name    : {paquet['pkgname']}")
                 print(f"PKG Version : {paquet['pkgversion']}")
@@ -25,21 +33,33 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
                 print("")
 
                 try:
-
+            
                     usrchoice = input("You want to install it ?: Y or N  > ").lower().strip()
                     print("")
                     if usrchoice == "y" or usrchoice == "yes":
-                        downloadpkg(paquet['url'], paquet['pkgfilename'], False)
-                        exit()
-                    elif usrchoice == "exit":
-                        exit()
+                        downloadpkg(paquet['url'], paquet['pkgfilename'], view=False)
+                        break
+
+                    elif usrchoice == "ys" or usrchoice == "yeshow".lower().strip():
+                        downloadpkg(paquet['url'], paquet['pkgfilename'], view=True)
+                        break
 
                 except KeyboardInterrupt:   exit()
+            
+            else:
+                if compatible_packages == False and paquet["pkgname"].strip().lower() == search_name.strip().lower():
+                    print(f"the package {search_name} is not compatible with your OS: {os_name}")
+                    exit()
 
-        
-        print(f"{search_name}: not found, in this PKG list: {package_list_file_name}")
+        if not package_found:
+            print(f"{search_name}: not found, in this PKG list: {package_list_file_name}")
+            exit()
+
+    except FileNotFoundError:
+        print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
+    except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
+        print(f"Error: 404, the file you want to download is unreachable.")
+    except (requests.URLRequired, requests.exceptions.MissingSchema):
+        print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
+    except KeyboardInterrupt:
         exit()
-    except FileNotFoundError:   print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
-    except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):  print(f"Error: 404, the file you want to download is unreachable.")
-    except (requests.URLRequired, requests.exceptions.MissingSchema):   print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
-    except KeyboardInterrupt:   exit()

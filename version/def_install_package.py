@@ -6,14 +6,22 @@ except (ImportError, ModuleNotFoundError):  print("Error: The required modules a
 try: import requests
 except (ImportError, ModuleNotFoundError): print("Error: The 'requests' module is not installed. Please install it to run this script."); exit()
 
+os_name = os.name
+
 
 def installpkg(package_list_file_name:str=base_pkg_filename, name_the_pkg:str=None):
     try:
         with open(package_list_file_name, "r") as file:
             pkglist = json.load(file)
 
+        compatible_packages = False
+        package_found = False
+        
         for paquet in pkglist:
-            if paquet["pkgname"].strip().lower() == name_the_pkg.strip().lower() and os.name == paquet['plateforme']:
+            if paquet["pkgname"].strip().lower() == name_the_pkg.strip().lower() and os_name == paquet['plateforme']:
+                package_found = True
+                compatible_packages = True
+
                 print("-"*10 + name_of_package_manager + "-"*10)
                 print(f"PKG Name    : {paquet['pkgname']}")
                 print(f"PKG Version : {paquet['pkgversion']}")
@@ -36,13 +44,17 @@ def installpkg(package_list_file_name:str=base_pkg_filename, name_the_pkg:str=No
                         downloadpkg(paquet['url'], paquet['pkgfilename'], view=True)
                         break
 
-                except KeyboardInterrupt:
+                except KeyboardInterrupt:   exit()
+            
+            else:
+                if compatible_packages == False and paquet["pkgname"].strip().lower() == name_the_pkg.strip().lower():
+                    print(f"the package {name_the_pkg} is not compatible with your OS: {os_name}")
                     exit()
-                else:
-                    break
-        else:
+
+        if not package_found:
             print(f"{name_the_pkg}: not found, in this PKG list: {package_list_file_name}")
-        return
+            exit()
+
     except FileNotFoundError:
         print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
     except (requests.HTTPError, requests.ConnectionError, requests.ReadTimeout, requests.Timeout):
