@@ -1,114 +1,40 @@
 [
     {
-        "pkgname": "ziptest",
-        "pkgversion": "0.3.0",
-        "pkgfilename": "lol.zip",
-        "description": "zip.",
-        "url": "https://pypkg-manager.vercel.app/download/latest_stable_version.zip"
+        "pkgname": "Discord Linux",
+        "pkgversion": "1.0.145",
+        "pkgfilename": "discord-1.0.145.tar.gz",
+        "plateforme": "Linux",
+        "bits": "64",
+        "description": "Discord is a free voice, video, and text chat application that enables users, primarily ages thirteen and older, to communicate within communities known as servers. Launched in 2015 by Jason Citron and Stan Vishnevskiy, it was originally designed for gamers, allowing them to connect while playing.",
+        "url": "https://stable.dl2.discordapp.net/apps/linux/1.0.145/discord-1.0.145.tar.gz"
     },
     {
-        "pkgname": "7zip",
-        "pkgversion": "24.08",
-        "pkgfilename": "7z2408-x64.exe",
-        "description": "7-Zip is a file archiver with a high compression ratio.",
-        "url": "https://www.7-zip.org/a/7z2408-x64.exe"
+        "pkgname": "Discord Windows",
+        "pkgversion": "1.0.145",
+        "pkgfilename": "DiscordSetup.exe",
+        "plateforme": "Windows",
+        "bits": "64",
+        "description": "Discord is a free voice, video, and text chat application that enables users, primarily ages thirteen and older, to communicate within communities known as servers. Launched in 2015 by Jason Citron and Stan Vishnevskiy, it was originally designed for gamers, allowing them to connect while playing.",
+        "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9244/DiscordSetup.exe"
+    },
+
+
+    {
+        "pkgname": "Steam Windows",
+        "pkgversion": "Installer: None",
+        "pkgfilename": "SteamSetup.exe",
+        "plateforme": "Windows",
+        "bits": "64",
+        "description": "Steam is the ultimate destination for playing, discussing, and creating games.",
+        "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
     },
     {
-        "pkgname": "vlc",
-        "pkgversion": "3.0.23",
-        "pkgfilename": "vlc-3.0.23-win64.exe",
-        "description": "VLC is a free and open source cross-platform multimedia player.",
-        "url": "https://get.videolan.org/vlc/3.0.23/win64/vlc-3.0.23-win64.exe"
-    },
-    {
-        "pkgname": "notepadplusplus",
-        "pkgversion": "8.9.6.2",
-        "pkgfilename": "npp.8.9.6.2.Installer.x64.exe",
-        "description": "Notepad++ is a free source code editor and Notepad replacement.",
-        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.6.2/npp.8.9.6.2.Installer.x64.exe"
-    },
-    {
-        "pkgname": "curl",
-        "pkgversion": "8.9.1",
-        "pkgfilename": "curl-8.9.1_1-win64-mingw.zip",
-        "description": "Command line tool and library for transferring data with URLs.",
-        "url": "https://curl.se/windows/dl-8.9.1_1/curl-8.9.1_1-win64-mingw.zip"
-    },
-    {
-        "pkgname": "python",
-        "pkgversion": "3.12.4",
-        "pkgfilename": "python-3.12.4-amd64.exe",
-        "description": "Python is an interpreted, high-level, general-purpose programming language.",
-        "url": "https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe"
-    },
-    {
-        "pkgname": "git",
-        "pkgversion": "2.45.2",
-        "pkgfilename": "Git-2.45.2-64-bit.exe",
-        "description": "Git is a free and open source distributed version control system.",
-        "url": "https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe"
-    },
-    {
-        "pkgname": "brave",
-        "pkgversion": "1.67.123",
-        "pkgfilename": "BraveBrowserSetup.exe",
-        "description": "Brave is a free and open-source web browser based on the Chromium web browser.",
-        "url": "https://updates.bravesoftware.com/sparkle/Brave-Browser/stable/x64/BraveBrowserSetup.exe"
-    },
-    {
-        "pkgname": "vscode",
-        "pkgversion": "1.90.0",
-        "pkgfilename": "VSCodeUserSetup-x64.exe",
-        "description": "Visual Studio Code is a lightweight but powerful source code editor.",
-        "url": "https://update.code.visualstudio.com/latest/win32-x64-user/stable"
-    },
-    {
-        "pkgname": "githubdesktop",
-        "pkgversion": "3.4.1",
-        "pkgfilename": "GitHubDesktopSetup-x64.exe",
-        "description": "An open source Git GUI client to extend your GitHub workflow.",
-        "url": "https://central.github.com/deployments/desktop/desktop/latest/win32"
-    },
-    {
-        "pkgname": "putty",
-        "pkgversion": "0.81",
-        "pkgfilename": "putty-64bit-0.81-installer.msi",
-        "description": "PuTTY is a free SSH and telnet client for Windows.",
-        "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi"
-    },
-    {
-        "pkgname": "nodejs",
-        "pkgversion": "20.15.0",
-        "pkgfilename": "node-v20.15.0-x64.msi",
-        "description": "Node.js is an open-source, cross-platform JavaScript runtime environment.",
-        "url": "https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi"
-    },
-    {
-        "pkgname": "audacity",
-        "pkgversion": "3.6.1",
-        "pkgfilename": "audacity-win-3.6.1-64bit.exe",
-        "description": "Audacity is an easy-to-use, multi-track audio editor and recorder.",
-        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.1/audacity-win-3.6.1-64bit.exe"
-    },
-    {
-        "pkgname": "gimp",
-        "pkgversion": "2.10.38",
-        "pkgfilename": "gimp-2.10.38-setup.exe",
-        "description": "GIMP is a cross-platform image editor available for GNU/Linux, macOS, Windows.",
-        "url": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.38-setup.exe"
-    },
-    {
-        "pkgname": "winrar",
-        "pkgversion": "7.01",
-        "pkgfilename": "winrar-x64-701.exe",
-        "description": "WinRAR is a powerful archive manager that can compress and extract files.",
-        "url": "https://www.rarlab.com/rar/winrar-x64-701.exe"
-    },
-    {
-        "pkgname": "libreoffice",
-        "pkgversion": "24.2.4",
-        "pkgfilename": "LibreOffice_24.2.4_Win_x86-64.msi",
-        "description": "LibreOffice is a free and powerful office suite, successor to OpenOffice.",
-        "url": "https://download.documentfoundation.org/libreoffice/stable/24.2.4/win/x86_64/LibreOffice_24.2.4_Win_x86-64.msi"
+        "pkgname": "Steam Linux Unofficial",
+        "pkgversion": "1.0.0.87",
+        "pkgfilename": "steam_1.0.0.87.tar.gz",
+        "plateforme": "Linux",
+        "bits": "64",
+        "description": "Be careful: downloading unofficial packages could expose you to malware. Steam is the ultimate destination for playing, discussing, and creating games.",
+        "url": "https://repo.steampowered.com/steam/archive/precise/steam_1.0.0.87.tar.gz"
     }
 ]
