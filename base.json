@@ -8,15 +8,7 @@
         "description": "Discord is a free voice, video, and text chat application that enables users, primarily ages thirteen and older, to communicate within communities known as servers. Launched in 2015 by Jason Citron and Stan Vishnevskiy, it was originally designed for gamers, allowing them to connect while playing.",
         "url": "https://stable.dl2.discordapp.net/apps/linux/1.0.145/discord-1.0.145.tar.gz"
     },
-    {
-        "pkgname": "Discord",
-        "pkgversion": "1.0.145",
-        "pkgfilename": "DiscordSetup.exe",
-        "plateforme": "nt",
-        "bits": "64",
-        "description": "Discord is a free voice, video, and text chat application that enables users, primarily ages thirteen and older, to communicate within communities known as servers. Launched in 2015 by Jason Citron and Stan Vishnevskiy, it was originally designed for gamers, allowing them to connect while playing.",
-        "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9244/DiscordSetup.exe"
-    },
+
 
     
     {
