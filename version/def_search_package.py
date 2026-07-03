@@ -38,21 +38,20 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
                     print("")
                     if usrchoice == "y" or usrchoice == "yes":
                         downloadpkg(paquet['url'], paquet['pkgfilename'], view=False)
-                        break
+                        return
 
                     elif usrchoice == "ys" or usrchoice == "yeshow".lower().strip():
                         downloadpkg(paquet['url'], paquet['pkgfilename'], view=True)
-                        break
+                        return
 
                 except KeyboardInterrupt:   exit()
             
-            else:
-                if compatible_packages == False and paquet["pkgname"].strip().lower() == search_name.strip().lower():
-                    print(f"the package {search_name} is not compatible with your OS: {os_name}")
-                    exit()
-
         if not package_found:
             print(f"{search_name}: not found, in this PKG list: {package_list_file_name}")
+            exit()
+            
+        if package_found and not compatible_packages:
+            print(f"the package {search_name} is not compatible with your OS: {os_name}")
             exit()
 
     except FileNotFoundError:
