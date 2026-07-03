@@ -18,44 +18,39 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
         package_found = False
 
         for paquet in in_package_list:
-            if paquet["pkgname"].strip().lower() == search_name.strip().lower() and os_name == paquet['plateforme']:
+            if search_name.strip().lower() in paquet["pkgname"].strip().lower():
+                package_found = True  
+                if os_name == paquet['plateforme']:
+                    compatible_packages = True  
 
-                package_found = True
-                compatible_packages = True
+                    print("-" * 10 + name_of_package_manager + "-" * 10)
+                    print(f"PKG Name     : {paquet['pkgname']}")
+                    print(f"PKG Version  : {paquet['pkgversion']}")
+                    print(f"File Name    : {paquet['pkgfilename']}")
+                    print(f"Platform     : {paquet['plateforme']}")
+                    print(f"Bits         : {paquet['bits']}bits")
+                    print(f"Description  : {paquet['description']}")
+                    print(f"URL          : {paquet['url']}\n")
 
-                print("-"*10 + name_of_package_manager + "-"*10)
-                print(f"PKG Name     : {paquet['pkgname']}")
-                print(f"PKG Version  : {paquet['pkgversion']}")
-                print(f"File Name    : {paquet['pkgfilename']}")
-                print(f"Platform     : {paquet['plateforme']}")
-                print(f"Bits         : {paquet['bits']}bits")
-                print(f"Description  : {paquet['description']}")
-                print(f"URL          : {paquet['url']}")
-                print("")
-
-                try:
-            
-                    usrchoice = input("You want to install it ?: Y or N  > ").lower().strip()
-                    print("")
-                    if usrchoice == "y" or usrchoice == "yes":
-                        downloadpkg(paquet['url'], paquet['pkgfilename'], view=False)
-                        return
-
-                    elif usrchoice == "ys" or usrchoice == "yeshow".lower().strip():
-                        downloadpkg(paquet['url'], paquet['pkgfilename'], view=True)
-                        return
-
-                except KeyboardInterrupt:   exit()
-
-        if not package_found and not compatible_packages:
-            print(f"the package {search_name} is not compatible with your OS: {os_name}")
-            exit()
+                    try:
+                        usrchoice = input("You want to install it ?: Y or N  > ").lower().strip()
+                        print("")
+                        if usrchoice in ["y", "yes"]:
+                            downloadpkg(paquet['url'], paquet['pkgfilename'], view=False)
+                            return
+                        elif usrchoice in ["ys", "yeshow"]:
+                            downloadpkg(paquet['url'], paquet['pkgfilename'], view=True)
+                            return
+                    except KeyboardInterrupt:
+                        exit()
 
         if not package_found:
             print(f"{search_name}: not found, in this PKG list: {package_list_file_name}")
             exit()
             
-
+        if package_found and not compatible_packages:
+            print(f"the package {search_name} is not compatible with your OS: {os_name}")
+            exit()
 
     except FileNotFoundError:
         print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
@@ -65,3 +60,4 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
         print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
     except KeyboardInterrupt:
         exit()
+
