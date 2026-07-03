@@ -16,6 +16,7 @@ def installpkg(package_list_file_name:str=base_pkg_filename, name_the_pkg:str=No
             if paquet["pkgname"].strip().lower() == name_the_pkg.strip().lower() and os.name == paquet['plateforme']:
                 print("-"*10 + name_of_package_manager + "-"*10)
                 print(f"PKG Name    : {paquet['pkgname']}")
+                print(f"PKG Version : {paquet['pkgversion']}")
                 print(f"File Name   : {paquet['pkgfilename']}")
                 print(f"Platform    : {paquet['plateforme']}")
                 print(f"Bits        : {paquet['bits']}bits")
