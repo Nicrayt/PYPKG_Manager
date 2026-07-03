@@ -1,6 +1,6 @@
 [
     {
-        "pkgname": "Discord Linux",
+        "pkgname": "Discord",
         "pkgversion": "1.0.145",
         "pkgfilename": "discord-1.0.145.tar.gz",
         "plateforme": "Linux",
@@ -9,7 +9,7 @@
         "url": "https://stable.dl2.discordapp.net/apps/linux/1.0.145/discord-1.0.145.tar.gz"
     },
     {
-        "pkgname": "Discord Windows",
+        "pkgname": "Discord",
         "pkgversion": "1.0.145",
         "pkgfilename": "DiscordSetup.exe",
         "plateforme": "Windows",
@@ -20,8 +20,8 @@
 
 
     {
-        "pkgname": "Steam Windows",
-        "pkgversion": "Installer: None",
+        "pkgname": "Steam",
+        "pkgversion": "Installer",
         "pkgfilename": "SteamSetup.exe",
         "plateforme": "Windows",
         "bits": "64",
@@ -29,8 +29,8 @@
         "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
     },
     {
-        "pkgname": "Steam Linux Unofficial",
-        "pkgversion": "1.0.0.87",
+        "pkgname": "Steam",
+        "pkgversion": "1.0.0.87_unofficial_packages",
         "pkgfilename": "steam_1.0.0.87.tar.gz",
         "plateforme": "Linux",
         "bits": "64",
