@@ -19,17 +19,18 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
 
         for paquet in in_package_list:
             if paquet["pkgname"].strip().lower() == search_name.strip().lower() and os_name == paquet['plateforme']:
+
                 package_found = True
                 compatible_packages = True
 
                 print("-"*10 + name_of_package_manager + "-"*10)
-                print(f"PKG Name    : {paquet['pkgname']}")
-                print(f"PKG Version : {paquet['pkgversion']}")
-                print(f"File Name   : {paquet['pkgfilename']}")
-                print(f"Platform    : {paquet['plateforme']}")
-                print(f"Bits        : {paquet['bits']}bits")
-                print(f"Description : {paquet['description']}")
-                print(f"URL         : {paquet['url']}")
+                print(f"PKG Name     : {paquet['pkgname']}")
+                print(f"PKG Version  : {paquet['pkgversion']}")
+                print(f"File Name    : {paquet['pkgfilename']}")
+                print(f"Platform     : {paquet['plateforme']}")
+                print(f"Bits         : {paquet['bits']}bits")
+                print(f"Description  : {paquet['description']}")
+                print(f"URL          : {paquet['url']}")
                 print("")
 
                 try:
@@ -46,7 +47,7 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
 
                 except KeyboardInterrupt:   exit()
 
-        if package_found and not compatible_packages:
+        if not package_found and not compatible_packages:
             print(f"the package {search_name} is not compatible with your OS: {os_name}")
             exit()
 

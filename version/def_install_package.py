@@ -46,7 +46,7 @@ def installpkg(package_list_file_name:str=base_pkg_filename, name_the_pkg:str=No
 
                 except KeyboardInterrupt:   exit()
             
-        if package_found and not compatible_packages:
+        if not package_found and not compatible_packages:
             print(f"the package {name_the_pkg} is not compatible with your OS: {os_name}")
             exit()
 
