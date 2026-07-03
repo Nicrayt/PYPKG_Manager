@@ -6,11 +6,14 @@ name_of_package_manager:str = " Onyx - PyPKG Manager "
 version_of_pkg_manager:str = "0.3.41"
 
 change_log:str = f"""The current version is v{version_of_pkg_manager} and the name of this version is{name_of_package_manager}
-Objectif pour la version 0.3.4 : 
-- La 0.3.4 est une version encore en test et pas du tout fini.
-- Optimisation du code, amélioration de la robustesse et correction de bugs.
-- Amélioration de la lisibilité du code via des #.
-- Multiplatforme : Windows, Linux.
+Ver 0.3.4
+- Lots of bug fixes.
+- Slightly optimized performance.
+- Added cross-platform support (Linux, Windows).
+- Tweaked the interface for a better look.
+- Made library imports much more stable to prevent crashes.
+- Cleaned up the code by removing a few unnecessary features.
+- Added more details for package lists (OS, Bits, etc.).
 
 Ver 0.3.3
 - Numerous optimizations have been made.
