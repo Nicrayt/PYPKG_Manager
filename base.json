@@ -19,16 +19,6 @@
     },
 
     
-
-    {
-        "pkgname": "Steam",
-        "pkgversion": "Installer",
-        "pkgfilename": "SteamSetup.exe",
-        "plateforme": "nt",
-        "bits": "64",
-        "description": "Steam is the ultimate destination for playing, discussing, and creating games.",
-        "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
-    },
     {
         "pkgname": "Steam",
         "pkgversion": "1.0.0.87_unofficial_packages",
@@ -38,6 +28,16 @@
         "description": "Be careful: downloading unofficial packages could expose you to malware. Steam is the ultimate destination for playing, discussing, and creating games.",
         "url": "https://repo.steampowered.com/steam/archive/precise/steam_1.0.0.87.tar.gz"
     },
+    {
+        "pkgname": "Steam",
+        "pkgversion": "Installer",
+        "pkgfilename": "SteamSetup.exe",
+        "plateforme": "nt",
+        "bits": "64",
+        "description": "Steam is the ultimate destination for playing, discussing, and creating games.",
+        "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
+    },
+
 
 
     
