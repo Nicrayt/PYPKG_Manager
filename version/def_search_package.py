@@ -45,14 +45,16 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
                         return
 
                 except KeyboardInterrupt:   exit()
-            
+
+        if package_found and not compatible_packages:
+            print(f"the package {search_name} is not compatible with your OS: {os_name}")
+            exit()
+
         if not package_found:
             print(f"{search_name}: not found, in this PKG list: {package_list_file_name}")
             exit()
             
-        if package_found and not compatible_packages:
-            print(f"the package {search_name} is not compatible with your OS: {os_name}")
-            exit()
+
 
     except FileNotFoundError:
         print(f"Error: You didn't specify a name for your file. or you dind't specify the pkglist")
