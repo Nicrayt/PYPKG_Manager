@@ -2,8 +2,8 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.3.46",
-    "changelog": "\n big update: \n- Lots of bug fixes.\n- Slightly optimized performance.\n- Added cross-platform support (Linux, Windows).\n- Tweaked the interface for a better look.\n- Made library imports much more stable to prevent crashes.\n- Cleaned up the code by removing a few unnecessary features.\n- Added more details for package lists (OS, Bits, etc.).\n\nMinnor Update 0.3.45\n- If a package is not for your OS, it will let you know.\n- Bugs have been fixed."  },
+    "ver": "0.3.5",
+    "changelog": "\n big update: \n- Enhanced security.\n- Fewer bugs.\n- Reinstall the program if it is broken using `upgrade.py -f \"URL\"`.\n- Logging system for downloads." },
   {
     "filename": "config_variable.py",
     "url": "https://pypkg-manager.vercel.app/version/config_variable.py"
