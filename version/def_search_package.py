@@ -60,4 +60,3 @@ def searchpkg(package_list_file_name:str, search_name:str=None):
         print(f"Error: You did not specify a URL, or the one you specified is incorrect or misspelled.")
     except KeyboardInterrupt:
         exit()
-
