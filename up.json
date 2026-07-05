@@ -2,7 +2,7 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.3.502",
+    "ver": "0.3.503",
     "changelog": "\n big update: \n- Enhanced security.\n- Fewer bugs.\n- Reinstall the program if it is broken using `upgrade.py -f \"URL\"`.\n- Logging system for downloads." },
   {
     "filename": "config_variable.py",
