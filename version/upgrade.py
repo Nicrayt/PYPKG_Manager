@@ -5,7 +5,8 @@ try:
 except (ImportError, ModuleNotFoundError):  print("Error: module is not installed. Please install it to run this script."); exit()
 
 arg_parser = argparse.ArgumentParser()
-arg_parser.add_argument("-f", "--force", type=str, help="""force upgrade with url""")
+arg_parser.add_argument("-f", "--force", action="store_true", help="""force upgrade""")
+arg_parser.add_argument("-up", "--upgrade", action="store_true", help="""Download the new version of PKG Manager. (You can launch it directly in case the version is broken.).""")
 args = arg_parser.parse_args()
 
 def force_upgrade(url="https://pypkg-manager.vercel.app/up.json"):
@@ -79,7 +80,7 @@ def default_upgrade():
         print("\nThe update was interrupted; this may not be serious, but run '-up' again to restart the update.")
 
 
-if type(args.force) == str:
-    force_upgrade(args.force)
-else:
+if args.force:
+    force_upgrade()
+elif args.upgrade:
     default_upgrade()

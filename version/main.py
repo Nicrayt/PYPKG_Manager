@@ -1,4 +1,5 @@
 try:
+    from upgrade import default_upgrade
     from config_variable import *
     import argparse
     import os
@@ -62,7 +63,6 @@ try:
         searchpkg(package_list_file_name=args.selist, search_name=args.searchpkg)
 
     elif args.upgrade:
-        from upgrade import default_upgrade
         default_upgrade()
 
     elif args.versionpypkg:
