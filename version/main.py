@@ -1,5 +1,4 @@
 try:
-    from upgrade import default_upgrade
     from config_variable import *
     import argparse
     import os
@@ -63,7 +62,7 @@ try:
         searchpkg(package_list_file_name=args.selist, search_name=args.searchpkg)
 
     elif args.upgrade:
-        default_upgrade()
+        import upgrade
 
     elif args.versionpypkg:
         print(f"""The current version is v{version_of_pkg_manager} and the name of this version is {name_of_package_manager}""")
