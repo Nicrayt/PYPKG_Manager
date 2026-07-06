@@ -43,7 +43,7 @@ try:
         install_pkg(args.install)
     
     if args.search: # Search pkg
-        search_pkg()
+        search_pkg(pkg_name=args.search)
 
 
 
