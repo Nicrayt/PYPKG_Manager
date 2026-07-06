@@ -2,7 +2,7 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.4.0",
+    "ver": "0.4.001",
     "changelog": "\n--- BIG UPDATE: Polie v0.4.0 ---\n- Modular Architecture (Complete Refactoring): Code is now professionally split into independent modules.\n- Multi-repository Support: Automatically scans and reads any `.json` file placed in the `./pkglist/` folder.\n- Strict Cross-Platform Support: Uses native `os.name` to block installations of incompatible OS packages.\n- Static Typing (Type Hinting): Added type declarations to improve readability and prevent development bugs.\n- Clean System Folder Management: Automatically creates and isolates `./pkglist/` and `./pkg/` directories.\n- Expanded Archive Decompression Support: Code prepared to extend compatibility to `.zip`, `.tar`, and `.7z` formats.\n- System Permission Handling: Gracefully catches `PermissionError` if launched without admin/sudo privileges.\n- Enhanced security & Fewer bugs.\n- Reinstall the program if it is broken using `upgrade.py -f \"URL\"`.\n- Logging system for downloads."
   },
   {
