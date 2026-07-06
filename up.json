@@ -2,30 +2,35 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.3.503",
-    "changelog": "\n big update: \n- Enhanced security.\n- Fewer bugs.\n- Reinstall the program if it is broken using `upgrade.py -f \"URL\"`.\n- Logging system for downloads." },
+    "ver": "0.4.0",
+    "changelog": "\n--- BIG UPDATE: Polie v0.4.0 ---\n- Modular Architecture (Complete Refactoring): Code is now professionally split into independent modules.\n- Multi-repository Support: Automatically scans and reads any `.json` file placed in the `./pkglist/` folder.\n- Strict Cross-Platform Support: Uses native `os.name` to block installations of incompatible OS packages.\n- Static Typing (Type Hinting): Added type declarations to improve readability and prevent development bugs.\n- Clean System Folder Management: Automatically creates and isolates `./pkglist/` and `./pkg/` directories.\n- Expanded Archive Decompression Support: Code prepared to extend compatibility to `.zip`, `.tar`, and `.7z` formats.\n- System Permission Handling: Gracefully catches `PermissionError` if launched without admin/sudo privileges.\n- Enhanced security & Fewer bugs.\n- Reinstall the program if it is broken using `upgrade.py -f \"URL\"`.\n- Logging system for downloads."
+  },
   {
     "filename": "config_variable.py",
     "url": "https://pypkg-manager.vercel.app/version/config_variable.py"
   },
   {
-    "filename": "def_download.py",
-    "url": "https://pypkg-manager.vercel.app/version/def_download.py"
+    "filename": "download_pkg.py",
+    "url": "https://pypkg-manager.vercel.app/version/download_pkg.py"
   },
   {
-    "filename": "def_install_package.py",
-    "url": "https://pypkg-manager.vercel.app/version/def_install_package.py"
+    "filename": "install_pkg.py",
+    "url": "https://pypkg-manager.vercel.app/version/install_pkg.py"
   },
   {
-    "filename": "def_search_package.py",
-    "url": "https://pypkg-manager.vercel.app/version/def_search_package.py"
+    "filename": "search_pkg.py",
+    "url": "https://pypkg-manager.vercel.app/version/search_pkg.py"
   },
   {
-    "filename": "base.json",
-    "url": "https://pypkg-manager.vercel.app/base.json"
+    "filename": "upgradeallpkg.py",
+    "url": "https://pypkg-manager.vercel.app/version/upgradeallpkg.py"
   },
   {
     "filename": "upgrade.py",
     "url": "https://pypkg-manager.vercel.app/version/upgrade.py"
+  },
+  {
+    "filename": "base.json",
+    "url": "https://pypkg-manager.vercel.app/base.json"
   }
 ]
