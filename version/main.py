@@ -1,6 +1,6 @@
 try:
     from config_variable import *
-    from upgradeallpkg import *
+    from upgrade_all_pkg_list import *
     from download_pkg import *
     from install_pkg import *
     from search_pkg import *
@@ -12,7 +12,6 @@ os.makedirs(default_save_pkg_list_dir, exist_ok=True)
 os.makedirs(default_save_pkg_dir, exist_ok=True)
 
 arg_parser = argparse.ArgumentParser()
-
 # Get a file from the Internet using a URL
 arg_parser.add_argument("-g", "--get", type=str, help="""Download a file from the Internet. Usage example: "python main.py -g "https://example.com/file.txt" -n "hey.txt" " to download the file.txt from the URL with the name "hey.txt".""")
 arg_parser.add_argument("-n", "--name", type=str, help="""Name the file you want to download. Usage example: "python main.py -g "https://example.com/file.txt" -n "hey.txt" " to download the file.txt from the URL with the name "hey.txt".""")
@@ -43,15 +42,14 @@ try:
         install_pkg(args.install)
     
     if args.search: # Search pkg
-        search_pkg(pkg_name=args.search)
+        search_pkg()
 
 
 
 
 
 
-
-# In the next version
+# In the next version we will be able to upgrade all list of packages. 
 #    if args.upgrade_list:
 #        upgradeallpkg()
 

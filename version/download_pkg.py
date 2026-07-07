@@ -8,7 +8,7 @@ except (ImportError, ModuleNotFoundError):  print("Error: The required modules a
 
 def downloadpkg(url:str=None, pkg_name:str=None, path:str=default_save_pkg_dir, dont_show=False):
     # Variables
-    zip_file:str = 0
+    zip_file: int = 0
 
     try:
 
