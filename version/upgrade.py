@@ -10,7 +10,7 @@ def default_upgrade():
     try:
         print("Download upgrade list...") # Donwload the list of pkg
         upgrade_list = requests.get(base_upgrade_link)
-        upgrade_json = json.load(upgrade_list)
+        upgrade_json = upgrade_list.json()
         print("Cheking for new versions...")
 
         latest_version = upgrade_json[0]["ver"]
