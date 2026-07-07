@@ -37,7 +37,7 @@ try:
 
 
     if args.upgrade: # Upgrade PyPKG
-        default_upgrade()
+        upgrade_old()
 
     if args.install: # Install pkg
         install_pkg(args.install)
