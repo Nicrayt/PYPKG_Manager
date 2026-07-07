@@ -2,7 +2,7 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.4.1",
+    "ver": "0.4.1001",
     "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations.\n - I've massively improved update.py; I created a version 2.0 that is much more optimized."
   },
   {
