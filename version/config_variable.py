@@ -4,9 +4,14 @@ base_upgrade_link:str = "https://pypkg-manager.vercel.app/up.json"
 default_save_pkg_dir:str = "pkg"
 default_save_pkg_list_dir:str = "pkglist"
 name_of_package_manager:str = " Polie - PyPKG Manager "
-version_of_pkg_manager:str = "0.4.0"
+version_of_pkg_manager:str = "0.4.1"
 
 change_log:str = f"""The current version is v{version_of_pkg_manager} and the name of this version is{name_of_package_manager}
+Ver 0.4.1
+- Added recovery_update.py for application restoration.
+- General bug fixes and optimizations.
+- I've massively improved update.py; I created a version 2.0 that is much more optimized.
+
 Ver 0.4.0 - Polie
 - Modular Architecture (Complete Refactoring): "Spaghetti code" has been fully cleaned up. The project is now professionally structured into independent, specialized modules (`download_pkg.py`, `install_pkg.py`, `search_pkg.py`, `upgrade.py`, `config_variable.py`).
 - Multi-repository Support: The manager no longer relies on a single, static list. It downloads the base data and then dynamically scans the entire `pkglist` folder; any `.json` file placed in this directory is now automatically read.
