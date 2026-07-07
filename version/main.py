@@ -4,6 +4,7 @@ try:
     from download_pkg import *
     from install_pkg import *
     from search_pkg import *
+    from upgrade import *
     import argparse
     import os
 except (ImportError, ModuleNotFoundError):  print("Error: The required modules are not installed or not found."); exit()
@@ -36,7 +37,7 @@ try:
 
 
     if args.upgrade: # Upgrade PyPKG
-        from upgrade import *
+        default_upgrade()
 
     if args.install: # Install pkg
         install_pkg(args.install)
