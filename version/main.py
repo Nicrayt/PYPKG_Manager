@@ -68,5 +68,6 @@ try:
 #    if args.upgrade_list:
 #        upgradeallpkg()
 
+    print(arg_parser.print_help())
 
 except Exception as e: print(f"An error occured: {e}"); exit()
