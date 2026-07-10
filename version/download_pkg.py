@@ -6,20 +6,19 @@ try:
 except (ImportError, ModuleNotFoundError):  print("Error: The required modules are not installed or not found."); exit()
 
 
-def download_pkg(url:str=None, pkg_name:str=None, path:str=default_save_pkg_dir, dont_show=False):
+def download_pkg(url:str=None, pkg_file_name:str=None, path:str=default_save_pkg_dir, dont_show=False):
     # Variables
     zip_file: int = 0
 
     try:
-
         # Path
-        download_path:str = (f"{path}/{pkg_name}/".strip()) # where is the pkg
-        download_path_with_filename:str = (f"{download_path}{pkg_name}".strip()) # installed pkg is here
+        download_path:str = (f"{path}/") # where is the pkg
+        download_path_with_filename:str = (f"{download_path}{pkg_file_name}") # installed pkg is here
 
         # Download
-        if ".json" in pkg_name: # check if it ends with json for pkg list
+        if ".json" in pkg_file_name: # check if it ends with json for pkg list
             download_pkg_get:str = requests.get(url) # save the content of the url on a variable
-            with open(f"{default_save_pkg_list_dir}/{pkg_name}", 'wb') as downloaded_file:
+            with open(f"{default_save_pkg_list_dir}/{pkg_file_name}", 'wb') as downloaded_file:
                 downloaded_file.write(download_pkg_get.content) # Install at /pkglist/namepkglist.json
 
         else: # Download
@@ -34,6 +33,9 @@ def download_pkg(url:str=None, pkg_name:str=None, path:str=default_save_pkg_dir,
         if download_path_with_filename.endswith((".zip", ".tar", ".7z")): # check if it ends with zip or tar or 7z
             with zipfile.ZipFile(download_path_with_filename, 'r') as zip_ref: # use zipfile module to unzip the file
                 zip_ref.extractall(path=download_path) # extract the file
+                zip_file = 1 # set zip_file variable to 1 if it ends with zip
+        else:
+            zip_file = 0 # set zip_file variable to 0 if it does not end with zip
 
         # End
         if not dont_show:

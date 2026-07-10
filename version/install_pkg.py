@@ -4,11 +4,11 @@ import os
 import json
 
 
-def install_pkg(pkg_name:str=None, noconfirm=False):
+def install_package(pkg_name:str=None, noconfirm=False, show=True):
     try:
         pkg_found = False
         pkg_compatible = False
-        download_pkg(default_link_list, "base.json", default_save_pkg_list_dir, True)            # Download the default pkg list
+        download_pkg(default_link_list, "base.json", default_save_pkg_list_dir, True)           # Download the default pkg list
         for file in os.listdir(default_save_pkg_list_dir):                                      # Loop through the files in the directory
             if file.endswith(".json"):                                                          # If the file finished with a .json
                 with open(f"{default_save_pkg_list_dir}/{file}", 'r') as f:                     # if yes open the file
@@ -18,27 +18,24 @@ def install_pkg(pkg_name:str=None, noconfirm=False):
                             pkg_found = True
                             if paquet["plateforme"] == os.name:                                 # If the platform is the same as the system
                                 pkg_compatible = True
-                                print("-" * 10 + name_of_package_manager + "-" * 10)
-                                print(f"PKG Name     : {paquet['pkgname']}")
-                                print(f"PKG Version  : {paquet['pkgversion']}")
-                                print(f"File Name    : {paquet['pkgfilename']}")
-                                print(f"Platform     : {paquet['plateforme']}")
-                                print(f"Bits         : {paquet['bits']}bits")
-                                print(f"Description  : {paquet['description']}")
-                                print(f"URL          : {paquet['url']}\n")
+                                if show:
+                                    print("-" * 10 + name_of_package_manager + "-" * 10)
+                                    print(f"PKG Name     : {paquet['pkgname']}")
+                                    print(f"PKG Version  : {paquet['pkgversion']}")
+                                    print(f"File Name    : {paquet['pkgfilename']}")
+                                    print(f"Platform     : {paquet['plateforme']}")
+                                    print(f"Bits         : {paquet['bits']}bits")
+                                    print(f"Description  : {paquet['description']}")
+                                    print(f"URL          : {paquet['url']}\n")
 
                                 try:
-                                    if not noconfirm:
-                                        usrchoice = input("You want to install it ?: Y or N  > ").lower().strip()
-                                        print("")
-                                        if usrchoice in ["y", "yes"]:
-                                            download_pkg(paquet['url'], paquet['pkgfilename'])
-                                            return
-                                        else:
-                                            break
-                                    elif noconfirm:
-                                        download_pkg(paquet['url'], paquet['pkgfilename'])
+                                    if noconfirm or input("Do you want to install this package? (y/n): ").lower().strip() == 'y':
+                                        print("Installing package...")
+                                        download_pkg(url=paquet['url'], pkg_file_name=paquet['pkgfilename'], path=f"{default_save_pkg_dir}/{paquet['pkgname']}", dont_show=False)
                                         return
+                                    else:
+                                        break
+
                                 except KeyboardInterrupt:
                                     exit()
 
