@@ -30,7 +30,7 @@ arg_parser.add_argument("-noconfirm", "--noconfirm", action="store_true", help="
 
     # User interface
 arg_parser.add_argument("-ver", "--versionppkg", action="store_true", help="""Show the version of pypkg.""")
-arg_parser.add_argument("-menu", "--menu", action="store_true", help="""Display a menu for people who do not understand the program.""")
+arg_parser.add_argument("-menu", "--menu", action="store_true", help="""Show the version of pypkg.""")
 
 
 
@@ -41,21 +41,21 @@ try:
     if args.get: # Get package.
         download_pkg(args.get, args.name)
 
-    if args.upgrade: # Upgrade PyPKG
+    elif args.upgrade: # Upgrade PyPKG
         upgrade_old()
 
-    if args.install: # Install pkg
+    elif args.install: # Install pkg
         install_pkg(args.install, args.noconfirm)
     
-    if args.search: # Search pkg
+    elif args.search: # Search pkg
         search_pkg(args.search)
 
 
 # Not importante, but it's important for the user experience.
-    if args.versionppkg: # Just show the version of PKG Manager
+    elif args.versionppkg: # Just show the version of PKG Manager
         print(f"""The current version of {name_of_package_manager} is "v{version_of_pkg_manager}".""") # Print the current version of PyPKG
 
-    if args.menu:
+    elif args.menu:
         from menu import *
 
 
@@ -67,7 +67,7 @@ try:
 # In the next version we will be able to upgrade all list of packages. 
 #    if args.upgrade_list:
 #        upgradeallpkg()
-
-    print(arg_parser.print_help())
+    else:
+        print(arg_parser.print_help())
 
 except Exception as e: print(f"An error occured: {e}"); exit()
