@@ -30,7 +30,7 @@ arg_parser.add_argument("-noconfirm", "--noconfirm", action="store_true", help="
 
     # User interface
 arg_parser.add_argument("-ver", "--versionppkg", action="store_true", help="""Show the version of pypkg.""")
-arg_parser.add_argument("-menu", "--menu", action="store_true", help="""Show the version of pypkg.""")
+arg_parser.add_argument("-menu", "--menu", action="store_true", help="""Display a menu for people who do not understand the program.""")
 
 
 
