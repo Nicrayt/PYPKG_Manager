@@ -24,3 +24,6 @@ For Arch Linux / Manjaro  `pacman -S python-requests`
 For MacOS `pip3 install requests`
 
 And launch it using the command in the directory: `python main.py`
+
+OR
+In this new version, the .zip file contains an "Installer" folder; inside, you'll find .sh and .bat installers that you can simply run. It should cover all major operating systems (Arch, Debian, Fedora, Windows).
