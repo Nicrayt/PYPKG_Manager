@@ -2,49 +2,35 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.4.1001",
-    "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations.\n - I've massively improved update.py; I created a version 2.0 that is much more optimized."
+    "ver": "0.4.1.1",
+    "changelog": "- You can now skip package installation confirmations using '--noconfirm'.\n- User interface improvements.\n- A menu has been created—still in alpha—to allow less experienced users to use PyPKG Manager (I do not recommend using this menu at the moment; it has bugs, crashes, and fails to work for certain features).\n- Bug fixes.\n- Improved code readability.\n"
   },
   {
     "filename": "config_variable.py",
     "url": "https://pypkg-manager.vercel.app/version/config_variable.py",
-    "ver": "0.4.1",
-    "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations."
   },
   {
     "filename": "download_pkg.py",
     "url": "https://pypkg-manager.vercel.app/version/download_pkg.py",
-    "ver": "0.4.1",
-    "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations."
   },
   {
     "filename": "install_pkg.py",
     "url": "https://pypkg-manager.vercel.app/version/install_pkg.py",
-    "ver": "0.4.1",
-    "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations."
   },
   {
     "filename": "recovery_update.py",
     "url": "https://pypkg-manager.vercel.app/version/recovery_update.py",
-    "ver": "0.4.1",
-    "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations."
   },
   {
     "filename": "search_pkg.py",
     "url": "https://pypkg-manager.vercel.app/version/search_pkg.py",
-    "ver": "0.4.1",
-    "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations."
   },
   {
     "filename": "upgrade.py",
     "url": "https://pypkg-manager.vercel.app/version/upgrade.py",
-    "ver": "0.4.1",
-    "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations."
   },
   {
     "filename": "upgrade_all_pkg_list.py",
     "url": "https://pypkg-manager.vercel.app/version/upgrade_all_pkg_list.py",
-    "ver": "0.4.1",
-    "changelog": "- Added recovery_update.py for system restoration.\n- Added upgrade_all_pkg_list.py.\n- General bug fixes and optimizations."
   }
 ]
