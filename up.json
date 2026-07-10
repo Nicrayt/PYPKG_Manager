@@ -2,8 +2,8 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.4.1.11",
-    "changelog": "- You can now skip package installation confirmations using '--noconfirm'.\n- User interface improvements.\n- A menu has been created—still in alpha—to allow less experienced users to use PyPKG Manager (I do not recommend using this menu at the moment; it has bugs, crashes, and fails to work for certain features).\n- Bug fixes.\n- Improved code readability.\n"
+    "ver": "0.4.2",
+    "changelog": "Polie - PyPKG Manager v0.4.2 - Stable Release\n\n[CORE & ARCHITECTURE]\n- Unified the upgrade mechanism by linking the 'upgrade' command directly to 'default_upgrade()' with '--noconfirm' support.\n- Fixed all argument mismatch crashes inside the loop of the upgrade script.\n\n[EASY-MENU v0.2]\n- Fixed critical bugs, crashes, and unhandled KeyboardInterrupt exceptions.\n- Cleaned up interface flow by implementing an automated screen-clear helper function.\n- Added full support for Uninstalling, Installing, and Upgrading packages straight from the visual menu.\n\n[PACKAGES MANAGEMENT]\n- Re-engineered package search: replaced partial matches with a secure content-in-name verification algorithm.\n- Implemented 'uninstall_pkg' tool with full automated '--noconfirm' support.\n- Fully automated download pathways to store packages into structural subfolders dynamically.\n\n[STABILITY & UI]\n- Replaced legacy functions with robust, centralized exception handling.\n- Polished user interface feedback messages for downloads, extractions, and failures."
   },
   {
     "filename": "config_variable.py",
@@ -28,6 +28,10 @@
   {
     "filename": "search_pkg.py",
     "url": "https://pypkg-manager.vercel.app/version/search_pkg.py"
+  },
+  {
+    "filename": "uninstall_pkg.py",
+    "url": "https://pypkg-manager.vercel.app/version/uninstall_pkg.py"
   },
   {
     "filename": "upgrade.py",
