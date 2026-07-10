@@ -2,7 +2,7 @@
   {
     "filename": "main.py",
     "url": "https://pypkg-manager.vercel.app/version/main.py",
-    "ver": "0.4.1.1",
+    "ver": "0.4.1.11",
     "changelog": "- You can now skip package installation confirmations using '--noconfirm'.\n- User interface improvements.\n- A menu has been created—still in alpha—to allow less experienced users to use PyPKG Manager (I do not recommend using this menu at the moment; it has bugs, crashes, and fails to work for certain features).\n- Bug fixes.\n- Improved code readability.\n"
   },
   {
