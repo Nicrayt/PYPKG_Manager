@@ -8,15 +8,15 @@ def search_pkg(pkg_name:str=None):
     try:
         pkg_found = False
         pkg_compatible = False
-        downloadpkg(default_link_list, "base.json", default_save_pkg_list_dir, True)            # Download the default pkg list
+        download_pkg(default_link_list, "base.json", default_save_pkg_list_dir, True)           # Download the default pkg list
         for file in os.listdir(default_save_pkg_list_dir):                                      # Loop through the files in the directory
             if file.endswith(".json"):                                                          # If the file finished with a .json
                 with open(f"{default_save_pkg_list_dir}/{file}", 'r') as f:                     # if yes open the file
                     pkg_list = json.load(f)                                                     # load the json file in dict
                     for paquet in pkg_list:                                                     # Loop through the packages in the json file
-                        if pkg_name in paquet["pkgname"]:
+                        if paquet["pkgname"] in pkg_name:
                             pkg_found = True
-                            if paquet["plateforme"] == os.name:                         # If the platform is the same as the system
+                            if paquet["plateforme"] == os.name:                                 # If the platform is the same as the system
                                 pkg_compatible = True
                                 print("-" * 10 + name_of_package_manager + "-" * 10)
                                 print(f"PKG Name     : {paquet['pkgname']}")
@@ -31,7 +31,7 @@ def search_pkg(pkg_name:str=None):
                                     usrchoice = input("You want to install it ?: Y or N  > ").lower().strip()
                                     print("")
                                     if usrchoice in ["y", "yes"]:
-                                        downloadpkg(paquet['url'], paquet['pkgfilename'])
+                                        download_pkg(paquet['url'], paquet['pkgfilename'])
                                         return
                                     else:
                                         break

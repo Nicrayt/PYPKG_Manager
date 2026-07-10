@@ -4,11 +4,11 @@ import os
 import json
 
 
-def install_pkg(pkg_name:str=None):
+def install_pkg(pkg_name:str=None, noconfirm=False):
     try:
         pkg_found = False
         pkg_compatible = False
-        downloadpkg(default_link_list, "base.json", default_save_pkg_list_dir, True)            # Download the default pkg list
+        download_pkg(default_link_list, "base.json", default_save_pkg_list_dir, True)            # Download the default pkg list
         for file in os.listdir(default_save_pkg_list_dir):                                      # Loop through the files in the directory
             if file.endswith(".json"):                                                          # If the file finished with a .json
                 with open(f"{default_save_pkg_list_dir}/{file}", 'r') as f:                     # if yes open the file
@@ -28,13 +28,17 @@ def install_pkg(pkg_name:str=None):
                                 print(f"URL          : {paquet['url']}\n")
 
                                 try:
-                                    usrchoice = input("You want to install it ?: Y or N  > ").lower().strip()
-                                    print("")
-                                    if usrchoice in ["y", "yes"]:
-                                        downloadpkg(paquet['url'], paquet['pkgfilename'])
+                                    if not noconfirm:
+                                        usrchoice = input("You want to install it ?: Y or N  > ").lower().strip()
+                                        print("")
+                                        if usrchoice in ["y", "yes"]:
+                                            download_pkg(paquet['url'], paquet['pkgfilename'])
+                                            return
+                                        else:
+                                            break
+                                    elif noconfirm:
+                                        download_pkg(paquet['url'], paquet['pkgfilename'])
                                         return
-                                    else:
-                                        break
                                 except KeyboardInterrupt:
                                     exit()
 

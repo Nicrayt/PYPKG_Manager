@@ -1,6 +1,6 @@
 try:
-    from config_variable import *
     from upgrade_all_pkg_list import *
+    from config_variable import *
     from download_pkg import *
     from install_pkg import *
     from search_pkg import *
@@ -25,7 +25,13 @@ arg_parser.add_argument("-se", "--search", type=str, help="""Search a PKG from a
 
 # Store_True
 arg_parser.add_argument("-up", "--upgrade", action="store_true", help="""Upgrade the package. Usage example: "python main.py -up".""")
+arg_parser.add_argument("-noconfirm", "--noconfirm", action="store_true", help="""No confirm when you install a pkg or upgrade pypkg. Usage example: "python main.py -up -noconfirm" or "python main.py -i "The name of your package" -noconfirm".""")
 # arg_parser.add_argument("-upl", "--upgrade-list", action="store_true", help="""Upgrade all packages list. Usage example: "python main.py -upl".""")
+
+    # User interface
+arg_parser.add_argument("-ver", "--versionppkg", action="store_true", help="""Show the version of pypkg.""")
+arg_parser.add_argument("-menu", "--menu", action="store_true", help="""Show the version of pypkg.""")
+
 
 
 args = arg_parser.parse_args()
@@ -33,22 +39,30 @@ args = arg_parser.parse_args()
 
 try:
     if args.get: # Get package.
-        downloadpkg(args.get, args.name)
-
+        download_pkg(args.get, args.name)
 
     if args.upgrade: # Upgrade PyPKG
         upgrade_old()
 
     if args.install: # Install pkg
-        install_pkg(args.install)
+        install_pkg(args.install, args.noconfirm)
     
     if args.search: # Search pkg
-        search_pkg()
+        search_pkg(args.search)
+
+
+# Not importante, but it's important for the user experience.
+    if args.versionppkg: # Just show the version of PKG Manager
+        print(f"""The current version of {name_of_package_manager} is "v{version_of_pkg_manager}".""") # Print the current version of PyPKG
+
+    if args.menu:
+        from menu import *
 
 
 
-
-
+# Not implemented yet.
+#   if args.update: # Update PyPKG Manager
+#       default_upgrade(args.noconfirm)
 
 # In the next version we will be able to upgrade all list of packages. 
 #    if args.upgrade_list:

@@ -6,7 +6,7 @@ try:
 except (ImportError, ModuleNotFoundError):  print("Error: The required modules are not installed or not found."); exit()
 
 
-def downloadpkg(url:str=None, pkg_name:str=None, path:str=default_save_pkg_dir, dont_show=False):
+def download_pkg(url:str=None, pkg_name:str=None, path:str=default_save_pkg_dir, dont_show=False):
     # Variables
     zip_file: int = 0
 

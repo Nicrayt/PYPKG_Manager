@@ -7,7 +7,7 @@ except (ImportError, ModuleNotFoundError):  print("Error: module is not installe
 try:
     base_upgrade_link = "https://pypkg-manager.vercel.app/up.json"
 
-    print("Recovery Update")
+    print("Recovery Update: ")
     print("Downloading the upgrade list...")
 
     req = requests.get(base_upgrade_link)

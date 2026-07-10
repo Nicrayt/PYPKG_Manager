@@ -3,11 +3,19 @@ base_pkg_filename:str = "base.json"
 base_upgrade_link:str = "https://pypkg-manager.vercel.app/up.json"
 default_save_pkg_dir:str = "pkg"
 default_save_pkg_list_dir:str = "pkglist"
-name_of_package_manager:str = " Polie - PyPKG Manager "
-version_of_pkg_manager:str = "0.4.0"
+name_of_package_manager:str = "Polie - PyPKG Manager"
+version_of_pkg_manager:str = "0.4.1.1"
+
 
 change_log:str = f"""The current version is v{version_of_pkg_manager} and the name of this version is{name_of_package_manager}
-Ver 0.4.1
+Ver 0.4.1.1
+- You can now skip package installation confirmations using '--noconfirm'.
+- User interface improvements.
+- A menu has been created—still in alpha—to allow less experienced users to use PyPKG Manager (I do not recommend using this menu at the moment; it has bugs, crashes, and fails to work for certain features).
+- Bug fixes.
+- Improved code readability.
+
+Ver 0.4.1 - Unstable
 - Added recovery_update.py for application restoration.
 - General bug fixes and optimizations.
 - I've massively improved update.py; I created a version 2.0 that is much more optimized.

@@ -9,7 +9,7 @@ except (ImportError, ModuleNotFoundError):  print("Error: module is not installe
 def default_upgrade(): # For the next version Not FINISHED
     try:
         print("Download upgrade list...") # Donwload the list of pkg
-        downloadpkg(base_upgrade_link, "up.json", ".", True)
+        download_pkg(base_upgrade_link, "up.json", ".", True)
         upgrade_json = json.load(open("up.json", "r"))
 
         print("Cheking for new versions...")
