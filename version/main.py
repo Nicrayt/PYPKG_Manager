@@ -33,7 +33,7 @@ arg_parser.add_argument("-noconfirm", "--noconfirm", action="store_true", help="
 
     # User interface
 arg_parser.add_argument("-verppkg", "--versionppkg", action="store_true", help="""Show the version of pypkg.""")
-arg_parser.add_argument("-menu", "--menu", action="store_true", help="""Show the version of pypkg.""")
+arg_parser.add_argument("-menu", "--menu", action="store_true", help="""Show Easy Menu. For beginners.""")
 arg_parser.add_argument("-noshow", "--noshow", action="store_false", help="""No show when you install a pkg and other. Usage example: "python main.py -i "The name of your package" -noshow".""")
 
 args = arg_parser.parse_args()
@@ -53,7 +53,7 @@ try:
         search_package(args.search)
 
     elif args.uninstall: # Uninstall pkg
-        uninstall_pkg(args.uninstall, args.noconfirm)
+        uninstall_package(args.uninstall, args.noconfirm)
 
 # Not importante, but it's important for the user experience.
     elif args.versionppkg: # Just show the version of PKG Manager

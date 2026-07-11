@@ -4,7 +4,7 @@ try:
     import os
 except: print("Error: The required modules are not installed or not found."); exit()
 
-def uninstall_pkg(pkg_name, noconfirm=False):
+def uninstall_package(pkg_name, noconfirm=False):
     try:
         if os.path.exists(f"{default_save_pkg_dir}/{pkg_name}"):
             if noconfirm or input(f"Are you sure you want to uninstall {pkg_name}? (y/n): ").strip().lower() == 'y':
