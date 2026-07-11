@@ -4,7 +4,7 @@ base_upgrade_link:str = "https://pypkg-manager.vercel.app/up.json"
 default_save_pkg_dir:str = "pkg"
 default_save_pkg_list_dir:str = "pkglist"
 name_of_package_manager:str = "Polie - PyPKG Manager"
-version_of_pkg_manager:str = "0.4.2.1"
+version_of_pkg_manager:str = "0.4.2.11"
 
 
 change_log:str = f"""The current version is v{version_of_pkg_manager} and the name of this version is{name_of_package_manager}
