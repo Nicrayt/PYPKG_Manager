@@ -6,75 +6,124 @@ try:
     from install_pkg import *
     from search_pkg import *
     from upgrade import *
+    import keyboard
     import time
     import os
 except (ImportError, ModuleNotFoundError):  print("Error: The required modules are not installed or not found."); exit()
 
-version_of_pkg_manager_menu = "0.2"
+version_of_pkg_manager_menu = "0.3"
 name_of_package_manager_menu = "easy-menu"
+user_index = 0
 
 def clear_the_interface():
     os.system('cls' if os.name == 'nt' else 'clear') # Clear the screen
 
 def menu():
-        clear_the_interface() # Clear the screen
-        print(f"""Welcome to {name_of_package_manager_menu} "v{version_of_pkg_manager_menu}".""") # Print the menu
+    global user_index
+    clear_the_interface()
 
-        while True:
-            # Information
-            print("1. Search for a package")
-            print("2. Uninstall a package")
-            print("3. Install a package")
-            print("4. Upgrade PyPKG")
-            print("5. Exit")
+    menu_print(user_index_menu=user_index)
 
-            user_input:str = input("What would you like to do? (1-5): ") # Input
+    while True:
+        event = keyboard.read_event()
 
-            if user_input == '1': # search
+        if event.event_type == keyboard.KEY_DOWN:
+            if keyboard.is_pressed('up'):
+                user_index -= 1
+                time.sleep(0.1)
                 clear_the_interface()
-                print("Search Package")
-                user_input = input("Search for a package: ")
-                search_package(pkg_name=user_input, show=True)
-                input("Press enter to continue...")
-                time.sleep(2)
-            
-            elif user_input == '2': # Uninstall
-                clear_the_interface()
-                print("Uninstall Package")
-                user_input = input("Enter the name of the package you want to uninstall: ")
-                uninstall_pkg(pkg_name=user_input, noconfirm=False)
-                input("Press enter to continue...")
-                time.sleep(2)
-            
-            elif user_input == '3': # Install
-                clear_the_interface()
-                print("Install a Package")
-                user_input = input("Enter the name of the package you want to install: ")
-                install_package(pkg_name=user_input, noconfirm=False)
-                input("Press enter to continue...")
-                time.sleep(2)
-            
-            elif user_input == '4': # Upgrade
-                clear_the_interface()
-                default_upgrade(noconfirm=True)
-                input("Press enter to continue...")
-                time.sleep(2)
+                menu_print(user_index_menu=user_index)
 
-            elif user_input == '5' or user_input == 'exit': # Exit
+
+            elif keyboard.is_pressed('down'):
+                user_index += 1
+                time.sleep(0.1)
                 clear_the_interface()
-                time.sleep(1)
-                return
+                menu_print(user_index)
             
-            else: # If nothing in the list select.
-                clear_the_interface()
-                print("Invalid input. Please try again.")
-                time.sleep(1)
+            elif keyboard.is_pressed('enter'):
+                menu_print(user_index_menu=user_index, enter=True)
+                menu_print(user_index)
+
+
+def menu_print(user_index_menu, enter=False):
+    global user_index
+    if user_index < 0:
+        user_index = 4
+        user_index_menu = 4
+    if user_index > 4:
+        user_index = 0
+        user_index_menu = 0
+
+
+
+    if user_index_menu == 0:
+        print(f"""Welcome to {name_of_package_manager_menu} "v{version_of_pkg_manager_menu}".\n""")
+        print("-> Install a Package\nSearch a Package\nUninstall a package\nUpgrade PyPKG\n\nExit")
+        if enter:
+            input("Press enter to continue...")
+            clear_the_interface()
+            print("Install a Package")
+            install_package(pkg_name=input("Name of Package you want to install: "), noconfirm=False)
+            input("Press enter to continue...")
+            clear_the_interface()
+            user_index = 0
+
+
+    if user_index_menu == 1:
+        print(f"""Welcome to {name_of_package_manager_menu} "v{version_of_pkg_manager_menu}".\n""")
+        print("Install a Package\n-> Search a Package\nUninstall a package\nUpgrade PyPKG\n\nExit")
+        if enter:
+            input("Press enter to continue...")
+            clear_the_interface()
+            print("Search a Package")
+            search_package(pkg_name=input("Name of Package you want to install: "))
+            input("Press enter to continue...")
+            clear_the_interface()
+
+    if user_index_menu == 2:
+        print(f"""Welcome to {name_of_package_manager_menu} "v{version_of_pkg_manager_menu}".\n""")
+        print("Install a Package\nSearch a Package\n-> Uninstall a package\nUpgrade PyPKG\n\nExit")
+        if enter:
+            input("Press enter to continue...")
+            clear_the_interface()
+            print("Uninstall a package")
+            uninstall_pkg(pkg_name=input("Name of Package you want to uninstall: "), noconfirm=False)
+            input("Press enter to continue...")
+            clear_the_interface()
+
+
+    if user_index_menu == 3:
+        print(f"""Welcome to {name_of_package_manager_menu} "v{version_of_pkg_manager_menu}".\n""")
+        print("Install a Package\nSearch a Package\nUninstall a package\n-> Upgrade PyPKG\n\nExit")
+        if enter:
+            input("Press enter to continue...")
+            clear_the_interface()
+            default_upgrade()
+            return
+
+    if user_index_menu == 4:
+        print(f"""Welcome to {name_of_package_manager_menu} "v{version_of_pkg_manager_menu}".\n""")
+        print("Install a Package\nSearch a Package\nUninstall a package\nUpgrade PyPKG\n\n-> Exit")
+        if enter:
+            clear_the_interface()
+            print("Goodbye!")
+            time.sleep(1)
+            exit()
 
 try:
-    menu()
+    if os.name == "nt":
+        menu()
+
+    else:
+        if input("I do not recommend running this on a system other than Windows... The `keyboard` library might not work. Are you sure you want to launch the interface? (y/n): ").strip().lower() == 'y':
+            menu()
+
+    
+
 
 except KeyboardInterrupt:
-    print("\nExiting the program")
+    print("Exiting the program")
     time.sleep(1)
     clear_the_interface()
 

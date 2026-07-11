@@ -10,6 +10,8 @@ try:
     import os
 except (ImportError, ModuleNotFoundError):  print("Error: The required modules are not installed or not found."); exit()
 
+if os.path.exists(f"{default_save_pkg_list_dir}/up.json"):  
+    os.remove(f"{default_save_pkg_list_dir}/up.json")
 os.makedirs(default_save_pkg_list_dir, exist_ok=True)
 os.makedirs(default_save_pkg_dir, exist_ok=True)
 
@@ -77,4 +79,5 @@ try:
         except:
             exit()
 
-except Exception as e: print(f"An error occured: {e}"); exit()
+except KeyboardInterrupt: print("")
+except Exception as e: print(f"Error: {e}") # Print the error message

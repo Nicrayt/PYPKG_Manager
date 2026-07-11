@@ -4,10 +4,48 @@ base_upgrade_link:str = "https://pypkg-manager.vercel.app/up.json"
 default_save_pkg_dir:str = "pkg"
 default_save_pkg_list_dir:str = "pkglist"
 name_of_package_manager:str = "Polie - PyPKG Manager"
-version_of_pkg_manager:str = "0.4.2"
+version_of_pkg_manager:str = "0.4.2.1"
 
 
 change_log:str = f"""The current version is v{version_of_pkg_manager} and the name of this version is{name_of_package_manager}
+Ver 0.4.2.1
+EASY-MENU v0.3
+- It is finally a real visual menu now.
+- Added arrow keys support to change your selection. 
+- It might still bug out under some weird conditions, but it honestly works fine.
+- Added an automated screen-clear helper to keep the terminal clean.
+- Integrated uninstall, install, and upgrade commands straight from the menu interface.
+- Fixed some annoying crashes and unhandled KeyboardInterrupt bugs.
+
+UPGRADE.PY V2
+- Completely rewrote upgrade.py from scratch. The code is actually readable now, and the UI makes sense.
+- No more argument mismatch crashes inside the main loop. Works perfectly.
+- Linked the 'upgrade' command directly to default_upgrade() with --noconfirm support.
+
+PACKAGES MANAGEMENT & STABILITY
+- Re-engineered package search: replaced the broken partial matches with a secure content-in-name verification. No more KeyError.
+- Patched core functions to be way more friendly when things break (centralized exception handling instead of random crashes).
+- Added the uninstall_pkg tool with full --noconfirm support.
+- Automated download paths to throw packages into dynamic structural subfolders.
+- Cleaned up terminal feedback messages for downloads and failures.
+
+Ver 0.4.2
+Core & Architecture
+- Unified Update Management:** Linked the main command directly to the `default_upgrade(noconfirm)` function.
+- Critical Bug Fix:** Resolved argument mismatch crashes (`TypeError`) during sequential file downloads within `upgrade.py`.
+Easy-Menu v0.2 (Major Update)
+- The menu has been updated to version **0.2** and is now **stable and usable**.
+- Added an automated user interface clearing function (`clear_the_interface`).
+- Full integration of **Search**, **Install**, **Uninstall**, and **PyPKG Update** features directly from the visual menu.
+- Improved handling of user interruptions (`Ctrl+C / KeyboardInterrupt`) to prevent raw Python error stack traces.
+Package Management
+- Uninstallation: Finalized and integrated the `uninstall_pkg.py` module with full `--noconfirm` support.
+- Optimized Search:** Refined search logic to precisely match packages when the query is contained within the package name (`if pkg_name in paquet["pkgname"]`).
+- Modularized storage paths to cleanly organize every downloaded file into its respective folder.
+User Experience & Robustness
+- Centralized network error messages (`404 Unreachable`, `Timeout`, `MissingSchema`).
+- Standardized global variables imported from `config_variable.py`.
+
 Ver 0.4.1.1
 - You can now skip package installation confirmations using '--noconfirm'.
 - User interface improvements.

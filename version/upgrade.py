@@ -6,11 +6,11 @@ try:
     from download_pkg import *
 except (ImportError, ModuleNotFoundError):  print("Error: module is not installed. Please install it to run this script."); exit()
 
-def default_upgrade(noconfirm=False): # For the next version Not FINISHED
+def default_upgrade(noconfirm=False):
     try:
         print("Download upgrade list...") # Donwload the list of pkg
-        download_pkg(base_upgrade_link, "up.json", ".", True)
-        upgrade_json = json.load(open("up.json", "r"))
+        download_pkg(url=base_upgrade_link, pkg_file_name="up.json", path=".", dont_show=True)
+        upgrade_json = json.load(open(f"{default_save_pkg_list_dir}/up.json", "r"))
 
         print("Cheking for new versions...")
 
