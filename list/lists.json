@@ -1,0 +1,30 @@
+[
+    {
+        "list_name": "brave_windows",
+        "url": "https://pypkg-manager.vercel.app/list/brave_windows.json"
+    },
+    {
+        "list_name": "discord_linux",
+        "url": "https://pypkg-manager.vercel.app/list/discord_linux.json"
+    },
+    {
+        "list_name": "discord_windows",
+        "url": "https://pypkg-manager.vercel.app/list/discord_windows.json"
+    },
+    {
+        "list_name": "minecraft-launcher_windows",
+        "url": "https://pypkg-manager.vercel.app/list/minecraft-launcher_windows.json"
+    },
+    {
+        "list_name": "steam_linux",
+        "url": "https://pypkg-manager.vercel.app/list/steam_linux.json"
+    },
+    {
+        "list_name": "steam_windows",
+        "url": "https://pypkg-manager.vercel.app/list/steam_windows.json"
+    },
+    {
+        "list_name": "vlc_windows",
+        "url": "https://pypkg-manager.vercel.app/list/vlc_windows.json"
+    }
+]
