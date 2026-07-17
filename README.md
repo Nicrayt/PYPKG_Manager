@@ -1,4 +1,5 @@
 # PyPKG Manager
+# "Giga version" pending (an extensively revised version employing many new techniques).
 
 Yes, it's a new PKG Manager, and this one is made in PYTHON, THE beginner language.
 
