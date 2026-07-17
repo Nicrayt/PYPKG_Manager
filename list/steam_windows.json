@@ -1,0 +1,9 @@
+[
+    {
+        "name": "steam",
+        "version": "Installer",
+        "description": "Steam is the ultimate destination for playing, discussing, and creating games.",
+        "operating_system": "nt",
+        "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
+    }
+]

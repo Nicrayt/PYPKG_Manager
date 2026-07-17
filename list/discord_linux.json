@@ -1,0 +1,9 @@
+[
+    {
+        "name": "discord",
+        "version": "1.0.145",
+        "description": "Discord is a free voice, video, and text chat application that enables users, primarily ages thirteen and older, to communicate within communities known as servers.",
+        "operating_system": "posix",
+        "url": "https://stable.dl2.discordapp.net/apps/linux/1.0.145/discord-1.0.145.tar.gz"
+    }
+]

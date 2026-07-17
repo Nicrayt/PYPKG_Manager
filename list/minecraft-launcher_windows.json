@@ -1,0 +1,9 @@
+[
+    {
+        "name": "minecraft-launcher",
+        "version": "installer",
+        "description": "The Minecraft Launcher is the easiest way to download, manage, and update your Minecraft game installations and is supported on most Windows, Mac, and Linux operating systems.",
+        "operating_system": "nt",
+        "url": "https://launcher.mojang.com/download/MinecraftInstaller.exe"
+    }
+]
