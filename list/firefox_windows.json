@@ -1,0 +1,9 @@
+[
+    {
+        "name": "firefox",
+        "version": "152.0.6",
+        "description": "The web was meant to expand your world, not limit it. Firefox helps you shape a more personal internet that puts you back in control.",
+        "operating_system": "nt",
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/152.0.6/win32/en-US/Firefox%20Installer.exe"
+    }
+]

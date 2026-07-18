@@ -12,8 +12,40 @@
         "url": "https://pypkg-manager.vercel.app/list/discord_windows.json"
     },
     {
+        "list_name": "firefox_windows",
+        "url": "https://pypkg-manager.vercel.app/list/firefox_windows.json"
+    },
+    {
+        "list_name": "gimp_linux",
+        "url": "https://pypkg-manager.vercel.app/list/gimp_linux.json"
+    },
+    {
+        "list_name": "gimp_windows",
+        "url": "https://pypkg-manager.vercel.app/list/gimp_windows.json"
+    },
+    {
+        "list_name": "google-chrome_windows",
+        "url": "https://pypkg-manager.vercel.app/list/google-chrome_windows.json"
+    },
+    {
+        "list_name": "libre-office_linux_debian",
+        "url": "https://pypkg-manager.vercel.app/list/libre-office_linux_debian.json"
+    },
+    {
+        "list_name": "libre-office_windows",
+        "url": "https://pypkg-manager.vercel.app/list/libre-office_windows.json"
+    },
+    {
         "list_name": "minecraft-launcher_windows",
         "url": "https://pypkg-manager.vercel.app/list/minecraft-launcher_windows.json"
+    },
+    {
+        "list_name": "obs-studio_macosarm",
+        "url": "https://pypkg-manager.vercel.app/list/obs-studio_macosarm.json"
+    },
+    {
+        "list_name": "obs-studio_windows",
+        "url": "https://pypkg-manager.vercel.app/list/obs-studio_windows.json"
     },
     {
         "list_name": "steam_linux",
@@ -24,7 +56,15 @@
         "url": "https://pypkg-manager.vercel.app/list/steam_windows.json"
     },
     {
+        "list_name": "visual-studio-code_windows",
+        "url": "https://pypkg-manager.vercel.app/list/visual-studio-code_windows.json"
+    },
+    {
         "list_name": "vlc_windows",
         "url": "https://pypkg-manager.vercel.app/list/vlc_windows.json"
+    },
+    {
+        "list_name": "winrar_windows",
+        "url": "https://pypkg-manager.vercel.app/list/winrar_windows.json"
     }
 ]

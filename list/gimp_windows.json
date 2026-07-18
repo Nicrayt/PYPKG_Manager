@@ -1,0 +1,9 @@
+[
+    {
+        "name": "gimp",
+        "version": "3.2.4 (installer)",
+        "description": "The Free & Open Source Image Editor",
+        "operating_system": "nt",
+        "url": "https://www-ftp.lip6.fr/pub/gimp/gimp/v3.2/windows/gimp-3.2.4-setup.exe"
+    }
+]

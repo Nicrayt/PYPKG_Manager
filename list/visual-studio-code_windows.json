@@ -1,0 +1,9 @@
+[
+    {
+        "name": "visual-studio-code",
+        "version": "1.129",
+        "description": "The open source AI code editor Your home for multi-agent development",
+        "operating_system": "nt",
+        "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/VSCodeUserSetup-x64-1.129.1.exe"
+    }
+]

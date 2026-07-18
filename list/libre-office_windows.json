@@ -1,0 +1,9 @@
+[
+    {
+        "name": "libre-office",
+        "version": "26.2.4",
+        "description": "LibreOffice is an open source office suite created by you, for you.",
+        "operating_system": "nt",
+        "url": "https://mirrors.komogoto.com/tdf/libreoffice/stable/26.2.4/win/x86_64/LibreOffice_26.2.4_Win_x86-64.msi"
+    }
+]

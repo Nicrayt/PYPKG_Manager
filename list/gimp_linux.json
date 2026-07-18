@@ -1,0 +1,9 @@
+[
+    {
+        "name": "gimp",
+        "version": "3.2.4",
+        "description": "The Free & Open Source Image Editor",
+        "operating_system": "posix",
+        "url": "https://www-ftp.lip6.fr/pub/gimp/gimp/v3.2/linux/GIMP-3.2.4-x86_64.AppImage"
+    }
+]

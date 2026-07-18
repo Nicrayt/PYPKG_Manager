@@ -1,0 +1,9 @@
+[
+    {
+        "name": "winrar",
+        "version": "7.2.3",
+        "description": "Compress, Encrypt, Package and Backup with only one utility",
+        "operating_system": "nt",
+        "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-723.exe"
+    }
+]
