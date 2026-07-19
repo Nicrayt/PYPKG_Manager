@@ -16,6 +16,10 @@
         "url": "https://pypkg-manager.vercel.app/list/firefox_windows.json"
     },
     {
+        "list_name": "gemini_apps_windows",
+        "url": "https://pypkg-manager.vercel.app/list/gemini_apps_windows.json"
+    },
+    {
         "list_name": "gimp_linux",
         "url": "https://pypkg-manager.vercel.app/list/gimp_linux.json"
     },
