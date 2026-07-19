@@ -1,0 +1,744 @@
+[
+    {
+        "name": "7-zip",
+        "version": "24.08",
+        "description": "A file archiver with a high compression ratio. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.7-zip.org/a/7z2408-x64.exe"
+    },
+    {
+        "name": "notepad-plus-plus",
+        "version": "8.6.9",
+        "description": "A free source code editor and Notepad replacement. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.9/npp.8.6.9.Installer.x64.exe"
+    },
+    {
+        "name": "git",
+        "version": "2.46.0",
+        "description": "Fast, scalable, distributed revision control system. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe"
+    },
+    {
+        "name": "putty",
+        "version": "0.81",
+        "description": "A free and open-source SSH and telnet client. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.chiark.greenend.org.uk/~sgtatham/putty/0.81/w64/putty-64bit-0.81-installer.msi"
+    },
+    {
+        "name": "python",
+        "version": "3.11.9",
+        "description": "An interpreted, object-oriented, high-level programming language. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe"
+    },
+    {
+        "name": "everything",
+        "version": "1.4.1",
+        "description": "Locate files and folders by name instantly on Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.voidtools.com/Everything-1.4.1.1024.x64-Setup.exe"
+    },
+    {
+        "name": "rufus",
+        "version": "4.5",
+        "description": "A utility that helps format and create bootable USB flash drives. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe"
+    },
+    {
+        "name": "audacity",
+        "version": "3.6.1",
+        "description": "Free, open-source, cross-platform audio software. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.1/audacity-win-3.6.1-64bit.exe"
+    },
+    {
+        "name": "sharex",
+        "version": "16.1.0",
+        "description": "Free and open-source screen capture and productivity tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/ShareX/ShareX/releases/download/v16.1.0/ShareX-16.1.0-setup.exe"
+    },
+    {
+        "name": "handbrake",
+        "version": "1.8.2",
+        "description": "A tool for converting video from nearly any format to modern codecs. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/HandBrake/HandBrake/releases/download/1.8.2/HandBrake-1.8.2-x86_64-Win_GUI.exe"
+    },
+    {
+        "name": "qbittorrent",
+        "version": "4.6.5",
+        "description": "An open-source alternative to µTorrent for downloading files. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-4.6.5/qbittorrent_4.6.5_x64_setup.exe"
+    },
+    {
+        "name": "blender",
+        "version": "4.2.0",
+        "description": "Free and open-source 3D creation suite. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://mirrors.dotsrc.org/blender/release/Blender4.2/blender-4.2.0-windows-x64.msi"
+    },
+    {
+        "name": "filezilla",
+        "version": "3.67.1",
+        "description": "A free and cross-platform FTP, FTPS and SFTP client. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.filezilla-project.org/client/FileZilla_3.67.1_win64-setup.exe"
+    },
+    {
+        "name": "winscp",
+        "version": "6.3.3",
+        "description": "A popular free SFTP and FTP client for Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://cdn.winscp.net/files/WinSCP-6.3.3-Setup.exe"
+    },
+    {
+        "name": "dbeaver",
+        "version": "24.1.4",
+        "description": "Free universal database tool for developers. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/dbeaver/dbeaver/releases/download/24.1.4/dbeaver-ce-24.1.4-x86_64-setup.exe"
+    },
+    {
+        "name": "sublime-text",
+        "version": "4169",
+        "description": "A sophisticated text editor for code, markup and prose. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.sublimetext.com/sublime_text_build_4169_x64_setup.exe"
+    },
+    {
+        "name": "opera",
+        "version": "112.0",
+        "description": "A fast, secure and easy-to-use web browser. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://net.geo.opera.com/opera/stable/windows"
+    },
+    {
+        "name": "vivaldi",
+        "version": "6.8",
+        "description": "A unique browser with powerful features and high customization. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://downloads.vivaldi.com/stable/Vivaldi.6.8.3381.46.x64.exe"
+    },
+    {
+        "name": "waterfox",
+        "version": "6.0",
+        "description": "A privacy-focused web browser based on Firefox code. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://cdn.waterfox.net/releases/win64/installer/Waterfox%20Setup.exe"
+    },
+    {
+        "name": "tor-browser",
+        "version": "13.5",
+        "description": "Anonymity online using the Tor network. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.torproject.org/dist/torbrowser/13.5/tor-browser-windows-x86_64-portable.exe"
+    },
+    {
+        "name": "keepassxc",
+        "version": "2.7.9",
+        "description": "A modern, secure, and open-source password manager. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.9/KeePassXC-2.7.9-Win64.msi"
+    },
+    {
+        "name": "bitwarden",
+        "version": "2024.6.0",
+        "description": "A secure open-source password manager for individuals and teams. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://vault.bitwarden.com/download/?app=desktop&platform=windows"
+    },
+    {
+        "name": "peazip",
+        "version": "9.9.0",
+        "description": "Free archiver and file manager alternative to WinRAR. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/gandreas/PeaZip/releases/download/9.9.0/peazip-9.9.0.WIN64.exe"
+    },
+    {
+        "name": "bandizip",
+        "version": "7.36",
+        "description": "A reliable and fast archiving software supporting multiple formats. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.bandisoft.com/bandizip/dl.php?web"
+    },
+    {
+        "name": "autohotkey",
+        "version": "2.0.18",
+        "description": "Powerful macro and automation scripting language for Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.autohotkey.com/download/ahk-v2.exe"
+    },
+    {
+        "name": "powertoys",
+        "version": "0.82.1",
+        "description": "A set of utilities for power users to tune Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/microsoft/PowerToys/releases/download/v0.82.1/PowerToysSetup-0.82.1-x64.exe"
+    },
+    {
+        "name": "windirstat",
+        "version": "1.1.2",
+        "description": "A disk usage statistics viewer and cleanup tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://prdownloads.sourceforge.net/windirstat/windirstat1_1_2_setup.exe"
+    },
+    {
+        "name": "wiztree",
+        "version": "4.20",
+        "description": "Find what is taking up space on your hard drive quickly. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://diskanalyzer.com/files/wiztree_4_20_setup.exe"
+    },
+    {
+        "name": "inkscape",
+        "version": "1.3.2",
+        "description": "A free and open-source vector graphics editor. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://media.inkscape.org/dl/resources/file/inkscape-1.3.2_2023-11-25_091e20e-x64.msi"
+    },
+    {
+        "name": "krita",
+        "version": "5.2.3",
+        "description": "A professional free and open source painting program. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.kde.org/stable/krita/5.2.3/krita-x64-5.2.3-setup.exe"
+    },
+    {
+        "name": "paint-dot-net",
+        "version": "5.0.13",
+        "description": "Free image and photo editing software for Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/paintdotnet/release/releases/download/v5.0.13/paint.net.5.0.13.install.anycpu.web.exe"
+    },
+    {
+        "name": "darktable",
+        "version": "4.8.0",
+        "description": "An open source photography workflow application and raw developer. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/darktable-org/darktable/releases/download/release-4.8.0/darktable-4.8.0-win64.exe"
+    },
+    {
+        "name": "potplayer",
+        "version": "240618",
+        "description": "A comprehensive video and audio player with rich features. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe"
+    },
+    {
+        "name": "mpc-hc",
+        "version": "2.2.1",
+        "description": "A light-weight media player for Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/clsid2/mpc-hc/releases/download/2.2.1/MPC-HC.2.2.1.x64.exe"
+    },
+    {
+        "name": "foobar2000",
+        "version": "2.1.5",
+        "description": "An advanced freeware audio player for the Windows platform. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.foobar2000.org/files/foobar2000_v2.1.5_x64.exe"
+    },
+    {
+        "name": "aimp",
+        "version": "5.30",
+        "description": "A powerful audio player with great sound quality. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.aimp.ru/blogs/?download=aimp"
+    },
+    {
+        "name": "musicbee",
+        "version": "3.5",
+        "description": "The ultimate music manager and player. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.getmusicbee.com/download/installer/MusicBeeSetup_3_5.zip"
+    },
+    {
+        "name": "transmission",
+        "version": "4.0.6",
+        "description": "A fast, easy, and free BitTorrent client. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/transmission/transmission/releases/download/4.0.6/transmission-4.0.6-x64.msi"
+    },
+    {
+        "name": "deluge",
+        "version": "2.1.1",
+        "description": "A lightweight, Free Software, cross-platform BitTorrent client. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://ftp.osuosl.org/pub/deluge/windows/deluge-2.1.1-win64-setup.exe"
+    },
+    {
+        "name": "jdownloader",
+        "version": "2.0",
+        "description": "A free, open-source download management tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://installer.jdownloader.org/JDownloader2Setup_x64.exe"
+    },
+    {
+        "name": "thunderbird",
+        "version": "128.0",
+        "description": "A free email client that's easy to set up and customize. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.mozilla.org/?product=thunderbird-128.0-SSL&os=win64&lang=en-US"
+    },
+    {
+        "name": "virtualbox",
+        "version": "7.0.20",
+        "description": "Powerful x86 and AMD64/Intel64 virtualization product. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.virtualbox.org/virtualbox/7.0.20/VirtualBox-7.0.20-163906-Win.exe"
+    },
+    {
+        "name": "rustdesk",
+        "version": "1.2.6",
+        "description": "An open-source remote desktop application tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.6/rustdesk-1.2.6-x86_64.exe"
+    },
+    {
+        "name": "anydesk",
+        "version": "8.0.10",
+        "description": "A fast and secure remote desktop utility application. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.anydesk.com/AnyDesk.exe"
+    },
+    {
+        "name": "teamviewer",
+        "version": "15.55",
+        "description": "Remote support, remote access, and online collaboration tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe"
+    },
+    {
+        "name": "wireshark",
+        "version": "4.2.5",
+        "description": "The world's foremost and widely-used network protocol analyzer. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://1.as.dl.wireshark.org/win64/Wireshark-win64-4.2.5.exe"
+    },
+    {
+        "name": "nmap",
+        "version": "7.95",
+        "description": "Free and open source utility for network discovery and security auditing. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://nmap.org/dist/nmap-7.95-setup.exe"
+    },
+    {
+        "name": "cpu-z",
+        "version": "2.10",
+        "description": "A freeware that gathers information on some of the main devices of your system. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.cpuid.com/downloads/cpu-z/cpu-z_2.10-en.exe"
+    },
+    {
+        "name": "gpu-z",
+        "version": "2.59",
+        "description": "A lightweight system utility designed to provide vital information about your video card. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/"
+    },
+    {
+        "name": "hwinfo",
+        "version": "8.06",
+        "description": "Comprehensive hardware analysis, monitoring and reporting for Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.hwinfo.com/files/hwi_806.exe"
+    },
+    {
+        "name": "crystaldiskinfo",
+        "version": "9.3.2",
+        "description": "A HDD/SSD utility software which supports S.M.A.R.T. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://osdn.net/projects/crystaldiskinfo/downloads/79919/CrystalDiskInfo9_3_2.exe"
+    },
+    {
+        "name": "crystaldiskmark",
+        "version": "8.0.5",
+        "description": "A simple disk benchmark software for measuring performance. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://osdn.net/projects/crystaldiskmark/downloads/77260/CrystalDiskMark8_0_5.exe"
+    },
+    {
+        "name": "bleachbit",
+        "version": "4.6.0",
+        "description": "Quickly frees disk space and tirelessly guards your privacy. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.bleachbit.org/BleachBit-4.6.0-setup.exe"
+    },
+    {
+        "name": "ccleaner",
+        "version": "6.25",
+        "description": "The number-one tool for cleaning your Windows PC. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.ccleaner.com/ccsetup64.exe"
+    },
+    {
+        "name": "postman",
+        "version": "11.2.0",
+        "description": "A complete API development platform companion tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://dl.pstmn.io/download/latest/win64"
+    },
+    {
+        "name": "nodejs",
+        "version": "20.15.1",
+        "description": "JavaScript runtime built on Chrome's V8 JavaScript engine. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://nodejs.org/dist/v20.15.1/node-v20.15.1-x64.msi"
+    },
+    {
+        "name": "golang",
+        "version": "1.22.5",
+        "description": "An open-source programming language that makes it easy to build simple software. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://go.dev/dl/go1.22.5.windows-amd64.msi"
+    },
+    {
+        "name": "neovim",
+        "version": "0.10.0",
+        "description": "Vim-fork focused on extensibility and usability for developers. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/neovim/neovim/releases/download/v0.10.0/nvim-win64.msi"
+    },
+    {
+        "name": "meld",
+        "version": "3.22.1",
+        "description": "A visual diff and merge tool targeted at developers. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/GNOME/meld/releases/download/3.22.1/Meld-3.22.1-x64.msi"
+    },
+    {
+        "name": "winmerge",
+        "version": "2.16.40",
+        "description": "An Open Source differencing and merging tool for Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.40/WinMerge-2.16.40-Setup.exe"
+    },
+    {
+        "name": "sourcetree",
+        "version": "3.4.18",
+        "description": "A free Git client for Windows and Mac users. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.18.exe"
+    },
+    {
+        "name": "heidisql",
+        "version": "12.8",
+        "description": "A powerful and easy tool for managing MySQL, MariaDB, SQL Server and PostgreSQL. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.heidisql.com/downloads/releases/HeidiSQL_12.8_64_Setup.exe"
+    },
+    {
+        "name": "shotcut",
+        "version": "24.06",
+        "description": "A free, open source, cross-platform video editor. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/mltframework/shotcut/releases/download/v24.06.26/shotcut-win64-240626.exe"
+    },
+    {
+        "name": "kdenlive",
+        "version": "24.05",
+        "description": "An open source non-linear video editor. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.kde.org/stable/kdenlive/24.05/windows/kdenlive-24.05.2-x86_64.exe"
+    },
+    {
+        "name": "plex",
+        "version": "1.95",
+        "description": "Organize your media and stream it to any screen. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://downloads.plex.tv/plex-media-server-new/1.40.3.8555-fef15d3c5/windows/PlexMediaServer-1.40.3.8555-fef15d3c5-x86_64.exe"
+    },
+    {
+        "name": "jellyfin",
+        "version": "10.9.7",
+        "description": "The Free Software Media System that puts you in control. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://repo.jellyfin.org/releases/server/windows/stable/jellyfin_10.9.7_windows-x64.exe"
+    },
+    {
+        "name": "kodi",
+        "version": "21.0",
+        "description": "A free and open source software media player and entertainment hub. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://mirrors.kodi.tv/releases/windows/win64/kodi-21.0-Nexus_x64.exe"
+    },
+    {
+        "name": "balena-etcher",
+        "version": "1.19.21",
+        "description": "Flash OS images to SD cards & USB drives, safely and easily. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.19.21/balenaEtcher-Setup-1.19.21.exe"
+    },
+    {
+        "name": "ventoy",
+        "version": "1.0.99",
+        "description": "An open source tool to create bootable USB drive for ISO files. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/ventoy/Ventoy/releases/download/v1.0.99/ventoy-1.0.99-windows.zip"
+    },
+    {
+        "name": "cmder",
+        "version": "1.3.24",
+        "description": "A lovely console emulator package for Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/cmderdev/cmder/releases/download/v1.3.24/cmder.zip"
+    },
+    {
+        "name": "alacritty",
+        "version": "0.13.2",
+        "description": "A cross-platform, GPU-accelerated terminal emulator. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/alacritty/alacritty/releases/download/v0.13.2/Alacritty-v0.13.2-installer.msi"
+    },
+    {
+        "name": "discord-canary",
+        "version": "1.0.9001",
+        "description": "Early testing version of the Discord client. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=canary&platform=win&arch=x64"
+    },
+    {
+        "name": "microsoft-edge",
+        "version": "126.0",
+        "description": "The modern web browser built by Microsoft. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/"
+    },
+    {
+        "name": "brave-beta",
+        "version": "1.68",
+        "description": "Beta version of the Brave browser system tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://laptop-updates.brave.com/latest/winx64/beta"
+    },
+    {
+        "name": "firefox-developer",
+        "version": "129.0",
+        "description": "Developer Edition of the Firefox browser tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=win64&lang=en-US"
+    },
+    {
+        "name": "gimp-portable",
+        "version": "2.10",
+        "description": "Portable alternative version of the image editor software. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://portableapps.com/apps/graphics_pictures/gimp_portable"
+    },
+    {
+        "name": "audacious",
+        "version": "4.4",
+        "description": "A lightweight audio player focused on low resource usage. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://distfiles.audacious-media-player.org/audacious-4.4-win32.exe"
+    },
+    {
+        "name": "vlc-nightly",
+        "version": "4.0",
+        "description": "Experimental nightly development build of the media software. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://nightlies.videolan.org/"
+    },
+    {
+        "name": "winrar-beta",
+        "version": "7.01",
+        "description": "Trial evaluation beta version of the archiving software utility. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.rarlab.com/rar/winrar-x64-701b1.exe"
+    },
+    {
+        "name": "tortoisegit",
+        "version": "2.16",
+        "description": "A Windows Shell Interface to Git application tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.tortoisegit.org/tgit/2.16.0.0/TortoiseGit-2.16.0.0-64bit.msi"
+    },
+    {
+        "name": "doxygen",
+        "version": "1.11.0",
+        "description": "A documentation system for C++, C, Java, Objective-C, Python. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://doxygen.nl/files/doxygen-1.11.0-setup.exe"
+    },
+    {
+        "name": "graphviz",
+        "version": "12.0.0",
+        "description": "Open source graph visualization software utility application. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://gitlab.com/api/v4/projects/4207218/packages/generic/graphviz-releases/12.0.0/windows_10_cmake_Release_graphviz-install-12.0.0-win64.exe"
+    },
+    {
+        "name": "sqlite-browser",
+        "version": "3.12.2",
+        "description": "A high quality, visual, open source tool to manage SQLite files. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.msi"
+    },
+    {
+        "name": "tortoisesvn",
+        "version": "1.14.7",
+        "description": "An Apache Subversion client, implemented as a Windows shell extension. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://downloads.sourceforge.net/tortoisesvn/TortoiseSVN-1.14.7.29687-x64-svn-1.14.3.msi"
+    },
+    {
+        "name": "insomnia",
+        "version": "9.3.2",
+        "description": "The open-source API client for GraphQL, REST, and gRPC. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/Archux/insomnia/releases/download/v9.3.2/Insomnia.Setup.9.3.2.exe"
+    },
+    {
+        "name": "obsidian",
+        "version": "1.6.5",
+        "description": "A powerful knowledge base that works on top of a local folder. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.5/Obsidian.Setup.1.6.5.exe"
+    },
+    {
+        "name": "logseq",
+        "version": "0.10.9",
+        "description": "A privacy-first, open-source platform for knowledge management. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/logseq/logseq/releases/download/0.10.9/Logseq-win-x64-0.10.9.exe"
+    },
+    {
+        "name": "notion",
+        "version": "3.2.1",
+        "description": "A new tool that blends your everyday work apps into one. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://desktop-release.notion-static.com/Notion%20Setup%203.2.1.exe"
+    },
+    {
+        "name": "slack",
+        "version": "4.39.95",
+        "description": "A messaging app for teams, replacing internal emails entirely. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.39.95/SlackSetup.exe"
+    },
+    {
+        "name": "telegram",
+        "version": "5.2.3",
+        "description": "A pure instant messaging application that is simple and fast. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://updates.tdesktop.com/twin64/tsetup.5.2.3.exe"
+    },
+    {
+        "name": "whatsapp",
+        "version": "2.24",
+        "description": "Desktop version of the widely-used instant communication tool. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe"
+    },
+    {
+        "name": "viber",
+        "version": "23.1",
+        "description": "Free and secure calls and messages to anyone, anywhere application. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.cdn.viber.com/desktop/windows/ViberSetup.exe"
+    },
+    {
+        "name": "signal",
+        "version": "7.15.0",
+        "description": "A privacy-focused instant messaging application utility program. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://updates.signal.org/desktop/signal-desktop-win-7.15.0.exe"
+    },
+    {
+        "name": "skype",
+        "version": "8.123",
+        "description": "Keep in touch with free video chat, messaging, and affordable international calls. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://endpoint920510.azureedge.net/s4l/s4l/download/win/Skype-8.123.0.203.exe"
+    },
+    {
+        "name": "gog-galaxy",
+        "version": "2.0.72",
+        "description": "A client designed for downloading, playing and organizing games. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://cdn.gog.com/open/galaxy/client/2.0.72.10/setup_galaxy_2.0.72.10.exe"
+    },
+    {
+        "name": "epic-games-launcher",
+        "version": "16.2.0",
+        "description": "The official desktop store launcher tool for Epic Games. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi"
+    },
+    {
+        "name": "ea-app",
+        "version": "13.232",
+        "description": "The desktop application platform built for EA digital games store. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
+    },
+    {
+        "name": "ubisoft-connect",
+        "version": "149.0",
+        "description": "The ecosystem of player services for all Ubisoft games client. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://ubi.li/vvesp"
+    },
+    {
+        "name": "itunes",
+        "version": "12.13.2",
+        "description": "An easy way to enjoy your favorite music, movies, and TV shows on your PC. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.apple.com/itunes/download/win64"
+    },
+    {
+        "name": "calibre",
+        "version": "7.14.0",
+        "description": "A powerful and easy to use e-book manager application suite. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.calibre-ebook.com/7.14.0/calibre-64bit-7.14.0.msi"
+    },
+    {
+        "name": "foxit-reader",
+        "version": "2024.2",
+        "description": "A small, lightning fast, and feature rich PDF viewer software. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/2024.x/2024.2/en_us/FoxitPDFReader2024.2_enu_Setup_Clean.exe"
+    },
+    {
+        "name": "sumatrapdf",
+        "version": "3.5.2",
+        "description": "A free PDF, eBook, XPS, DjVu, CHM, Comic Book viewer for Windows. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://www.sumatrapdfreader.org/dl/SumatraPDF-3.5.2-64-install.exe"
+    },
+    {
+        "name": "libreoffice-still",
+        "version": "7.6.7",
+        "description": "An alternative stable release version of the popular productivity suite. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://download.documentfoundation.org/libreoffice/stable/7.6.7/win/x86_64/LibreOffice_7.6.7_Win_x86-64.msi"
+    },
+    {
+        "name": "wps-office",
+        "version": "12.1.0",
+        "description": "A complete free office suite with writer, spreadsheet, and presentation editors. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://wdl1.pmo.wpscdn.com/wps/download/WPS_Office_setup.exe"
+    },
+    {
+        "name": "onlyoffice",
+        "version": "8.1.0",
+        "description": "A free open-source office suite package alternative. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.1.0/ONLYOFFICE-DesktopEditors_x64.exe"
+    },
+    {
+        "name": "fman",
+        "version": "1.7.3",
+        "description": "A modern dual-pane file manager application for power users. Warning: this is not official + links might not work.",
+        "operating_system": "nt",
+        "url": "https://fman.io/static/fman%20Setup.exe"
+    }
+]
