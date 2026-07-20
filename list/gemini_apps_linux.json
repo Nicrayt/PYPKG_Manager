@@ -4,15 +4,15 @@
         "name": "gimp",
         "version": "2.10.38",
         "description": "Image Editor",
-        "operating_system": "linux",
-        "url": "https://download.gimp.org/pub/gimp/v2.10/linux/gimp-2.10.38-x86_64.AppImage"
+        "operating_system": "posix",
+        "url": "https://download.gimp.org/pub/gimp/v2.10/posix/gimp-2.10.38-x86_64.AppImage"
     },
     {
         "id": 2,
         "name": "inkscape",
         "version": "1.3.2",
         "description": "Vector Graphics",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://media.inkscape.org/dl/resources/file/Inkscape-e7c3fe1-x86_64.AppImage"
     },
     {
@@ -20,15 +20,15 @@
         "name": "blender",
         "version": "4.1.1",
         "description": "3D Creation Suite",
-        "operating_system": "linux",
-        "url": "https://download.blender.org/release/Blender4.1/blender-4.1.1-linux-x64.tar.xz"
+        "operating_system": "posix",
+        "url": "https://download.blender.org/release/Blender4.1/blender-4.1.1-posix-x64.tar.xz"
     },
     {
         "id": 4,
         "name": "vlc",
         "version": "3.0.20",
         "description": "Media Player",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://get.videolan.org/vlc/3.0.20/vlc-3.0.20.tar.xz"
     },
     {
@@ -36,39 +36,39 @@
         "name": "firefox",
         "version": "125.0.3",
         "description": "Web Browser",
-        "operating_system": "linux",
-        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/125.0.3/linux-x86_64/fr/firefox-125.0.3.tar.bz2"
+        "operating_system": "posix",
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/125.0.3/posix-x86_64/fr/firefox-125.0.3.tar.bz2"
     },
     {
         "id": 6,
         "name": "thunderbird",
         "version": "115.10.1",
         "description": "Email Client",
-        "operating_system": "linux",
-        "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.10.1/linux-x86_64/fr/thunderbird-115.10.1.tar.bz2"
+        "operating_system": "posix",
+        "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.10.1/posix-x86_64/fr/thunderbird-115.10.1.tar.bz2"
     },
     {
         "id": 7,
         "name": "tor-browser",
         "version": "13.0.15",
         "description": "Privacy Web Browser",
-        "operating_system": "linux",
-        "url": "https://dist.torproject.org/torbrowser/13.0.15/tor-browser-linux-x86_64-13.0.15.tar.xz"
+        "operating_system": "posix",
+        "url": "https://dist.torproject.org/torbrowser/13.0.15/tor-browser-posix-x86_64-13.0.15.tar.xz"
     },
     {
         "id": 8,
         "name": "libreoffice",
         "version": "24.2.3",
         "description": "Office Suite",
-        "operating_system": "linux",
-        "url": "https://download.documentfoundation.org/libreoffice/stable/24.2.3/deb/x86_64/LibreOffice_24.2.3_Linux_x86-64_deb.tar.gz"
+        "operating_system": "posix",
+        "url": "https://download.documentfoundation.org/libreoffice/stable/24.2.3/deb/x86_64/LibreOffice_24.2.3_posix_x86-64_deb.tar.gz"
     },
     {
         "id": 9,
         "name": "steam",
         "version": "1.0.0.81",
         "description": "Gaming Platform",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://repo.steampowered.com/steam/archive/precise/steam_1.0.0.81.tar.gz"
     },
     {
@@ -76,15 +76,15 @@
         "name": "discord",
         "version": "0.0.58",
         "description": "Chat & Voice Client",
-        "operating_system": "linux",
-        "url": "https://dl.discordapp.net/apps/linux/0.0.58/discord-0.0.58.tar.gz"
+        "operating_system": "posix",
+        "url": "https://dl.discordapp.net/apps/posix/0.0.58/discord-0.0.58.tar.gz"
     },
     {
         "id": 11,
         "name": "sublime-text",
         "version": "4169",
         "description": "Text Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://download.sublimetext.com/sublime_text_build_4169_x64.tar.xz"
     },
     {
@@ -92,39 +92,39 @@
         "name": "7zip",
         "version": "24.05",
         "description": "File Archiver",
-        "operating_system": "linux",
-        "url": "https://www.7-zip.org/a/7z2405-linux-x64.tar.xz"
+        "operating_system": "posix",
+        "url": "https://www.7-zip.org/a/7z2405-posix-x64.tar.xz"
     },
     {
         "id": 13,
         "name": "filezilla",
         "version": "3.66.5",
         "description": "FTP Client",
-        "operating_system": "linux",
-        "url": "https://download.filezilla-project.org/client/FileZilla_3.66.5_x86_64-linux-gnu.tar.bz2"
+        "operating_system": "posix",
+        "url": "https://download.filezilla-project.org/client/FileZilla_3.66.5_x86_64-posix-gnu.tar.bz2"
     },
     {
         "id": 14,
         "name": "vscode",
         "version": "1.89.0",
         "description": "Code Editor",
-        "operating_system": "linux",
-        "url": "https://update.code.visualstudio.com/1.89.0/linux-x64/stable"
+        "operating_system": "posix",
+        "url": "https://update.code.visualstudio.com/1.89.0/posix-x64/stable"
     },
     {
         "id": 15,
         "name": "telegram-desktop",
         "version": "4.16.6",
         "description": "Messaging App",
-        "operating_system": "linux",
-        "url": "https://updates.tdesktop.com/tlinux/tsetup.4.16.6.tar.xz"
+        "operating_system": "posix",
+        "url": "https://updates.tdesktop.com/tposix/tsetup.4.16.6.tar.xz"
     },
     {
         "id": 16,
         "name": "Obsidian",
         "version": "latest",
         "description": "Markdown Notes & Knowledge Base",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/obsidianmd/obsidian-releases/releases/latest"
     },
     {
@@ -132,7 +132,7 @@
         "name": "Joplin",
         "version": "latest",
         "description": "Note Taking & To-Do App",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/laurent22/joplin/releases/latest"
     },
     {
@@ -140,7 +140,7 @@
         "name": "Logseq",
         "version": "latest",
         "description": "Privacy-first Knowledge Base",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/logseq/logseq/releases/latest"
     },
     {
@@ -148,7 +148,7 @@
         "name": "KeePassXC",
         "version": "latest",
         "description": "Password Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/keepassxreboot/keepassxc/releases/latest"
     },
     {
@@ -156,7 +156,7 @@
         "name": "Bitwarden",
         "version": "latest",
         "description": "Password Manager Desktop",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/bitwarden/clients/releases/latest"
     },
     {
@@ -164,7 +164,7 @@
         "name": "Cryptomator",
         "version": "latest",
         "description": "Cloud File Encryption",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/cryptomator/cryptomator/releases/latest"
     },
     {
@@ -172,7 +172,7 @@
         "name": "Nextcloud",
         "version": "latest",
         "description": "Cloud Synchronization Client",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/nextcloud-releases/desktop/releases/latest"
     },
     {
@@ -180,7 +180,7 @@
         "name": "Syncthing",
         "version": "latest",
         "description": "Continuous File Synchronization",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/syncthing/syncthing/releases/latest"
     },
     {
@@ -188,7 +188,7 @@
         "name": "OBS Studio",
         "version": "latest",
         "description": "Screen Recording & Live Streaming",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/obsproject/obs-studio/releases/latest"
     },
     {
@@ -196,7 +196,7 @@
         "name": "HandBrake",
         "version": "latest",
         "description": "Video Transcoder",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/HandBrake/HandBrake/releases/latest"
     },
     {
@@ -204,7 +204,7 @@
         "name": "Audacity",
         "version": "latest",
         "description": "Audio Editor & Recorder",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/audacity/audacity/releases/latest"
     },
     {
@@ -212,7 +212,7 @@
         "name": "Shotcut",
         "version": "latest",
         "description": "Video Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/mltframework/shotcut/releases/latest"
     },
     {
@@ -220,7 +220,7 @@
         "name": "LMMS",
         "version": "latest",
         "description": "Digital Audio Workstation",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/LMMS/lmms/releases/latest"
     },
     {
@@ -228,7 +228,7 @@
         "name": "MuseScore",
         "version": "latest",
         "description": "Music Notation Software",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/musescore/MuseScore/releases/latest"
     },
     {
@@ -236,7 +236,7 @@
         "name": "Synfig Studio",
         "version": "latest",
         "description": "2D Vector Animation",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/synfig/synfig/releases/latest"
     },
     {
@@ -244,7 +244,7 @@
         "name": "Pencil2D",
         "version": "latest",
         "description": "2D Animation Software",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/pencil2d/pencil/releases/latest"
     },
     {
@@ -252,7 +252,7 @@
         "name": "OpenToonz",
         "version": "latest",
         "description": "2D Animation Software",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/opentoonz/opentoonz/releases/latest"
     },
     {
@@ -260,7 +260,7 @@
         "name": "FreeCAD",
         "version": "latest",
         "description": "Parametric 3D CAD Modeler",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/FreeCAD/FreeCAD/releases/latest"
     },
     {
@@ -268,7 +268,7 @@
         "name": "Darktable",
         "version": "latest",
         "description": "Photography Workflow & RAW Developer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/darktable-org/darktable/releases/latest"
     },
     {
@@ -276,7 +276,7 @@
         "name": "VSCodium",
         "version": "latest",
         "description": "FLOSS Code Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/VSCodium/vscodium/releases/latest"
     },
     {
@@ -284,7 +284,7 @@
         "name": "Neovim",
         "version": "latest",
         "description": "Hyperextensible Vim-based Text Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/neovim/neovim/releases/latest"
     },
     {
@@ -292,7 +292,7 @@
         "name": "DBeaver",
         "version": "latest",
         "description": "Universal Database Tool",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/dbeaver/dbeaver/releases/latest"
     },
     {
@@ -300,7 +300,7 @@
         "name": "Podman Desktop",
         "version": "latest",
         "description": "Container & Kubernetes Management UI",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/containers/podman-desktop/releases/latest"
     },
     {
@@ -308,7 +308,7 @@
         "name": "Alacritty",
         "version": "latest",
         "description": "GPU-accelerated Terminal Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/alacritty/alacritty/releases/latest"
     },
     {
@@ -316,7 +316,7 @@
         "name": "Kitty",
         "version": "latest",
         "description": "GPU-accelerated Terminal Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/kovidgoyal/kitty/releases/latest"
     },
     {
@@ -324,7 +324,7 @@
         "name": "Fastfetch",
         "version": "latest",
         "description": "Neofetch-like System Information Tool",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/fastfetch-cli/fastfetch/releases/latest"
     },
     {
@@ -332,7 +332,7 @@
         "name": "btop",
         "version": "latest",
         "description": "Resource Monitor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/aristocratos/btop/releases/latest"
     },
     {
@@ -340,7 +340,7 @@
         "name": "htop",
         "version": "latest",
         "description": "Interactive Process Viewer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/htop-dev/htop/releases/latest"
     },
     {
@@ -348,7 +348,7 @@
         "name": "micro",
         "version": "latest",
         "description": "Modern Terminal Text Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/zyedidia/micro/releases/latest"
     },
     {
@@ -356,7 +356,7 @@
         "name": "Helix",
         "version": "latest",
         "description": "Post-modern Modal Text Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/helix-editor/helix/releases/latest"
     },
     {
@@ -364,7 +364,7 @@
         "name": "eza",
         "version": "latest",
         "description": "Modern Replacement for ls",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/eza-community/eza/releases/latest"
     },
     {
@@ -372,7 +372,7 @@
         "name": "bat",
         "version": "latest",
         "description": "Cat Clone with Syntax Highlighting",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/sharkdp/bat/releases/latest"
     },
     {
@@ -380,7 +380,7 @@
         "name": "ripgrep",
         "version": "latest",
         "description": "Fast Line-Oriented Search Tool",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/BurntSushi/ripgrep/releases/latest"
     },
     {
@@ -388,7 +388,7 @@
         "name": "fd",
         "version": "latest",
         "description": "Simple and Fast Find Alternative",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/sharkdp/fd/releases/latest"
     },
     {
@@ -396,7 +396,7 @@
         "name": "fzf",
         "version": "latest",
         "description": "Command-line Fuzzy Finder",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/junegunn/fzf/releases/latest"
     },
     {
@@ -404,7 +404,7 @@
         "name": "lazygit",
         "version": "latest",
         "description": "Simple Terminal UI for Git",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/jesseduffield/lazygit/releases/latest"
     },
     {
@@ -412,7 +412,7 @@
         "name": "lazydocker",
         "version": "latest",
         "description": "Terminal UI for Docker",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/jesseduffield/lazydocker/releases/latest"
     },
     {
@@ -420,7 +420,7 @@
         "name": "GitHub CLI",
         "version": "latest",
         "description": "GitHub Command Line Tool",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/cli/cli/releases/latest"
     },
     {
@@ -428,7 +428,7 @@
         "name": "yt-dlp",
         "version": "latest",
         "description": "Command-line Audio/Video Downloader",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/yt-dlp/yt-dlp/releases/latest"
     },
     {
@@ -436,7 +436,7 @@
         "name": "rclone",
         "version": "latest",
         "description": "Sync Files to Cloud Storage",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/rclone/rclone/releases/latest"
     },
     {
@@ -444,7 +444,7 @@
         "name": "restic",
         "version": "latest",
         "description": "Fast and Secure Backup Program",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/restic/restic/releases/latest"
     },
     {
@@ -452,7 +452,7 @@
         "name": "jq",
         "version": "latest",
         "description": "Command-line JSON Processor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/jqlang/jq/releases/latest"
     },
     {
@@ -460,7 +460,7 @@
         "name": "yq",
         "version": "latest",
         "description": "Command-line YAML Processor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/mikefarah/yq/releases/latest"
     },
     {
@@ -468,7 +468,7 @@
         "name": "duf",
         "version": "latest",
         "description": "Disk Usage & Free Space Utility",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/muesli/duf/releases/latest"
     },
     {
@@ -476,7 +476,7 @@
         "name": "chezmoi",
         "version": "latest",
         "description": "Manage Dotfiles Across Machines",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/twpayne/chezmoi/releases/latest"
     },
     {
@@ -484,7 +484,7 @@
         "name": "Starship",
         "version": "latest",
         "description": "Cross-Shell Prompt",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/starship/starship/releases/latest"
     },
     {
@@ -492,7 +492,7 @@
         "name": "zoxide",
         "version": "latest",
         "description": "Smarter cd Command",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/ajeetdsouza/zoxide/releases/latest"
     },
     {
@@ -500,7 +500,7 @@
         "name": "Zellij",
         "version": "latest",
         "description": "Terminal Workspace & Multiplexer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/zellij-org/zellij/releases/latest"
     },
     {
@@ -508,7 +508,7 @@
         "name": "tmux",
         "version": "latest",
         "description": "Terminal Multiplexer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/tmux/tmux/releases/latest"
     },
     {
@@ -516,7 +516,7 @@
         "name": "k9s",
         "version": "latest",
         "description": "Kubernetes CLI UI",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/derailed/k9s/releases/latest"
     },
     {
@@ -524,7 +524,7 @@
         "name": "Heroic Games Launcher",
         "version": "latest",
         "description": "Epic & GOG Games Launcher",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/latest"
     },
     {
@@ -532,7 +532,7 @@
         "name": "Godot Engine",
         "version": "latest",
         "description": "Free and Open Source Game Engine",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/godotengine/godot/releases/latest"
     },
     {
@@ -540,7 +540,7 @@
         "name": "Tiled",
         "version": "latest",
         "description": "2D Level Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/mapeditor/tiled/releases/latest"
     },
     {
@@ -548,7 +548,7 @@
         "name": "Lutris",
         "version": "latest",
         "description": "Open Source Gaming Platform",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/lutris/lutris/releases/latest"
     },
     {
@@ -556,7 +556,7 @@
         "name": "PCSX2",
         "version": "latest",
         "description": "PlayStation 2 Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/PCSX2/pcsx2/releases/latest"
     },
     {
@@ -564,7 +564,7 @@
         "name": "mGBA",
         "version": "latest",
         "description": "Game Boy Advance Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/mgba-emu/mgba/releases/latest"
     },
     {
@@ -572,7 +572,7 @@
         "name": "PrusaSlicer",
         "version": "latest",
         "description": "G-code Generator for 3D Printers",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/prusa3d/PrusaSlicer/releases/latest"
     },
     {
@@ -580,7 +580,7 @@
         "name": "OrcaSlicer",
         "version": "latest",
         "description": "Open-Source 3D Printer Slicer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/SoftFever/OrcaSlicer/releases/latest"
     },
     {
@@ -588,7 +588,7 @@
         "name": "Ultimaker Cura",
         "version": "latest",
         "description": "3D Printing Slicing Software",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/Ultimaker/Cura/releases/latest"
     },
     {
@@ -596,7 +596,7 @@
         "name": "balenaEtcher",
         "version": "latest",
         "description": "Flash OS Images to SD Cards & USB",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/balena-io/etcher/releases/latest"
     },
     {
@@ -604,7 +604,7 @@
         "name": "PeaZip",
         "version": "latest",
         "description": "Free Archiver & File Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/peazip/PeaZip/releases/latest"
     },
     {
@@ -612,7 +612,7 @@
         "name": "Transmission",
         "version": "latest",
         "description": "Fast & Easy BitTorrent Client",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/transmission/transmission/releases/latest"
     },
     {
@@ -620,7 +620,7 @@
         "name": "Nicotine+",
         "version": "latest",
         "description": "Graphical Client for Soulseek Network",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/nicotine-plus/nicotine-plus/releases/latest"
     },
     {
@@ -628,7 +628,7 @@
         "name": "Vesktop",
         "version": "latest",
         "description": "Custom Discord App",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/Vencord/Vesktop/releases/latest"
     },
     {
@@ -636,7 +636,7 @@
         "name": "Element Desktop",
         "version": "latest",
         "description": "Secure Matrix Messenger",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/element-hq/element-desktop/releases/latest"
     },
     {
@@ -644,7 +644,7 @@
         "name": "Session Desktop",
         "version": "latest",
         "description": "Private & Encrypted Messenger",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/oxen-io/session-desktop/releases/latest"
     },
     {
@@ -652,7 +652,7 @@
         "name": "Strawberry Music Player",
         "version": "latest",
         "description": "Audio Player and Music Collection Organizer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/strawberrymusicplayer/strawberry/releases/latest"
     },
     {
@@ -660,7 +660,7 @@
         "name": "Mixxx",
         "version": "latest",
         "description": "Free DJ Software",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/mixxxdj/mixxx/releases/latest"
     },
     {
@@ -668,7 +668,7 @@
         "name": "RawTherapee",
         "version": "latest",
         "description": "RAW Image Processing Program",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/rawtherapee/rawtherapee/releases/latest"
     },
     {
@@ -676,7 +676,7 @@
         "name": "Xournal++",
         "version": "latest",
         "description": "Handwriting Note-taking Software",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/xournalpp/xournalpp/releases/latest"
     },
     {
@@ -684,7 +684,7 @@
         "name": "JabRef",
         "version": "latest",
         "description": "Graphical BibTeX Reference Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/JabRef/jabref/releases/latest"
     },
     {
@@ -692,7 +692,7 @@
         "name": "Zotero",
         "version": "latest",
         "description": "Research Assistant & Bibliography Tool",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/zotero/zotero/releases/latest"
     },
     {
@@ -700,7 +700,7 @@
         "name": "Calibre",
         "version": "latest",
         "description": "E-book Management",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/calibre-ebook/calibre/releases/latest"
     },
     {
@@ -708,7 +708,7 @@
         "name": "Sigil",
         "version": "latest",
         "description": "EPUB Ebook Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/sigil-ebook/Sigil/releases/latest"
     },
     {
@@ -716,7 +716,7 @@
         "name": "Stremio",
         "version": "latest",
         "description": "Media Center Application",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/stremio/stremio-shell/releases/latest"
     },
     {
@@ -724,7 +724,7 @@
         "name": "qBittorrent",
         "version": "latest",
         "description": "Free BitTorrent Client",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/qbittorrent/qBittorrent/releases/latest"
     },
     {
@@ -732,7 +732,7 @@
         "name": "BleachBit",
         "version": "latest",
         "description": "System Cleaner & Privacy Guard",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/bleachbit/bleachbit/releases/latest"
     },
     {
@@ -740,7 +740,7 @@
         "name": "Flameshot",
         "version": "latest",
         "description": "Powerful Screenshot Software",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/flameshot-org/flameshot/releases/latest"
     },
     {
@@ -748,7 +748,7 @@
         "name": "Ksnip",
         "version": "latest",
         "description": "Cross-Platform Screenshot Tool",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/ksnip/ksnip/releases/latest"
     },
     {
@@ -756,7 +756,7 @@
         "name": "CopyQ",
         "version": "latest",
         "description": "Clipboard Manager with Advanced Features",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/copyq/CopyQ/releases/latest"
     },
     {
@@ -764,15 +764,15 @@
         "name": "Albert",
         "version": "latest",
         "description": "Desktop Launcher",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/albertlauncher/albert/releases/latest"
     },
     {
         "id": 97,
         "name": "Ulauncher",
         "version": "latest",
-        "description": "Application Launcher for Linux",
-        "operating_system": "linux",
+        "description": "Application Launcher for posix",
+        "operating_system": "posix",
         "url": "https://github.com/ulauncher/Ulauncher/releases/latest"
     },
     {
@@ -780,7 +780,7 @@
         "name": "Neofetch",
         "version": "latest",
         "description": "System Information CLI Tool",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/dylanaraps/neofetch/releases/latest"
     },
     {
@@ -788,7 +788,7 @@
         "name": "bpytop",
         "version": "latest",
         "description": "Python Resource Monitor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/aristocratos/bpytop/releases/latest"
     },
     {
@@ -796,7 +796,7 @@
         "name": "Dive",
         "version": "latest",
         "description": "Docker Image Layer Explorer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/wagoodman/dive/releases/latest"
     },
     {
@@ -804,7 +804,7 @@
         "name": "Argo CD",
         "version": "latest",
         "description": "Declarative GitOps CD Tool for Kubernetes",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/argoproj/argo-cd/releases/latest"
     },
     {
@@ -812,7 +812,7 @@
         "name": "Helm",
         "version": "latest",
         "description": "Kubernetes Package Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/helm/helm/releases/latest"
     },
     {
@@ -820,7 +820,7 @@
         "name": "Terraform",
         "version": "latest",
         "description": "Infrastructure as Code Tool",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/hashicorp/terraform/releases/latest"
     },
     {
@@ -828,7 +828,7 @@
         "name": "Packer",
         "version": "latest",
         "description": "Machine Image Automation",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/hashicorp/packer/releases/latest"
     },
     {
@@ -836,7 +836,7 @@
         "name": "Vault",
         "version": "latest",
         "description": "Secret Management",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/hashicorp/vault/releases/latest"
     },
     {
@@ -844,7 +844,7 @@
         "name": "MinIO",
         "version": "latest",
         "description": "High Performance Object Storage",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/minio/minio/releases/latest"
     },
     {
@@ -852,7 +852,7 @@
         "name": "Promtail",
         "version": "latest",
         "description": "Loki Log Shipper Agent",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/promtail/promtail/releases/latest"
     },
     {
@@ -860,7 +860,7 @@
         "name": "Loki",
         "version": "latest",
         "description": "Log Aggregation System",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/grafana/loki/releases/latest"
     },
     {
@@ -868,7 +868,7 @@
         "name": "Prometheus",
         "version": "latest",
         "description": "Monitoring System & Time Series DB",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/prometheus/prometheus/releases/latest"
     },
     {
@@ -876,7 +876,7 @@
         "name": "Caddy",
         "version": "latest",
         "description": "Powerful Enterprise-Ready Web Server",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/caddyserver/caddy/releases/latest"
     },
     {
@@ -884,7 +884,7 @@
         "name": "Traefik",
         "version": "latest",
         "description": "Edge Router & Reverse Proxy",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/traefik/traefik/releases/latest"
     },
     {
@@ -892,7 +892,7 @@
         "name": "etcd",
         "version": "latest",
         "description": "Distributed Key-Value Store",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/etcd-io/etcd/releases/latest"
     },
     {
@@ -900,7 +900,7 @@
         "name": "Syncthing Tray",
         "version": "latest",
         "description": "Tray Application for Syncthing",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/syncthing/syncthing-tray/releases/latest"
     },
     {
@@ -908,7 +908,7 @@
         "name": "Geany",
         "version": "latest",
         "description": "Fast and Lightweight IDE",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/geany/geany/releases/latest"
     },
     {
@@ -916,7 +916,7 @@
         "name": "Kate",
         "version": "latest",
         "description": "KDE Advanced Text Editor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/kate/kate/releases/latest"
     },
     {
@@ -924,7 +924,7 @@
         "name": "Godot Docs",
         "version": "latest",
         "description": "Godot Engine Documentation",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/godotengine/godot-docs/releases/latest"
     },
     {
@@ -932,7 +932,7 @@
         "name": "Yuzu",
         "version": "latest",
         "description": "Nintendo Switch Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/yuzu-emu/yuzu/releases/latest"
     },
     {
@@ -940,7 +940,7 @@
         "name": "Ryujinx",
         "version": "latest",
         "description": "Nintendo Switch Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/ryujinx/ryujinx/releases/latest"
     },
     {
@@ -948,7 +948,7 @@
         "name": "Citra",
         "version": "latest",
         "description": "Nintendo 3DS Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/citra-emu/citra/releases/latest"
     },
     {
@@ -956,7 +956,7 @@
         "name": "PPSSPP",
         "version": "latest",
         "description": "PSP Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/ppsspp/ppsspp/releases/latest"
     },
     {
@@ -964,7 +964,7 @@
         "name": "Dolphin Emulator",
         "version": "latest",
         "description": "GameCube & Wii Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/dolphin-emu/dolphin/releases/latest"
     },
     {
@@ -972,7 +972,7 @@
         "name": "DuckStation",
         "version": "latest",
         "description": "PlayStation 1 Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/duckstation/duckstation/releases/latest"
     },
     {
@@ -980,7 +980,7 @@
         "name": "RPCS3",
         "version": "latest",
         "description": "PlayStation 3 Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/RPCS3/rpcs3/releases/latest"
     },
     {
@@ -988,7 +988,7 @@
         "name": "Xenia",
         "version": "latest",
         "description": "Xbox 360 Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/xenia-project/xenia/releases/latest"
     },
     {
@@ -996,7 +996,7 @@
         "name": "ScummVM",
         "version": "latest",
         "description": "Classic Point-and-Click Game Engine",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/scummvm/scummvm/releases/latest"
     },
     {
@@ -1004,7 +1004,7 @@
         "name": "DOSBox Staging",
         "version": "latest",
         "description": "Modernized DOS Emulator",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/dosbox-staging/dosbox-staging/releases/latest"
     },
     {
@@ -1012,7 +1012,7 @@
         "name": "OpenTTD",
         "version": "latest",
         "description": "Open Source Transport Tycoon Deluxe",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/openttd/openttd/releases/latest"
     },
     {
@@ -1020,7 +1020,7 @@
         "name": "Battle for Wesnoth",
         "version": "latest",
         "description": "Turn-based Strategy Game",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/wesnoth/wesnoth/releases/latest"
     },
     {
@@ -1028,7 +1028,7 @@
         "name": "0 A.D.",
         "version": "latest",
         "description": "Real-Time Strategy Game",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/0ad/0ad/releases/latest"
     },
     {
@@ -1036,7 +1036,7 @@
         "name": "SuperTuxKart",
         "version": "latest",
         "description": "3D Open Source Kart Racing Game",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/supertuxkart/stk-code/releases/latest"
     },
     {
@@ -1044,7 +1044,7 @@
         "name": "Minetest",
         "version": "latest",
         "description": "Voxel Game Engine",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/minetest/minetest/releases/latest"
     },
     {
@@ -1052,7 +1052,7 @@
         "name": "Xonotic",
         "version": "latest",
         "description": "Arena FPS Game",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/xonotic/xonotic/releases/latest"
     },
     {
@@ -1060,7 +1060,7 @@
         "name": "SuperTux",
         "version": "latest",
         "description": "2D Jump'n'Run Game",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/supertux/supertux/releases/latest"
     },
     {
@@ -1068,7 +1068,7 @@
         "name": "Endless Sky",
         "version": "latest",
         "description": "2D Space Trading & Combat Game",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/endless-sky/endless-sky/releases/latest"
     },
     {
@@ -1076,7 +1076,7 @@
         "name": "Veloren",
         "version": "latest",
         "description": "Multiplayer Voxel RPG",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/veloren/veloren/releases/latest"
     },
     {
@@ -1084,7 +1084,7 @@
         "name": "CKAN",
         "version": "latest",
         "description": "Kerbal Space Program Mod Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/CorsairRacer/ckan/releases/latest"
     },
     {
@@ -1092,15 +1092,15 @@
         "name": "Mod Organizer 2",
         "version": "latest",
         "description": "Mod Manager for Skyrim/Fallout",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/modorganizer2/modorganizer/releases/latest"
     },
     {
         "id": 138,
         "name": "Bottles",
         "version": "latest",
-        "description": "Run Windows Software on Linux",
-        "operating_system": "linux",
+        "description": "Run Windows Software on posix",
+        "operating_system": "posix",
         "url": "https://github.com/Bottlesdevs/Bottles/releases/latest"
     },
     {
@@ -1108,7 +1108,7 @@
         "name": "Memos",
         "version": "latest",
         "description": "Lightweight Note-taking Service",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/usememos/memos/releases/latest"
     },
     {
@@ -1116,7 +1116,7 @@
         "name": "Trilium Notes",
         "version": "latest",
         "description": "Hierarchical Note-taking Application",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/trilium-notes/trilium/releases/latest"
     },
     {
@@ -1124,7 +1124,7 @@
         "name": "Vaultwarden",
         "version": "latest",
         "description": "Bitwarden Compatible Server",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/dani-garcia/vaultwarden/releases/latest"
     },
     {
@@ -1132,7 +1132,7 @@
         "name": "Netmaker",
         "version": "latest",
         "description": "WireGuard Virtual Networks",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/Netmaker/netmaker/releases/latest"
     },
     {
@@ -1140,7 +1140,7 @@
         "name": "Tailscale",
         "version": "latest",
         "description": "Zero-config VPN built on WireGuard",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/tailscale/tailscale/releases/latest"
     },
     {
@@ -1148,7 +1148,7 @@
         "name": "WireGuard",
         "version": "latest",
         "description": "Modern Secure VPN Tunnel",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/wireguard/wireguard-go/releases/latest"
     },
     {
@@ -1156,7 +1156,7 @@
         "name": "OpenVPN",
         "version": "latest",
         "description": "Full-featured SSL VPN Solution",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/openvpn/openvpn/releases/latest"
     },
     {
@@ -1164,7 +1164,7 @@
         "name": "ZeroTier",
         "version": "latest",
         "description": "Virtual Networking for Everyone",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/zerotier/ZeroTierOne/releases/latest"
     },
     {
@@ -1172,7 +1172,7 @@
         "name": "xrdp",
         "version": "latest",
         "description": "Open Source Remote Desktop Protocol Server",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/Xrc2/xrdp/releases/latest"
     },
     {
@@ -1180,7 +1180,7 @@
         "name": "RustDesk",
         "version": "latest",
         "description": "Open Source Remote Desktop Software",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/RustDesk/rustdesk/releases/latest"
     },
     {
@@ -1188,7 +1188,7 @@
         "name": "Remmina",
         "version": "latest",
         "description": "Remote Desktop Client",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/remmina/remmina/releases/latest"
     },
     {
@@ -1196,7 +1196,7 @@
         "name": "FreeRDP",
         "version": "latest",
         "description": "Remote Desktop Protocol Implementation",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/FreeRDP/FreeRDP/releases/latest"
     },
     {
@@ -1204,7 +1204,7 @@
         "name": "Apache Guacamole",
         "version": "latest",
         "description": "Clientless Remote Desktop Gateway",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/Guacamole/guacamole-server/releases/latest"
     },
     {
@@ -1212,23 +1212,23 @@
         "name": "Mullvad VPN",
         "version": "latest",
         "description": "Mullvad Desktop Client",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/mullvad/mullvadvpn-app/releases/latest"
     },
     {
         "id": 153,
         "name": "ProtonVPN CLI",
         "version": "latest",
-        "description": "Official ProtonVPN Linux CLI",
-        "operating_system": "linux",
-        "url": "https://github.com/protonvpn/linux-cli/releases/latest"
+        "description": "Official ProtonVPN posix CLI",
+        "operating_system": "posix",
+        "url": "https://github.com/protonvpn/posix-cli/releases/latest"
     },
     {
         "id": 154,
         "name": "Mako",
         "version": "latest",
         "description": "Notification Daemon for Wayland",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/mako-project/mako/releases/latest"
     },
     {
@@ -1236,7 +1236,7 @@
         "name": "Dunst",
         "version": "latest",
         "description": "Lightweight Notification Daemon",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/dunst-project/dunst/releases/latest"
     },
     {
@@ -1244,7 +1244,7 @@
         "name": "Rofi",
         "version": "latest",
         "description": "Window Switcher & Application Launcher",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/rofi-community/rofi/releases/latest"
     },
     {
@@ -1252,7 +1252,7 @@
         "name": "i3wm",
         "version": "latest",
         "description": "Dynamic Tiling Window Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/i3/i3/releases/latest"
     },
     {
@@ -1260,7 +1260,7 @@
         "name": "Sway",
         "version": "latest",
         "description": "i3-compatible Wayland Compositor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/swaywm/sway/releases/latest"
     },
     {
@@ -1268,7 +1268,7 @@
         "name": "Hyprland",
         "version": "latest",
         "description": "Dynamic Tiling Wayland Compositor",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/hyprwm/Hyprland/releases/latest"
     },
     {
@@ -1276,7 +1276,7 @@
         "name": "bspwm",
         "version": "latest",
         "description": "Tiling Window Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/baskerville/bspwm/releases/latest"
     },
     {
@@ -1284,7 +1284,7 @@
         "name": "Polybar",
         "version": "latest",
         "description": "Status Bar for Tiling Window Managers",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/polybar/polybar/releases/latest"
     },
     {
@@ -1292,7 +1292,7 @@
         "name": "Waybar",
         "version": "latest",
         "description": "Highly Customizable Wayland Bar",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/waybar/waybar/releases/latest"
     },
     {
@@ -1300,7 +1300,7 @@
         "name": "Swaylock",
         "version": "latest",
         "description": "Screen Locker for Wayland",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/swaylockwm/swaylock/releases/latest"
     },
     {
@@ -1308,7 +1308,7 @@
         "name": "feh",
         "version": "latest",
         "description": "Lightweight Image Viewer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/koalke/feh/releases/latest"
     },
     {
@@ -1316,7 +1316,7 @@
         "name": "nsxiv",
         "version": "latest",
         "description": "Neo Simple X Image Viewer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/nsxiv/nsxiv/releases/latest"
     },
     {
@@ -1324,7 +1324,7 @@
         "name": "Eww",
         "version": "latest",
         "description": "ElKowars Wacky Widgets",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/saimoomedits/eww/releases/latest"
     },
     {
@@ -1332,23 +1332,23 @@
         "name": "Catppuccin GTK",
         "version": "latest",
         "description": "Soothing Pastel Theme for GTK",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/catppuccin/gtk/releases/latest"
     },
     {
         "id": 168,
         "name": "Papirus",
         "version": "latest",
-        "description": "SVG Icon Theme for Linux",
-        "operating_system": "linux",
+        "description": "SVG Icon Theme for posix",
+        "operating_system": "posix",
         "url": "https://github.com/papirus-development/papirus-icon-theme/releases/latest"
     },
     {
         "id": 169,
         "name": "Fluent GTK Theme",
         "version": "latest",
-        "description": "Fluent Design Theme for Linux",
-        "operating_system": "linux",
+        "description": "Fluent Design Theme for posix",
+        "operating_system": "posix",
         "url": "https://github.com/vinceliuice/Fluent-gtk-theme/releases/latest"
     },
     {
@@ -1356,7 +1356,7 @@
         "name": "Node Version Manager",
         "version": "latest",
         "description": "Node.js Version Management",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/nvm-sh/nvm/releases/latest"
     },
     {
@@ -1364,7 +1364,7 @@
         "name": "pyenv",
         "version": "latest",
         "description": "Python Version Management",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/pyenv/pyenv/releases/latest"
     },
     {
@@ -1372,7 +1372,7 @@
         "name": "rbenv",
         "version": "latest",
         "description": "Ruby Version Management",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/rbenv/rbenv/releases/latest"
     },
     {
@@ -1380,7 +1380,7 @@
         "name": "SDKMAN!",
         "version": "latest",
         "description": "Software Development Kit Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/sdkman/sdkman-cli/releases/latest"
     },
     {
@@ -1388,7 +1388,7 @@
         "name": "asdf",
         "version": "latest",
         "description": "Extendable Version Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/asdf-vm/asdf/releases/latest"
     },
     {
@@ -1396,7 +1396,7 @@
         "name": "direnv",
         "version": "latest",
         "description": "Environment Variable Switcher",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/direnv/direnv/releases/latest"
     },
     {
@@ -1404,7 +1404,7 @@
         "name": "fish",
         "version": "latest",
         "description": "Smart & User-friendly Command Line Shell",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/fish-shell/fish-shell/releases/latest"
     },
     {
@@ -1412,7 +1412,7 @@
         "name": "Zsh",
         "version": "latest",
         "description": "Z Shell",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/zsh-users/zsh/releases/latest"
     },
     {
@@ -1420,7 +1420,7 @@
         "name": "Oh My Zsh",
         "version": "latest",
         "description": "Framework for Managing Zsh Config",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/ohmyzsh/ohmyzsh/releases/latest"
     },
     {
@@ -1428,7 +1428,7 @@
         "name": "Spaceship Prompt",
         "version": "latest",
         "description": "Zsh Prompt for Astronauts",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/spaceship-prompt/spaceship-prompt/releases/latest"
     },
     {
@@ -1436,7 +1436,7 @@
         "name": "Powerlevel10k",
         "version": "latest",
         "description": "Theme for Zsh",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/romkatv/powerlevel10k/releases/latest"
     },
     {
@@ -1444,7 +1444,7 @@
         "name": "vim-plug",
         "version": "latest",
         "description": "Minimalist Vim Plugin Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/junegunn/vim-plug/releases/latest"
     },
     {
@@ -1452,7 +1452,7 @@
         "name": "lazy.nvim",
         "version": "latest",
         "description": "Modern Plugin Manager for Neovim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/folke/lazy.nvim/releases/latest"
     },
     {
@@ -1460,7 +1460,7 @@
         "name": "telescope.nvim",
         "version": "latest",
         "description": "Fuzzy Finder for Neovim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/nvim-telescope/telescope.nvim/releases/latest"
     },
     {
@@ -1468,7 +1468,7 @@
         "name": "nvim-treesitter",
         "version": "latest",
         "description": "Treesitter Configurations for Neovim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/nvim-treesitter/nvim-treesitter/releases/latest"
     },
     {
@@ -1476,7 +1476,7 @@
         "name": "coc.nvim",
         "version": "latest",
         "description": "Intellisense Engine for Vim/Neovim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/neoclide/coc.nvim/releases/latest"
     },
     {
@@ -1484,7 +1484,7 @@
         "name": "vim-fugitive",
         "version": "latest",
         "description": "Git Wrapper for Vim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/tpope/vim-fugitive/releases/latest"
     },
     {
@@ -1492,7 +1492,7 @@
         "name": "vim-gitgutter",
         "version": "latest",
         "description": "Git Diff Markers in Vim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/airblade/vim-gitgutter/releases/latest"
     },
     {
@@ -1500,7 +1500,7 @@
         "name": "NERDTree",
         "version": "latest",
         "description": "File System Explorer for Vim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/preservim/nerdtree/releases/latest"
     },
     {
@@ -1508,7 +1508,7 @@
         "name": "nvim-cmp",
         "version": "latest",
         "description": "Auto Completion Plugin for Neovim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/hrsh7th/nvim-cmp/releases/latest"
     },
     {
@@ -1516,7 +1516,7 @@
         "name": "mason.nvim",
         "version": "latest",
         "description": "LSP/DAP/Linter Manager for Neovim",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/williamboman/mason.nvim/releases/latest"
     },
     {
@@ -1524,7 +1524,7 @@
         "name": "Base16",
         "version": "latest",
         "description": "Architecture for Building Themes",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/chriskempson/base16/releases/latest"
     },
     {
@@ -1532,7 +1532,7 @@
         "name": "TPM",
         "version": "latest",
         "description": "Tmux Plugin Manager",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/tmux-plugins/tpm/releases/latest"
     },
     {
@@ -1540,7 +1540,7 @@
         "name": "Sioyek",
         "version": "latest",
         "description": "PDF Viewer for Research Papers",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/ahrm/sioyek/releases/latest"
     },
     {
@@ -1548,7 +1548,7 @@
         "name": "PDF Arranger",
         "version": "latest",
         "description": "Small Python Utility for PDF Manipulation",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/pdfarranger/pdfarranger/releases/latest"
     },
     {
@@ -1556,7 +1556,7 @@
         "name": "Zathura",
         "version": "latest",
         "description": "Document Viewer with Vim-like Keybindings",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/zathura-pdf/zathura/releases/latest"
     },
     {
@@ -1564,7 +1564,7 @@
         "name": "Okular",
         "version": "latest",
         "description": "KDE Document Viewer",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/okular/okular/releases/latest"
     },
     {
@@ -1572,15 +1572,15 @@
         "name": "Evince",
         "version": "latest",
         "description": "Document Viewer for GNOME",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/evince/evince/releases/latest"
     },
     {
         "id": 198,
         "name": "Xreader",
         "version": "latest",
-        "description": "Document Viewer for Linux Mint",
-        "operating_system": "linux",
+        "description": "Document Viewer for posix Mint",
+        "operating_system": "posix",
         "url": "https://github.com/xreader/xreader/releases/latest"
     },
     {
@@ -1588,15 +1588,15 @@
         "name": "Transmission Remote GUI",
         "version": "latest",
         "description": "Remote Client for Transmission",
-        "operating_system": "linux",
+        "operating_system": "posix",
         "url": "https://github.com/transmission-remote-gui/transgui/releases/latest"
     },
     {
         "id": 200,
         "name": "aMule",
         "version": "latest",
-        "description": "eMule P2P Client for Linux",
-        "operating_system": "linux",
+        "description": "eMule P2P Client for posix",
+        "operating_system": "posix",
         "url": "https://github.com/amule-project/amule/releases/latest"
     }
 ]
