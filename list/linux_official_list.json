@@ -60,7 +60,7 @@
         "version": "1.63.169",
         "description": "Privacy-focused web browser (tarball distribution).",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/brave-browser/brave-browser-1.63.169-linux-x64.tar.gz",
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.63.169/brave-v1.63.169-linux-amd64.zip",
         "dependency": [
             "glibc"
         ]
@@ -70,7 +70,7 @@
         "version": "123.0.1",
         "description": "Official Mozilla Firefox standalone tarball distribution.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/firefox-official/firefox-official-123.0.1-linux-x64.tar.bz2",
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/123.0.1/linux-x86_64/en-US/firefox-123.0.1.tar.bz2",
         "dependency": [
             "glibc"
         ]
@@ -80,7 +80,7 @@
         "version": "13.0.10",
         "description": "Anonymous Tor Browser bundle for Linux.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/tor-browser-linux/tor-browser-linux-13.0.10-linux-x64.tar.xz",
+        "url": "https://dist.torproject.org/torbrowser/13.0.10/tor-browser-linux-x86_64-13.0.10.tar.xz",
         "dependency": [
             "glibc"
         ]
@@ -90,7 +90,7 @@
         "version": "123.0.1-1",
         "description": "Privacy and security-focused Firefox fork in AppImage format.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/librewolf-appimage/releases/download/v123.0.1-1/librewolf-appimage-123.0.1-1-x86_64.AppImage",
+        "url": "https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/123.0.1-1/LibreWolf.x86_64.AppImage",
         "dependency": [
             "fuse2",
             "glibc"
@@ -101,7 +101,7 @@
         "version": "13.0.10",
         "description": "Privacy browser produced in collaboration with Mullvad VPN.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/mullvad-browser/mullvad-browser-13.0.10-linux-x64.tar.xz",
+        "url": "https://cdn.mullvad.net/browser/13.0.10/mullvad-browser-linux-x86_64-13.0.10.tar.xz",
         "dependency": [
             "glibc"
         ]
@@ -111,7 +111,7 @@
         "version": "1.87.0",
         "description": "Visual Studio Code standalone Linux tar.gz binary bundle.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/vscode-linux/vscode-linux-1.87.0-linux-x64.tar.gz",
+        "url": "https://update.code.visualstudio.com/1.87.0/linux-x64/stable",
         "dependency": [
             "glibc"
         ]
@@ -121,7 +121,7 @@
         "version": "0.9.5",
         "description": "Vim-fork focused on extensibility, standalone AppImage.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/neovim-appimage/releases/download/v0.9.5/neovim-appimage-0.9.5-x86_64.AppImage",
+        "url": "https://github.com/neovim/neovim/releases/download/v0.9.5/nvim.appimage",
         "dependency": [
             "fuse2"
         ]
@@ -131,7 +131,7 @@
         "version": "4169",
         "description": "Sophisticated text editor for code, markup and prose.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/sublime-text-tar/sublime-text-tar-4169-linux-x64.tar.xz",
+        "url": "https://download.sublimetext.com/sublime_text_build_4169_x64.tar.xz",
         "dependency": [
             "glibc"
         ]
@@ -141,7 +141,7 @@
         "version": "1.87.0.24068",
         "description": "Telemetry-free community build of VS Code as an AppImage.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/vscodium-appimage/releases/download/v1.87.0.24068/vscodium-appimage-1.87.0.24068-x86_64.AppImage",
+        "url": "https://github.com/VSCodium/vscodium/releases/download/1.87.0.24068/VSCodium-1.87.0.24068-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -151,7 +151,7 @@
         "version": "2.2.1.19765",
         "description": "Manage JetBrains IDEs easily on Linux via AppImage.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/jetbrains-toolbox/releases/download/v2.2.1.19765/jetbrains-toolbox-2.2.1.19765-x86_64.AppImage",
+        "url": "https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-2.2.1.19765.tar.gz",
         "dependency": [
             "fuse2"
         ]
@@ -161,7 +161,7 @@
         "version": "10.23.5",
         "description": "API platform for building and testing APIs.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/postman-tar/postman-tar-10.23.5-linux-x64.tar.gz",
+        "url": "https://dl.pstmn.io/download/latest/linux_64",
         "dependency": [
             "glibc"
         ]
@@ -171,7 +171,7 @@
         "version": "24.0.0",
         "description": "Universal database tool packaged as AppImage.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/dbeaver-appimage/releases/download/v24.0.0/dbeaver-appimage-24.0.0-x86_64.AppImage",
+        "url": "https://github.com/dbeaver/dbeaver/releases/download/24.0.0/dbeaver-ce-24.0.0-x86_64.AppImage",
         "dependency": [
             "fuse2",
             "openjdk17-jre"
@@ -182,7 +182,7 @@
         "version": "8.6.1",
         "description": "Cross-platform REST, GraphQL and gRPC client.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/insomnia-appimage/releases/download/v8.6.1/insomnia-appimage-8.6.1-x86_64.AppImage",
+        "url": "https://github.com/Kong/insomnia/releases/download/core%408.6.1/Insomnia.Core-8.6.1.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -192,7 +192,7 @@
         "version": "25.0.3",
         "description": "Static binary bundle for Docker CLI on Linux.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/docker-cli-tar/docker-cli-tar-25.0.3-linux-x64.tgz",
+        "url": "https://download.docker.com/linux/static/stable/x86_64/docker-25.0.3.tgz",
         "dependency": [
             "glibc"
         ]
@@ -202,7 +202,7 @@
         "version": "20.11.1",
         "description": "Node.js JavaScript runtime environment tarball.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/node-binary/node-binary-20.11.1-linux-x64.tar.xz",
+        "url": "https://nodejs.org/dist/v20.11.1/node-v20.11.1-linux-x64.tar.xz",
         "dependency": [
             "glibc"
         ]
@@ -212,7 +212,7 @@
         "version": "1.22.1",
         "description": "Go programming language core distribution binary archive.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/go-linux/go-linux-1.22.1-linux-x64.tar.gz",
+        "url": "https://go.dev/dl/go1.22.1.linux-amd64.tar.gz",
         "dependency": [
             "glibc"
         ]
@@ -222,7 +222,7 @@
         "version": "2024-02-26",
         "description": "Modular compiler frontend for the Rust language.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/rust-analyzer/releases/download/v2024-02-26/rust-analyzer-2024-02-26-x86_64.gz",
+        "url": "https://github.com/rust-lang/rust-analyzer/releases/download/2024-02-26/rust-analyzer-x86_64-unknown-linux-gnu.gz",
         "dependency": [
             "glibc"
         ]
@@ -232,7 +232,7 @@
         "version": "23.08.5",
         "description": "Non-linear video editor from KDE packaged as AppImage.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/kdenlive-appimage/releases/download/v23.08.5/kdenlive-appimage-23.08.5-x86_64.AppImage",
+        "url": "https://download.kde.org/stable/kdenlive/23.08.5/linux/kdenlive-23.08.5-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -242,7 +242,7 @@
         "version": "24.01.28",
         "description": "Free, open source, cross-platform video editor.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/shotcut-appimage/releases/download/v24.01.28/shotcut-appimage-24.01.28-x86_64.AppImage",
+        "url": "https://github.com/mltframework/shotcut/releases/download/v24.01.28/shotcut-linux-x86_64-240128.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -252,7 +252,7 @@
         "version": "5.2.2",
         "description": "Professional digital painting and 2D animation app.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/krita-appimage/releases/download/v5.2.2/krita-appimage-5.2.2-x86_64.AppImage",
+        "url": "https://download.kde.org/stable/krita/5.2.2/krita-5.2.2-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -262,7 +262,7 @@
         "version": "4.0.2",
         "description": "Official Blender 3D creation suite standalone tarball.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/blender-linux/blender-linux-4.0.2-linux-x64.tar.xz",
+        "url": "https://download.blender.org/release/Blender4.0/blender-4.0.2-linux-x64.tar.xz",
         "dependency": [
             "glibc"
         ]
@@ -272,7 +272,7 @@
         "version": "2.10.36",
         "description": "GNU Image Manipulation Program AppImage build.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/gimp-appimage/releases/download/v2.10.36/gimp-appimage-2.10.36-x86_64.AppImage",
+        "url": "https://download.gimp.org/gimp/v2.10/linux/gimp-2.10.36-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -282,7 +282,7 @@
         "version": "1.3.2",
         "description": "Vector graphics editor packaged for direct execution.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/inkscape-appimage/releases/download/v1.3.2/inkscape-appimage-1.3.2-x86_64.AppImage",
+        "url": "https://media.inkscape.org/dl/resources/file/Inkscape-e7c6ef1-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -292,7 +292,7 @@
         "version": "3.4.2",
         "description": "Audio recorder and editor AppImage bundle.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/audacity-appimage/releases/download/v3.4.2/audacity-appimage-3.4.2-x86_64.AppImage",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-linux-3.4.2-x64.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -302,7 +302,7 @@
         "version": "1.7.3",
         "description": "Open source video transcoder AppImage.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/handbrake-appimage/releases/download/v1.7.3/handbrake-appimage-1.7.3-x86_64.AppImage",
+        "url": "https://github.com/HandBrake/HandBrake/releases/download/1.7.3/HandBrake-1.7.3-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -310,39 +310,39 @@
     {
         "name": "obs-studio-appimage",
         "version": "30.0.2",
-        "description": "Live streaming and video recording software.",
+        "description": "Free and open source software for video recording and live streaming.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/obs-studio-appimage/releases/download/v30.0.2/obs-studio-appimage-30.0.2-x86_64.AppImage",
+        "url": "https://github.com/obsproject/obs-studio/releases/download/30.0.2/OBS-Studio-30.0.2-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
     },
     {
-        "name": "freecad-appimage",
-        "version": "0.21.2",
-        "description": "Parametric 3D CAD modeler AppImage format.",
+        "name": "vlc-appimage",
+        "version": "3.0.20",
+        "description": "VLC media player community AppImage build.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/freecad-appimage/releases/download/v0.21.2/freecad-appimage-0.21.2-x86_64.AppImage",
+        "url": "https://get.videolan.org/vlc/3.0.20/vlc-3.0.20.tar.xz",
         "dependency": [
-            "fuse2"
+            "glibc"
         ]
     },
     {
-        "name": "darktable-appimage",
-        "version": "4.6.1",
-        "description": "Open source photography workflow software.",
+        "name": "mpv-tar",
+        "version": "0.37.0",
+        "description": "Free, open source, and cross-platform media player.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/darktable-appimage/releases/download/v4.6.1/darktable-appimage-4.6.1-x86_64.AppImage",
+        "url": "https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz",
         "dependency": [
-            "fuse2"
+            "glibc"
         ]
     },
     {
-        "name": "rawtherapee-appimage",
-        "version": "5.10",
-        "description": "Raw image processing software AppImage.",
+        "name": "tenacity-appimage",
+        "version": "1.3.3",
+        "description": "Easy-to-use privacy-friendly audio editor.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/rawtherapee-appimage/releases/download/v5.10/rawtherapee-appimage-5.10-x86_64.AppImage",
+        "url": "https://github.com/tenacityteam/tenacity/releases/download/v1.3.3/Tenacity-1.3.3-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -352,47 +352,157 @@
         "version": "1.2.2",
         "description": "Cross-platform digital audio workstation.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/lmms-appimage/releases/download/v1.2.2/lmms-appimage-1.2.2-x86_64.AppImage",
+        "url": "https://github.com/LMMS/lmms/releases/download/v1.2.2/lmms-1.2.2-linux-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
     },
     {
-        "name": "musescore-appimage",
-        "version": "4.2.1",
-        "description": "Music notation software AppImage distribution.",
+        "name": "ardour-tar",
+        "version": "8.4",
+        "description": "Record, edit, and mix audio and MIDI tracks.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/musescore-appimage/releases/download/v4.2.1/musescore-appimage-4.2.1-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "mpv-tar",
-        "version": "0.37.0",
-        "description": "Command line media player binary release.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/mpv-tar/mpv-tar-0.37.0-linux-x64.tar.gz",
+        "url": "https://community.ardour.org/files/Ardour-8.4.0-x86_64.tar",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "obsidian-appimage",
-        "version": "1.5.8",
-        "description": "Markdown knowledge base and note-taking tool AppImage.",
+        "name": "keepassxc-appimage",
+        "version": "2.7.7",
+        "description": "Cross-platform community-driven port of KeePass.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/obsidian-appimage/releases/download/v1.5.8/obsidian-appimage-1.5.8-x86_64.AppImage",
+        "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.7/KeePassXC-2.7.7-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
     },
     {
-        "name": "logseq-appimage",
-        "version": "0.10.8",
-        "description": "Privacy-first knowledge base platform AppImage.",
+        "name": "veracrypt-tar",
+        "version": "1.26.7",
+        "description": "Free open source disk encryption software based on TrueCrypt.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/logseq-appimage/releases/download/v0.10.8/logseq-appimage-0.10.8-x86_64.AppImage",
+        "url": "https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-1.26.7-setup.tar.bz2",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "bleachbit-tar",
+        "version": "4.6.0",
+        "description": "Frees space and maintains privacy.",
+        "operating_system": "posix",
+        "url": "https://download.bleachbit.org/bleachbit-4.6.0.tar.bz2",
+        "dependency": [
+            "python3-linux"
+        ]
+    },
+    {
+        "name": "wireshark-tar",
+        "version": "4.2.3",
+        "description": "World's foremost and widely-used network protocol analyzer.",
+        "operating_system": "posix",
+        "url": "https://1.na.dl.wireshark.org/src/wireshark-4.2.3.tar.xz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "nmap-tar",
+        "version": "7.94",
+        "description": "Free and open source utility for network discovery and security auditing.",
+        "operating_system": "posix",
+        "url": "https://nmap.org/dist/nmap-7.94.tar.bz2",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "nextcloud-client-appimage",
+        "version": "3.12.1",
+        "description": "Nextcloud desktop synchronization client.",
+        "operating_system": "posix",
+        "url": "https://github.com/nextcloud-releases/desktop/releases/download/v3.12.1/Nextcloud-3.12.1-x86_64.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "syncthing-tar",
+        "version": "1.27.3",
+        "description": "Open Source Continuous File Synchronization.",
+        "operating_system": "posix",
+        "url": "https://github.com/syncthing/syncthing/releases/download/v1.27.3/syncthing-linux-amd64-v1.27.3.tar.gz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "fillezilla-tar",
+        "version": "3.66.5",
+        "description": "Free open source FTP, FTPS and SFTP client.",
+        "operating_system": "posix",
+        "url": "https://download.filezilla-project.org/client/FileZilla_3.66.5_x86_64-linux-gnu.tar.bz2",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "remmina-appimage",
+        "version": "1.4.35",
+        "description": "Remote desktop client written in GTK+.",
+        "operating_system": "posix",
+        "url": "https://github.com/FreeRDP/Remmina/releases/download/v1.4.35/Remmina-v1.4.35.x86_64.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "htop-tar",
+        "version": "3.3.0",
+        "description": "Interactive process viewer for Unix systems.",
+        "operating_system": "posix",
+        "url": "https://github.com/htop-dev/htop/releases/download/3.3.0/htop-3.3.0.tar.xz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "fastfetch-tar",
+        "version": "2.8.8",
+        "description": "Like neofetch, but much faster because written in C.",
+        "operating_system": "posix",
+        "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.8.8/fastfetch-linux-amd64.tar.gz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "libreoffice-appimage",
+        "version": "24.2.1",
+        "description": "Powerful office suite AppImage build.",
+        "operating_system": "posix",
+        "url": "https://download.documentfoundation.org/libreoffice/stable/24.2.1/deb/x86_64/LibreOffice_24.2.1_Linux_x86-64_deb.tar.gz",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "onlyoffice-appimage",
+        "version": "8.0.0",
+        "description": "Office suite for working with text documents, spreadsheets and presentations.",
+        "operating_system": "posix",
+        "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.0.0/DesktopEditors-x86_64.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "obsidian-appimage",
+        "version": "1.5.8",
+        "description": "Powerful knowledge base on top of a local folder of plain text Markdown files.",
+        "operating_system": "posix",
+        "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.8/Obsidian-1.5.8.AppImage",
         "dependency": [
             "fuse2"
         ]
@@ -400,69 +510,29 @@
     {
         "name": "joplin-appimage",
         "version": "2.14.9",
-        "description": "Note taking and to-do application with synchronization.",
+        "description": "An open source note taking and to-do application.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/joplin-appimage/releases/download/v2.14.9/joplin-appimage-2.14.9-x86_64.AppImage",
+        "url": "https://github.com/laurent22/joplin/releases/download/v2.14.9/Joplin-2.14.9.AppImage",
         "dependency": [
             "fuse2"
         ]
     },
     {
-        "name": "libreoffice-appimage",
-        "version": "24.2.1",
-        "description": "LibreOffice suite compiled into a single Portable AppImage.",
+        "name": "logseq-appimage",
+        "version": "0.10.7",
+        "description": "Privacy-first, open-source platform for knowledge management.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/libreoffice-appimage/releases/download/v24.2.1/libreoffice-appimage-24.2.1-x86_64.AppImage",
+        "url": "https://github.com/logseq/logseq/releases/download/0.10.7/Logseq-linux-x64-0.10.7.AppImage",
         "dependency": [
             "fuse2"
         ]
     },
     {
-        "name": "onlyoffice-appimage",
-        "version": "8.0.1",
-        "description": "Office suite for documents, spreadsheets and presentations.",
+        "name": "calibre-tar",
+        "version": "7.5.1",
+        "description": "Powerful and easy to use e-book manager.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/onlyoffice-appimage/releases/download/v8.0.1/onlyoffice-appimage-8.0.1-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "thunderbird-tar",
-        "version": "115.8.0",
-        "description": "Standalone email client tarball directly from Mozilla.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/thunderbird-tar/thunderbird-tar-115.8.0-linux-x64.tar.bz2",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "element-desktop-appimage",
-        "version": "1.11.58",
-        "description": "Matrix collaboration client packaged as AppImage.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/element-desktop-appimage/releases/download/v1.11.58/element-desktop-appimage-1.11.58-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "signal-desktop-appimage",
-        "version": "7.0.0",
-        "description": "Private messenger AppImage community build.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/signal-desktop-appimage/releases/download/v7.0.0/signal-desktop-appimage-7.0.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "telegram-desktop-tar",
-        "version": "4.15.2",
-        "description": "Official Telegram Desktop client binary tarball.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/telegram-desktop-tar/telegram-desktop-tar-4.15.2-linux-x64.tar.xz",
+        "url": "https://download.calibre-ebook.com/7.5.1/calibre-7.5.1-x86_64.txz",
         "dependency": [
             "glibc"
         ]
@@ -470,109 +540,230 @@
     {
         "name": "zotero-tar",
         "version": "6.0.30",
-        "description": "Reference management tool official Linux package.",
+        "description": "Personal research assistant to collect, organize, cite, and share research.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/zotero-tar/zotero-tar-6.0.30-linux-x64.tar.bz2",
-        "dependency": [
-            "openjdk17-jre"
-        ]
-    },
-    {
-        "name": "calibre-tar",
-        "version": "7.6.0",
-        "description": "E-book manager official binary distribution.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/calibre-tar/releases/download/v7.6.0/calibre-tar-7.6.0-x86_64.txz",
-        "dependency": [
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "keepassxc-appimage",
-        "version": "2.7.7",
-        "description": "Cross-platform password manager AppImage.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/keepassxc-appimage/releases/download/v2.7.7/keepassxc-appimage-2.7.7-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "bitwarden-appimage",
-        "version": "2024.2.0",
-        "description": "Desktop password manager AppImage file.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/bitwarden-appimage/releases/download/v2024.2.0/bitwarden-appimage-2024.2.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "balena-etcher-appimage",
-        "version": "1.18.11",
-        "description": "Flash OS images to SD cards & USB drives safely.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/balena-etcher-appimage/releases/download/v1.18.11/balena-etcher-appimage-1.18.11-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "peazip-appimage",
-        "version": "9.7.1",
-        "description": "Free file archiver utility AppImage.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/peazip-appimage/releases/download/v9.7.1/peazip-appimage-9.7.1-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "bleachbit-appimage",
-        "version": "4.6.0",
-        "description": "System cleaner and privacy manager AppImage.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/bleachbit-appimage/releases/download/v4.6.0/bleachbit-appimage-4.6.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "wireshark-appimage",
-        "version": "4.2.3",
-        "description": "Network protocol analyzer AppImage package.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/wireshark-appimage/releases/download/v4.2.3/wireshark-appimage-4.2.3-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "cryptomator-appimage",
-        "version": "1.12.1",
-        "description": "Multi-platform client-side encryption for cloud files.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/cryptomator-appimage/releases/download/v1.12.1/cryptomator-appimage-1.12.1-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "rclone-tar",
-        "version": "1.65.2",
-        "description": "Command line program to manage files on cloud storage.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/rclone-tar/rclone-tar-1.65.2-linux-x64.tar.gz",
+        "url": "https://download.zotero.org/client/release/6.0.30/Zotero-6.0.30_linux-x86_64.tar.bz2",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "fastfetch-tar",
-        "version": "2.8.2",
-        "description": "Neofetch-like tool for fetching system information.",
+        "name": "thunderbird-tar",
+        "version": "115.8.0",
+        "description": "Free email application that is easy to set up and customize.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/fastfetch-tar/fastfetch-tar-2.8.2-linux-x64.tar.gz",
+        "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.8.0/linux-x86_64/en-US/thunderbird-115.8.0.tar.bz2",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "steam-tar",
+        "version": "1.0.0.79",
+        "description": "Digital distribution platform for video games.",
+        "operating_system": "posix",
+        "url": "https://repo.steampowered.com/steam/archive/precise/steam_latest.tar.gz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "heroic-appimage",
+        "version": "2.13.0",
+        "description": "An Open Source GOG, Epic Games and Amazon Games Launcher for Linux.",
+        "operating_system": "posix",
+        "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.13.0/Heroic-2.13.0.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "lutris-tar",
+        "version": "0.5.16",
+        "description": "Open Source gaming platform for Linux.",
+        "operating_system": "posix",
+        "url": "https://github.com/lutris/lutris/releases/download/v0.5.16/lutris_0.5.16.tar.xz",
+        "dependency": [
+            "python3-linux"
+        ]
+    },
+    {
+        "name": "prism-launcher-appimage",
+        "version": "8.2",
+        "description": "Custom launcher for Minecraft that allows you to manage multiple instances.",
+        "operating_system": "posix",
+        "url": "https://github.com/PrismLauncher/PrismLauncher/releases/download/8.2/PrismLauncher-Linux-8.2-x86_64.AppImage",
+        "dependency": [
+            "fuse2",
+            "openjdk17-jre"
+        ]
+    },
+    {
+        "name": "pcsx2-appimage",
+        "version": "1.7.5550",
+        "description": "PlayStation 2 emulator AppImage distribution.",
+        "operating_system": "posix",
+        "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.5550/pcsx2-v1.7.5550-linux-appimage-x64.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "rpcs3-appimage",
+        "version": "0.0.31",
+        "description": "PS3 emulator and debugger AppImage bundle.",
+        "operating_system": "posix",
+        "url": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-a74092b61ee160e107bb4ecb483e5899ea2240a5/rpcs3-v0.0.31-16223-a74092b6_linux64.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "ppsspp-appimage",
+        "version": "1.17.1",
+        "description": "PSP emulator capable of running games in HD resolution.",
+        "operating_system": "posix",
+        "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.17.1/PPSSPP-v1.17.1-x86_64.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "dolphin-emulator-appimage",
+        "version": "2402",
+        "description": "GameCube and Wii emulator for Linux.",
+        "operating_system": "posix",
+        "url": "https://dl.dolphin-emu.org/builds/7c/36/dolphin-master-2402-x86_64.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "retroarch-appimage",
+        "version": "1.17.0",
+        "description": "Frontend for emulators, game engines and media players.",
+        "operating_system": "posix",
+        "url": "https://buildbot.libretro.com/stable/1.17.0/linux/x86_64/RetroArch.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "godot-engine-appimage",
+        "version": "4.2.1",
+        "description": "Advanced, feature-packed, multi-platform 2D and 3D game engine.",
+        "operating_system": "posix",
+        "url": "https://github.com/godotengine/godot/releases/download/4.2.1-stable/Godot_v4.2.1-stable_linux.x86_64.zip",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "discord-tar",
+        "version": "0.0.44",
+        "description": "Voice, video, and text chat service.",
+        "operating_system": "posix",
+        "url": "https://dl.discordapp.net/apps/linux/0.0.44/discord-0.0.44.tar.gz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "telegram-desktop-tar",
+        "version": "4.15.0",
+        "description": "Fast and secure messaging app.",
+        "operating_system": "posix",
+        "url": "https://updates.tdesktop.com/tlinux/tsetup.4.15.0.tar.xz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "signal-desktop-tar",
+        "version": "7.1.0",
+        "description": "Private messaging app built for end-to-end encryption.",
+        "operating_system": "posix",
+        "url": "https://updates.signal.org/desktop/signal-desktop-linux-7.1.0.tar.gz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "element-desktop-tar",
+        "version": "1.11.58",
+        "description": "Glossy Matrix collaboration client.",
+        "operating_system": "posix",
+        "url": "https://github.com/element-hq/element-desktop/releases/download/v1.11.58/element-desktop-1.11.58.tar.gz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "slack-desktop-tar",
+        "version": "4.36.138",
+        "description": "Team communication and collaboration software.",
+        "operating_system": "posix",
+        "url": "https://downloads.slack-edge.com/desktop-releases/linux/x64/4.36.138/slack-desktop-4.36.138-amd64.tar.gz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "zoom-tar",
+        "version": "5.17.11",
+        "description": "Video conferencing and online meetings.",
+        "operating_system": "posix",
+        "url": "https://zoom.us/client/5.17.11.3835/zoom_x86_64.tar.xz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "teams-for-linux-appimage",
+        "version": "1.4.14",
+        "description": "Unofficial Microsoft Teams client for Linux.",
+        "operating_system": "posix",
+        "url": "https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v1.4.14/teams-for-linux-1.4.14.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "mumble-appimage",
+        "version": "1.5.517",
+        "description": "High quality, low-latency voice chat software.",
+        "operating_system": "posix",
+        "url": "https://github.com/mumble-voip/mumble/releases/download/v1.5.517/Mumble-1.5.517.x86_64.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "thunderbird-appimage",
+        "version": "115.8.0",
+        "description": "Stand-alone AppImage distribution of Thunderbird.",
+        "operating_system": "posix",
+        "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.8.0/linux-x86_64/en-US/thunderbird-115.8.0.tar.bz2",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "git-tar",
+        "version": "2.44.0",
+        "description": "Fast, scalable, distributed revision control system.",
+        "operating_system": "posix",
+        "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.44.0.tar.xz",
+        "dependency": [
+            "glibc"
+        ]
+    },
+    {
+        "name": "gh-cli-tar",
+        "version": "2.45.0",
+        "description": "GitHub’s official command line tool.",
+        "operating_system": "posix",
+        "url": "https://github.com/cli/cli/releases/download/v2.45.0/gh_2.45.0_linux_amd64.tar.gz",
         "dependency": [
             "glibc"
         ]
@@ -582,1226 +773,177 @@
         "version": "0.41.0",
         "description": "Simple terminal UI for git commands.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/lazygit-tar/lazygit-tar-0.41.0-linux-x64.tar.gz",
+        "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.41.0/lazygit_0.41.0_Linux_x86_64.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "heroic-games-launcher-appimage",
-        "version": "2.13.0",
-        "description": "Epic Games, GOG, and Prime Gaming launcher AppImage.",
+        "name": "jq-binary",
+        "version": "1.7.1",
+        "description": "Lightweight and flexible command-line JSON processor.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/heroic-games-launcher-appimage/releases/download/v2.13.0/heroic-games-launcher-appimage-2.13.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "prism-launcher-appimage",
-        "version": "8.2",
-        "description": "Minecraft launcher with multi-instance support.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/prism-launcher-appimage/releases/download/v8.2/prism-launcher-appimage-8.2-x86_64.AppImage",
-        "dependency": [
-            "fuse2",
-            "openjdk17-jre"
-        ]
-    },
-    {
-        "name": "pcsx2-appimage",
-        "version": "1.7.5500",
-        "description": "PlayStation 2 emulator AppImage build.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/pcsx2-appimage/releases/download/v1.7.5500/pcsx2-appimage-1.7.5500-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "rpcs3-appimage",
-        "version": "0.0.31",
-        "description": "PlayStation 3 emulator AppImage release.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/rpcs3-appimage/releases/download/v0.0.31/rpcs3-appimage-0.0.31-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "dolphin-emulator-appimage",
-        "version": "5.0-21264",
-        "description": "GameCube and Wii emulator AppImage.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/dolphin-emulator-appimage/releases/download/v5.0-21264/dolphin-emulator-appimage-5.0-21264-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "retroarch-appimage",
-        "version": "1.17.0",
-        "description": "Frontend for emulators and game engines.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/retroarch-appimage/releases/download/v1.17.0/retroarch-appimage-1.17.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "protonup-qt-appimage",
-        "version": "2.8.2",
-        "description": "Install and manage Proton-GE for Steam & Lutris.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/protonup-qt-appimage/releases/download/v2.8.2/protonup-qt-appimage-2.8.2-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "lutris-tar",
-        "version": "0.5.16",
-        "description": "Open Gaming Platform for Linux tarball.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/lutris-tar/lutris-tar-0.5.16-linux-x64.tar.xz",
-        "dependency": [
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "fzf-appimage",
-        "version": "1.8.8",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/fzf-appimage/releases/download/v1.8.8/fzf-appimage-1.8.8-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "ripgrep",
-        "version": "1.9.9",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/ripgrep/releases/download/v1.9.9/ripgrep-1.9.9-x86_64.tar.gz",
+        "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "fd-find-appimage",
-        "version": "1.10.10",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
+        "name": "yq-binary",
+        "version": "4.42.1",
+        "description": "Portable command-line YAML, JSON, XML processor.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/fd-find-appimage/releases/download/v1.10.10/fd-find-appimage-1.10.10-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "bat",
-        "version": "1.11.11",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/bat/releases/download/v1.11.11/bat-1.11.11-x86_64.tar.gz",
+        "url": "https://github.com/mikefarah/yq/releases/download/v4.42.1/yq_linux_amd64",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "lsd-appimage",
-        "version": "1.12.12",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
+        "name": "curl-tar",
+        "version": "8.6.0",
+        "description": "Command line tool for transferring data with URLs.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/lsd-appimage/releases/download/v1.12.12/lsd-appimage-1.12.12-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "eza",
-        "version": "1.13.13",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/eza/releases/download/v1.13.13/eza-1.13.13-x86_64.tar.gz",
+        "url": "https://curl.se/download/curl-8.6.0.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "delta-appimage",
-        "version": "1.14.14",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
+        "name": "wget-tar",
+        "version": "1.24.5",
+        "description": "Computer program that retrieves content from web servers.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/delta-appimage/releases/download/v1.14.14/delta-appimage-1.14.14-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "duf",
-        "version": "1.0.15",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/duf/releases/download/v1.0.15/duf-1.0.15-x86_64.tar.gz",
-        "dependency": [
-            "glibc",
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "dust-appimage",
-        "version": "1.1.16",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/dust-appimage/releases/download/v1.1.16/dust-appimage-1.1.16-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "btop",
-        "version": "1.2.17",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/btop/releases/download/v1.2.17/btop-1.2.17-x86_64.tar.gz",
+        "url": "https://ftp.gnu.org/gnu/wget/wget-1.24.5.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "htop-appimage",
-        "version": "1.3.18",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
+        "name": "rclone-tar",
+        "version": "1.65.2",
+        "description": "Command line program to manage files on cloud storage.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/htop-appimage/releases/download/v1.3.18/htop-appimage-1.3.18-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "glances",
-        "version": "1.4.19",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/glances/releases/download/v1.4.19/glances-1.4.19-x86_64.tar.gz",
+        "url": "https://downloads.rclone.org/v1.65.2/rclone-v1.65.2-linux-amd64.zip",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "zellij-appimage",
-        "version": "1.5.20",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/zellij-appimage/releases/download/v1.5.20/zellij-appimage-1.5.20-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "tmux",
-        "version": "1.6.21",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/tmux/releases/download/v1.6.21/tmux-1.6.21-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "helix-appimage",
-        "version": "1.7.22",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/helix-appimage/releases/download/v1.7.22/helix-appimage-1.7.22-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "micro",
-        "version": "1.8.23",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/micro/releases/download/v1.8.23/micro-1.8.23-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "yazi-appimage",
-        "version": "1.9.24",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/yazi-appimage/releases/download/v1.9.24/yazi-appimage-1.9.24-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "ranger",
-        "version": "1.10.25",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/ranger/releases/download/v1.10.25/ranger-1.10.25-x86_64.tar.gz",
-        "dependency": [
-            "glibc",
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "nnn-appimage",
-        "version": "1.11.26",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/nnn-appimage/releases/download/v1.11.26/nnn-appimage-1.11.26-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "czkawka-cli",
-        "version": "1.12.27",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/czkawka-cli/releases/download/v1.12.27/czkawka-cli-1.12.27-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "hyperfine-appimage",
-        "version": "1.13.28",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/hyperfine-appimage/releases/download/v1.13.28/hyperfine-appimage-1.13.28-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "tokei",
-        "version": "1.14.29",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/tokei/releases/download/v1.14.29/tokei-1.14.29-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "procs-appimage",
-        "version": "1.0.0",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/procs-appimage/releases/download/v1.0.0/procs-appimage-1.0.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "mcfly",
-        "version": "1.1.1",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/mcfly/releases/download/v1.1.1/mcfly-1.1.1-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "zoxide-appimage",
-        "version": "1.2.2",
-        "description": "Linux cli-utils package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/zoxide-appimage/releases/download/v1.2.2/zoxide-appimage-1.2.2-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "czkawka-gui",
-        "version": "1.3.3",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/czkawka-gui/releases/download/v1.3.3/czkawka-gui-1.3.3-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "p3x-one-note-appimage",
-        "version": "1.4.4",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/p3x-one-note-appimage/releases/download/v1.4.4/p3x-one-note-appimage-1.4.4-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "appoutlet",
-        "version": "1.5.5",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/appoutlet/releases/download/v1.5.5/appoutlet-1.5.5-x86_64.tar.gz",
-        "dependency": [
-            "glibc",
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "session-desktop-appimage",
-        "version": "1.6.6",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/session-desktop-appimage/releases/download/v1.6.6/session-desktop-appimage-1.6.6-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "scrcpy",
-        "version": "1.7.7",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/scrcpy/releases/download/v1.7.7/scrcpy-1.7.7-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "ventoy-linux-appimage",
-        "version": "1.8.8",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/ventoy-linux-appimage/releases/download/v1.8.8/ventoy-linux-appimage-1.8.8-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "bottles-appimage",
-        "version": "1.9.9",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/bottles-appimage/releases/download/v1.9.9/bottles-appimage-1.9.9-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "boinc-appimage",
-        "version": "1.10.10",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/boinc-appimage/releases/download/v1.10.10/boinc-appimage-1.10.10-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "stremio-appimage",
-        "version": "1.11.11",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/stremio-appimage/releases/download/v1.11.11/stremio-appimage-1.11.11-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "jellyfin-media-player-appimage",
-        "version": "1.12.12",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/jellyfin-media-player-appimage/releases/download/v1.12.12/jellyfin-media-player-appimage-1.12.12-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "plex-media-player",
-        "version": "1.13.13",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/plex-media-player/releases/download/v1.13.13/plex-media-player-1.13.13-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "sublime-merge-tar-appimage",
-        "version": "1.14.14",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/sublime-merge-tar-appimage/releases/download/v1.14.14/sublime-merge-tar-appimage-1.14.14-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "git-kraken-tar",
-        "version": "1.0.15",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/git-kraken-tar/releases/download/v1.0.15/git-kraken-tar-1.0.15-x86_64.tar.gz",
-        "dependency": [
-            "glibc",
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "lens-appimage",
-        "version": "1.1.16",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/lens-appimage/releases/download/v1.1.16/lens-appimage-1.1.16-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "knetstat-appimage",
-        "version": "1.2.17",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/knetstat-appimage/releases/download/v1.2.17/knetstat-appimage-1.2.17-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "mqtt-explorer-appimage",
-        "version": "1.3.18",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/mqtt-explorer-appimage/releases/download/v1.3.18/mqtt-explorer-appimage-1.3.18-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "bruno-appimage",
-        "version": "1.4.19",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/bruno-appimage/releases/download/v1.4.19/bruno-appimage-1.4.19-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "beekeeper-studio-appimage",
-        "version": "1.5.20",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/beekeeper-studio-appimage/releases/download/v1.5.20/beekeeper-studio-appimage-1.5.20-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "sqlite-browser",
-        "version": "1.6.21",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/sqlite-browser/releases/download/v1.6.21/sqlite-browser-1.6.21-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "redis-insight-appimage",
-        "version": "1.7.22",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/redis-insight-appimage/releases/download/v1.7.22/redis-insight-appimage-1.7.22-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "compass-mongodb",
-        "version": "1.8.23",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/compass-mongodb/releases/download/v1.8.23/compass-mongodb-1.8.23-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "azuredatastudio-appimage",
-        "version": "1.9.24",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/azuredatastudio-appimage/releases/download/v1.9.24/azuredatastudio-appimage-1.9.24-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "ghostwriter",
-        "version": "1.10.25",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/ghostwriter/releases/download/v1.10.25/ghostwriter-1.10.25-x86_64.tar.gz",
-        "dependency": [
-            "glibc",
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "marktext-appimage",
-        "version": "1.11.26",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/marktext-appimage/releases/download/v1.11.26/marktext-appimage-1.11.26-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "mindforger",
-        "version": "1.12.27",
-        "description": "Linux gui-apps package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/mindforger/releases/download/v1.12.27/mindforger-1.12.27-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "cmake-tar-appimage",
-        "version": "1.13.28",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/cmake-tar-appimage/releases/download/v1.13.28/cmake-tar-appimage-1.13.28-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "ninja-tar",
-        "version": "1.14.29",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/ninja-tar/releases/download/v1.14.29/ninja-tar-1.14.29-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "zig-linux-appimage",
-        "version": "1.0.0",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/zig-linux-appimage/releases/download/v1.0.0/zig-linux-appimage-1.0.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "bun-linux",
-        "version": "1.1.1",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/bun-linux/releases/download/v1.1.1/bun-linux-1.1.1-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "deno-linux-appimage",
-        "version": "1.2.2",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/deno-linux-appimage/releases/download/v1.2.2/deno-linux-appimage-1.2.2-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "swc-linux",
-        "version": "1.3.3",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/swc-linux/releases/download/v1.3.3/swc-linux-1.3.3-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "turbopack-appimage",
-        "version": "1.4.4",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/turbopack-appimage/releases/download/v1.4.4/turbopack-appimage-1.4.4-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "biome-linux",
-        "version": "1.5.5",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/biome-linux/releases/download/v1.5.5/biome-linux-1.5.5-x86_64.tar.gz",
-        "dependency": [
-            "glibc",
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "clang-llvm-tar-appimage",
-        "version": "1.6.6",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/clang-llvm-tar-appimage/releases/download/v1.6.6/clang-llvm-tar-appimage-1.6.6-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "gcc-standalone",
-        "version": "1.7.7",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/gcc-standalone/releases/download/v1.7.7/gcc-standalone-1.7.7-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "valgrind-tar-appimage",
-        "version": "1.8.8",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/valgrind-tar-appimage/releases/download/v1.8.8/valgrind-tar-appimage-1.8.8-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "gdb-tar",
-        "version": "1.9.9",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/gdb-tar/releases/download/v1.9.9/gdb-tar-1.9.9-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "strace-tar-appimage",
-        "version": "1.10.10",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/strace-tar-appimage/releases/download/v1.10.10/strace-tar-appimage-1.10.10-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "mitmproxy-tar",
-        "version": "1.11.11",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/mitmproxy-tar/releases/download/v1.11.11/mitmproxy-tar-1.11.11-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "ngrok-tar-appimage",
-        "version": "1.12.12",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/ngrok-tar-appimage/releases/download/v1.12.12/ngrok-tar-appimage-1.12.12-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "cloudflared-tar",
-        "version": "1.13.13",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/cloudflared-tar/releases/download/v1.13.13/cloudflared-tar-1.13.13-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "k9s-tar-appimage",
-        "version": "1.14.14",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/k9s-tar-appimage/releases/download/v1.14.14/k9s-tar-appimage-1.14.14-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "helm-tar",
-        "version": "1.0.15",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/helm-tar/releases/download/v1.0.15/helm-tar-1.0.15-x86_64.tar.gz",
-        "dependency": [
-            "glibc",
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "kubectl-tar-appimage",
-        "version": "1.1.16",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/kubectl-tar-appimage/releases/download/v1.1.16/kubectl-tar-appimage-1.1.16-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "terraform-tar",
-        "version": "1.2.17",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/terraform-tar/releases/download/v1.2.17/terraform-tar-1.2.17-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "pulumi-tar-appimage",
-        "version": "1.3.18",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/pulumi-tar-appimage/releases/download/v1.3.18/pulumi-tar-appimage-1.3.18-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "ansible-lint",
-        "version": "1.4.19",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/ansible-lint/releases/download/v1.4.19/ansible-lint-1.4.19-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "shellcheck-tar-appimage",
-        "version": "1.5.20",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/shellcheck-tar-appimage/releases/download/v1.5.20/shellcheck-tar-appimage-1.5.20-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "hadolint-tar",
-        "version": "1.6.21",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/hadolint-tar/releases/download/v1.6.21/hadolint-tar-1.6.21-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "actionlint-tar-appimage",
-        "version": "1.7.22",
-        "description": "Linux dev-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/actionlint-tar-appimage/releases/download/v1.7.22/actionlint-tar-appimage-1.7.22-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "ffmpeg-static",
-        "version": "1.8.23",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/ffmpeg-static/releases/download/v1.8.23/ffmpeg-static-1.8.23-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "yt-dlp-binary-appimage",
-        "version": "1.9.24",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/yt-dlp-binary-appimage/releases/download/v1.9.24/yt-dlp-binary-appimage-1.9.24-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "mpv-appimage",
-        "version": "1.10.25",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/mpv-appimage/releases/download/v1.10.25/mpv-appimage-1.10.25-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "strawberry-appimage",
-        "version": "1.11.26",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/strawberry-appimage/releases/download/v1.11.26/strawberry-appimage-1.11.26-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "sayonara-player",
-        "version": "1.12.27",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/sayonara-player/releases/download/v1.12.27/sayonara-player-1.12.27-x86_64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "aegisub-appimage",
-        "version": "1.13.28",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/aegisub-appimage/releases/download/v1.13.28/aegisub-appimage-1.13.28-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "caption-appimage",
-        "version": "1.14.29",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/caption-appimage/releases/download/v1.14.29/caption-appimage-1.14.29-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "upscayl-appimage",
-        "version": "1.0.0",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/upscayl-appimage/releases/download/v1.0.0/upscayl-appimage-1.0.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "real-cgan-appimage",
-        "version": "1.1.1",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/real-cgan-appimage/releases/download/v1.1.1/real-cgan-appimage-1.1.1-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "waifu2x-appimage",
-        "version": "1.2.2",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/waifu2x-appimage/releases/download/v1.2.2/waifu2x-appimage-1.2.2-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "gifski-tar",
-        "version": "1.3.3",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/gifski-tar/releases/download/v1.3.3/gifski-tar-1.3.3-x86_64.tar.gz",
+        "name": "ffmpeg-binary",
+        "version": "6.1.1",
+        "description": "Complete, cross-platform solution to record, convert and stream audio and video.",
+        "operating_system": "posix",
+        "url": "https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz",
         "dependency": [
             "glibc"
         ]
     },
     {
         "name": "imagemagick-appimage",
-        "version": "1.4.4",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
+        "version": "7.1.1-29",
+        "description": "Create, edit, compose, or convert bitmap images.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/imagemagick-appimage/releases/download/v1.4.4/imagemagick-appimage-1.4.4-x86_64.AppImage",
+        "url": "https://imagemagick.org/archive/binaries/ImageMagick-x86_64.AppImage",
         "dependency": [
             "fuse2"
         ]
     },
     {
-        "name": "optipng-tar",
-        "version": "1.5.5",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
+        "name": "pandoc-tar",
+        "version": "3.1.12.2",
+        "description": "Universal markup converter.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/optipng-tar/releases/download/v1.5.5/optipng-tar-1.5.5-x86_64.tar.gz",
-        "dependency": [
-            "glibc",
-            "python3-linux"
-        ]
-    },
-    {
-        "name": "pngquant-tar-appimage",
-        "version": "1.6.6",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/pngquant-tar-appimage/releases/download/v1.6.6/pngquant-tar-appimage-1.6.6-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "cjpeg-tar",
-        "version": "1.7.7",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/cjpeg-tar/releases/download/v1.7.7/cjpeg-tar-1.7.7-x86_64.tar.gz",
+        "url": "https://github.com/jgm/pandoc/releases/download/3.1.12.2/pandoc-3.1.12.2-linux-amd64.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "ffmpeg-git-static-appimage",
-        "version": "1.8.8",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
+        "name": "ripgrep-tar",
+        "version": "14.1.0",
+        "description": "Line-oriented search tool that recursively searches your current directory.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/ffmpeg-git-static-appimage/releases/download/v1.8.8/ffmpeg-git-static-appimage-1.8.8-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "sox-tar",
-        "version": "1.9.9",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/sox-tar/releases/download/v1.9.9/sox-tar-1.9.9-x86_64.tar.gz",
+        "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "flac-tar-appimage",
-        "version": "1.10.10",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
+        "name": "fd-find-tar",
+        "version": "9.0.0",
+        "description": "Simple, fast and user-friendly alternative to find.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/flac-tar-appimage/releases/download/v1.10.10/flac-tar-appimage-1.10.10-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "lame-tar",
-        "version": "1.11.11",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/lame-tar/releases/download/v1.11.11/lame-tar-1.11.11-x86_64.tar.gz",
+        "url": "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-musl.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "fdkaac-tar-appimage",
-        "version": "1.12.12",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
+        "name": "bat-tar",
+        "version": "0.24.0",
+        "description": "A cat clone with syntax highlighting and Git integration.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/fdkaac-tar-appimage/releases/download/v1.12.12/fdkaac-tar-appimage-1.12.12-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "atomicparsley",
-        "version": "1.13.13",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/atomicparsley/releases/download/v1.13.13/atomicparsley-1.13.13-x86_64.tar.gz",
+        "url": "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-musl.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "mediainfo-appimage",
-        "version": "1.14.14",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
+        "name": "eza-tar",
+        "version": "0.18.3",
+        "description": "A modern replacement for ls.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/mediainfo-appimage/releases/download/v1.14.14/mediainfo-appimage-1.14.14-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "mkvtoolnix-appimage",
-        "version": "1.0.15",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/mkvtoolnix-appimage/releases/download/v1.0.15/mkvtoolnix-appimage-1.0.15-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "dvdstyler-appimage",
-        "version": "1.1.16",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/dvdstyler-appimage/releases/download/v1.1.16/dvdstyler-appimage-1.1.16-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "subtitledownloader",
-        "version": "1.2.17",
-        "description": "Linux media-tools package provided as standalone executable or AppImage archive.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/subtitledownloader/releases/download/v1.2.17/subtitledownloader-1.2.17-x86_64.tar.gz",
+        "url": "https://github.com/eza-community/eza/releases/download/v0.18.3/eza_x86_64-unknown-linux-gnu.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "godot-engine-tar",
-        "version": "4.2.1",
-        "description": "Godot 3D & 2D game engine Linux standalone binary.",
+        "name": "fzf-tar",
+        "version": "0.46.1",
+        "description": "Command-line fuzzy finder.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/godot-engine-tar/godot-engine-tar-4.2.1-linux-x64.tar.xz",
+        "url": "https://github.com/junegunn/fzf/releases/download/v0.46.1/fzf-0.46.1-linux_amd64.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "ardour-appimage",
-        "version": "8.4.0",
-        "description": "Digital audio workstation for recording, editing, and mixing.",
+        "name": "zoxide-tar",
+        "version": "0.9.4",
+        "description": "A smarter cd command.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/ardour-appimage/releases/download/v8.4.0/ardour-appimage-8.4.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "super-productivity-appimage",
-        "version": "9.0.4",
-        "description": "To-do list and time tracker for developers and freelancers.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/super-productivity-appimage/releases/download/v9.0.4/super-productivity-appimage-9.0.4-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "sublime-merge-appimage",
-        "version": "2083",
-        "description": "Git client from the makers of Sublime Text.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/sublime-merge-appimage/releases/download/v2083/sublime-merge-appimage-2083-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "gitkraken-appimage",
-        "version": "9.11.0",
-        "description": "GUI Git client for Windows, Mac, and Linux.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/gitkraken-appimage/releases/download/v9.11.0/gitkraken-appimage-9.11.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "warp-terminal-appimage",
-        "version": "0.2024.02",
-        "description": "Modern, Rust-based terminal with AI built in.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/warp-terminal-appimage/releases/download/v0.2024.02/warp-terminal-appimage-0.2024.02-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "zed-editor-tar",
-        "version": "0.124.0",
-        "description": "High-performance, multiplayer code editor from the creators of Atom.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/zed-editor-tar/zed-editor-tar-0.124.0-linux-x64.tar.gz",
+        "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "lapce-appimage",
-        "version": "0.3.1",
-        "description": "Lightning-fast and powerful code editor written in Rust.",
+        "name": "starship-tar",
+        "version": "1.17.1",
+        "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/lapce-appimage/releases/download/v0.3.1/lapce-appimage-0.3.1-x86_64.AppImage",
+        "url": "https://github.com/starship/starship/releases/download/v1.17.1/starship-x86_64-unknown-linux-gnu.tar.gz",
         "dependency": [
-            "fuse2"
+            "glibc"
         ]
     },
     {
-        "name": "vlc-appimage",
-        "version": "3.0.20",
-        "description": "VLC media player portable AppImage edition.",
+        "name": "tmux-tar",
+        "version": "3.4",
+        "description": "Terminal multiplexer.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/vlc-appimage/releases/download/v3.0.20/vlc-appimage-3.0.20-x86_64.AppImage",
+        "url": "https://github.com/tmux/tmux/releases/download/3.4/tmux-3.4.tar.gz",
         "dependency": [
-            "fuse2"
+            "glibc"
         ]
     },
     {
-        "name": "deadbeef-appimage",
-        "version": "1.9.6",
-        "description": "Ultimate audio player for GNU/Linux.",
+        "name": "zellij-tar",
+        "version": "0.39.2",
+        "description": "A terminal workspace with batteries included.",
         "operating_system": "posix",
-        "url": "https://github.com/example-releases/deadbeef-appimage/releases/download/v1.9.6/deadbeef-appimage-1.9.6-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "mellowplayer-appimage",
-        "version": "3.6.8",
-        "description": "Cloud music integration desktop app.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/mellowplayer-appimage/releases/download/v3.6.8/mellowplayer-appimage-3.6.8-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "feathernotes-appimage",
-        "version": "1.0.0",
-        "description": "Lightweight Qt notes manager.",
-        "operating_system": "posix",
-        "url": "https://github.com/example-releases/feathernotes-appimage/releases/download/v1.0.0/feathernotes-appimage-1.0.0-x86_64.AppImage",
-        "dependency": [
-            "fuse2"
-        ]
-    },
-    {
-        "name": "ghostty-tar",
-        "version": "1.0.0",
-        "description": "Fast, feature-rich native terminal emulator.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/ghostty-tar/ghostty-tar-1.0.0-linux-x64.tar.gz",
+        "url": "https://github.com/zellij-org/zellij/releases/download/v0.39.2/zellij-x86_64-unknown-linux-musl.tar.gz",
         "dependency": [
             "glibc"
         ]
@@ -1809,149 +951,69 @@
     {
         "name": "alacritty-tar",
         "version": "0.13.1",
-        "description": "GPU-accelerated terminal emulator.",
+        "description": "A cross-platform, OpenGL terminal emulator.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/alacritty-tar/alacritty-tar-0.13.1-linux-x64.tar.gz",
+        "url": "https://github.com/alacritty/alacritty/releases/download/v0.13.1/Alacritty-v0.13.1-ubuntu.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "kitty-tar",
+        "name": "kitty-appimage",
         "version": "0.32.1",
-        "description": "GPU based terminal emulator with tabs and graphics support.",
+        "description": "Cross-platform, fast, feature-rich, GPU based terminal.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/kitty-tar/kitty-tar-0.32.1-linux-x64.tar.xz",
+        "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.32.1/kitty-0.32.1-x86_64.txz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "wezterm-tar",
-        "version": "20240203",
-        "description": "GPU-accelerated cross-platform terminal emulator.",
+        "name": "wezterm-appimage",
+        "version": "20240203-110809-50168444",
+        "description": "GPU-accelerated cross-platform terminal emulator and multiplexer.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/wezterm-tar/wezterm-tar-20240203-linux-x64.tar.xz",
+        "url": "https://github.com/wez/wezterm/releases/download/20240203-110809-50168444/WezTerm-20240203-110809-50168444-Ubuntu20.04.AppImage",
+        "dependency": [
+            "fuse2"
+        ]
+    },
+    {
+        "name": "kubectl-binary",
+        "version": "1.29.2",
+        "description": "Kubernetes command-line tool.",
+        "operating_system": "posix",
+        "url": "https://dl.k8s.io/release/v1.29.2/bin/linux/amd64/kubectl",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "foot-terminal-tar",
-        "version": "1.16.2",
-        "description": "Fast, lightweight and minimalistic Wayland terminal emulator.",
+        "name": "helm-tar",
+        "version": "3.14.2",
+        "description": "The Kubernetes Package Manager.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/foot-terminal-tar/foot-terminal-tar-1.16.2-linux-x64.tar.gz",
+        "url": "https://get.helm.sh/helm-v3.14.2-linux-amd64.tar.gz",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "starship-prompt-tar",
-        "version": "1.17.1",
-        "description": "The minimal, blazing-fast, and infinitely customizable prompt.",
+        "name": "terraform-zip",
+        "version": "1.7.4",
+        "description": "Infrastructure as Code tool for building, changing, and versioning infrastructure safely.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/starship-prompt-tar/starship-prompt-tar-1.17.1-linux-x64.tar.gz",
+        "url": "https://releases.hashicorp.com/terraform/1.7.4/terraform_1.7.4_linux_amd64.zip",
         "dependency": [
             "glibc"
         ]
     },
     {
-        "name": "direnv-tar",
-        "version": "2.34.0",
-        "description": "Unclutter your .profile with environment switcher.",
+        "name": "vault-zip",
+        "version": "1.15.6",
+        "description": "Tool for secrets management, encryption as a service, and privileged access management.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/direnv-tar/direnv-tar-2.34.0-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "gh-cli-tar",
-        "version": "2.44.0",
-        "description": "GitHub official command line tool.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/gh-cli-tar/gh-cli-tar-2.44.0-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "glab-cli-tar",
-        "version": "1.36.0",
-        "description": "GitLab official command line tool.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/glab-cli-tar/glab-cli-tar-1.36.0-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "hugo-tar",
-        "version": "0.123.1",
-        "description": "The world's fastest framework for building websites.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/hugo-tar/hugo-tar-0.123.1-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "zola-tar",
-        "version": "0.18.0",
-        "description": "A fast static site generator in a single binary with no dependencies.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/zola-tar/zola-tar-0.18.0-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "caddy-server-tar",
-        "version": "2.7.6",
-        "description": "Powerful, enterprise-ready, open source web server with automatic HTTPS.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/caddy-server-tar/caddy-server-tar-2.7.6-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "traefik-tar",
-        "version": "3.0.0",
-        "description": "The Cloud Native Application Proxy.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/traefik-tar/traefik-tar-3.0.0-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "minio-client-tar",
-        "version": "2024.02.16",
-        "description": "MinIO Client for object storage management.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/minio-client-tar/minio-client-tar-2024.02.16-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "etcd-tar",
-        "version": "3.5.12",
-        "description": "Distributed reliable key-value store for critical data.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/etcd-tar/etcd-tar-3.5.12-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "vault-tar",
-        "version": "1.15.5",
-        "description": "Manage Secrets and Protect Sensitive Data.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/vault-tar/vault-tar-1.15.5-linux-x64.tar.gz",
+        "url": "https://releases.hashicorp.com/vault/1.15.6/vault_1.15.6_linux_amd64.zip",
         "dependency": [
             "glibc"
         ]
@@ -1959,9 +1021,9 @@
     {
         "name": "consul-tar",
         "version": "1.18.0",
-        "description": "Service networking solution to connect and secure services.",
+        "description": "Distributed service mesh to connect, secure, and configure services across any runtime platform.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/consul-tar/consul-tar-1.18.0-linux-x64.tar.gz",
+        "url": "https://releases.hashicorp.com/consul/1.18.0/consul_1.18.0_linux_amd64.zip",
         "dependency": [
             "glibc"
         ]
@@ -1971,7 +1033,7 @@
         "version": "1.10.1",
         "description": "Build automated machine images for multiple platforms.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/packer-tar/packer-tar-1.10.1-linux-x64.tar.gz",
+        "url": "https://releases.hashicorp.com/packer/1.10.1/packer_1.10.1_linux_amd64.zip",
         "dependency": [
             "glibc"
         ]
@@ -1981,7 +1043,7 @@
         "version": "0.11.2",
         "description": "Consistent workflow to build, deploy, and release software.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/waypoint-tar/waypoint-tar-0.11.2-linux-x64.tar.gz",
+        "url": "https://releases.hashicorp.com/waypoint/0.11.2/waypoint_0.11.2_linux_amd64.zip",
         "dependency": [
             "glibc"
         ]
@@ -1991,17 +1053,7 @@
         "version": "0.15.0",
         "description": "Identity-based access management for dynamic infrastructure.",
         "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/boundary-tar/boundary-tar-0.15.0-linux-x64.tar.gz",
-        "dependency": [
-            "glibc"
-        ]
-    },
-    {
-        "name": "nomad-tar",
-        "version": "1.7.5",
-        "description": "Simple and flexible workload orchestrator.",
-        "operating_system": "posix",
-        "url": "https://downloads.example.org/linux/nomad-tar/nomad-tar-1.7.5-linux-x64.tar.gz",
+        "url": "https://releases.hashicorp.com/boundary/0.15.0/boundary_0.15.0_linux_amd64.zip",
         "dependency": [
             "glibc"
         ]
