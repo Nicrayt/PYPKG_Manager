@@ -1,0 +1,1928 @@
+[
+    {
+        "name": "vc2005",
+        "version": "8.0.61001",
+        "description": "Microsoft Visual C++ 2005 Redistributable Package (x64). Required runtime library for legacy software.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/d/d/e/dde427ee-065e-411a-9c74-1786f23c5777/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2008",
+        "version": "9.0.30729.6161",
+        "description": "Microsoft Visual C++ 2008 SP1 Redistributable Package (x64). Standard C runtime component.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/5/D/8/5D875D14-5723-444C-B9D0-9D723B2A08A2/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2010",
+        "version": "10.0.40219.1",
+        "description": "Microsoft Visual C++ 2010 SP1 Redistributable Package (x64). C/C++ runtime library.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2012",
+        "version": "11.0.61030.0",
+        "description": "Microsoft Visual C++ 2012 Update 4 Redistributable Package (x64).",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/1/6/B/16B06F7A-A5E2-4DC2-8256-9B29F31A09DF/VSU4/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2013",
+        "version": "12.0.40660.0",
+        "description": "Microsoft Visual C++ 2013 Redistributable Package (x64).",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4A6F-9145-802521C6409F/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2015-2022",
+        "version": "14.38.33135.0",
+        "description": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - Combined runtime library.",
+        "operating_system": "nt",
+        "url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "dotnet35",
+        "version": "3.5.1",
+        "description": "Microsoft .NET Framework 3.5 SP1 includes legacy runtime components.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/2/0/E/20E90413-A65F-4A1B-0E3F-AA70C0205DDA/dotnetfx35.exe",
+        "dependency": []
+    },
+    {
+        "name": "dotnet48",
+        "version": "4.8.1",
+        "description": "Microsoft .NET Framework 4.8.1 runtime environment for Windows applications.",
+        "operating_system": "nt",
+        "url": "https://download.visualstudio.microsoft.com/download/pr/7f5cda1a-4fcd-4060-a2d9-13840e4f3586/14fef57404e9c703e33f3c16262453f6/ndp481-x86-x64-allos-enu.exe",
+        "dependency": []
+    },
+    {
+        "name": "dotnet6",
+        "version": "6.0.27",
+        "description": "Microsoft .NET 6.0 Desktop Runtime (x64). Cross-platform UI application framework.",
+        "operating_system": "nt",
+        "url": "https://download.visualstudio.microsoft.com/download/pr/9b4f0b2f-9273-41bb-a5a4-22b27a3c75d4/1271f8b8941f71df4cb7f79417d3a04e/windowsdesktop-runtime-6.0.27-win-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "dotnet8",
+        "version": "8.0.2",
+        "description": "Microsoft .NET 8.0 Desktop Runtime (x64) for running Windows Desktop applications.",
+        "operating_system": "nt",
+        "url": "https://download.visualstudio.microsoft.com/download/pr/61dca7f1-79b8-466f-b258-294fa315aa49/3c9e6bb07a4a2b9064c51480fefca231/windowsdesktop-runtime-8.0.2-win-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "directx-june2010",
+        "version": "9.29.1974.1",
+        "description": "DirectX End-User Runtimes (June 2010) legacy multimedia libraries.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe",
+        "dependency": []
+    },
+    {
+        "name": "openjdk17",
+        "version": "17.0.10",
+        "description": "Eclipse Temurin OpenJDK 17 LTS Runtime Environment.",
+        "operating_system": "nt",
+        "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_x64_windows_hotspot_17.0.10_7.msi",
+        "dependency": []
+    },
+    {
+        "name": "openjdk21",
+        "version": "21.0.2",
+        "description": "Eclipse Temurin OpenJDK 21 LTS Runtime Environment.",
+        "operating_system": "nt",
+        "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_x64_windows_hotspot_21.0.2_13.msi",
+        "dependency": []
+    },
+    {
+        "name": "npcap",
+        "version": "1.79",
+        "description": "Npcap packet capture library for Windows.",
+        "operating_system": "nt",
+        "url": "https://npcap.com/dist/npcap-1.79.exe",
+        "dependency": []
+    },
+    {
+        "name": "wsl2-kernel",
+        "version": "5.10.102.1",
+        "description": "Windows Subsystem for Linux 2 Linux Kernel package.",
+        "operating_system": "nt",
+        "url": "https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi",
+        "dependency": []
+    },
+    {
+        "name": "webview2",
+        "version": "122.0.2365.66",
+        "description": "Microsoft Edge WebView2 Runtime for embedding web technology in native apps.",
+        "operating_system": "nt",
+        "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/05a10986-7108-4d56-b040-3b9b47cf3326/MicrosoftEdgeWebView2RuntimeInstallerX64.exe",
+        "dependency": []
+    },
+    {
+        "name": "python3-runtime",
+        "version": "3.12.2",
+        "description": "Python 3.12 Core Interpreter and Standard Library dependencies.",
+        "operating_system": "nt",
+        "url": "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "vulkan-rt",
+        "version": "1.3.275.0",
+        "description": "Vulkan Runtime Installer for Windows graphics API execution.",
+        "operating_system": "nt",
+        "url": "https://sdk.lunarg.com/sdk/download/1.3.275.0/windows/VulkanRT-1.3.275.0-Installer.exe",
+        "dependency": []
+    },
+    {
+        "name": "openal",
+        "version": "1.23.1",
+        "description": "OpenAL Core Audio Library and 3D spatial audio API.",
+        "operating_system": "nt",
+        "url": "https://openal-soft.org/openal-binaries/openal-soft-1.23.1-bin.zip",
+        "dependency": []
+    },
+    {
+        "name": "k-lite-codecs-core",
+        "version": "18.2.0",
+        "description": "Core DirectShow filters and audio/video decoders.",
+        "operating_system": "nt",
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1820_Basic.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "brave",
+        "version": "BRV090",
+        "description": "The browser that puts you first. Block ads, save data, and get way faster webpages.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/brave/brave-vBRV090-x64.exe",
+        "dependency": [
+            "vc2010",
+            "webview2"
+        ]
+    },
+    {
+        "name": "google-chrome",
+        "version": "122.0.6261.95",
+        "description": "Fast, secure, and customizable web browser built by Google.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/google-chrome/google-chrome-v122.0.6261.95-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "mozilla-firefox",
+        "version": "123.0.1",
+        "description": "Free and open-source web browser developed by the Mozilla Foundation.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/mozilla-firefox/mozilla-firefox-v123.0.1-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "microsoft-edge",
+        "version": "122.0.2365.66",
+        "description": "Fast and secure browser developed by Microsoft based on Chromium.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/microsoft-edge/microsoft-edge-v122.0.2365.66-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "opera",
+        "version": "108.0.5067.24",
+        "description": "Feature-rich web browser with free built-in VPN and ad blocker.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/opera/opera-v108.0.5067.24-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "opera-gx",
+        "version": "107.0.5045.60",
+        "description": "Special version of the Opera browser built specifically for gamers.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/opera-gx/opera-gx-v107.0.5045.60-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vivaldi",
+        "version": "6.6.3271.45",
+        "description": "Powerful, personal, and flexible browser with tab grouping and note-taking.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/vivaldi/vivaldi-v6.6.3271.45-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "tor-browser",
+        "version": "13.0.10",
+        "description": "Protect your privacy and defend yourself against network surveillance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/tor-browser/tor-browser-v13.0.10-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "librewolf",
+        "version": "123.0.1-1",
+        "description": "A custom fork of Firefox focused on privacy, security and freedom.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/librewolf/librewolf-v123.0.1-1-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "waterfox",
+        "version": "6.0.9",
+        "description": "Privacy-focused web browser based on Firefox code.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/waterfox/waterfox-v6.0.9-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vscode",
+        "version": "1.87.0",
+        "description": "Code editing. Redefined. Free, open source and runs everywhere.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/vscode/vscode-v1.87.0-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "visualstudio-2022-community",
+        "version": "17.9.2",
+        "description": "Powerful IDE for modern C++, .NET, and web development.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/visualstudio-2022-community/visualstudio-2022-community-v17.9.2-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "git",
+        "version": "2.44.0",
+        "description": "Fast, scalable, distributed revision control system.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/git/git-v2.44.0-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "python",
+        "version": "3.12.2",
+        "description": "High-level programming language with dynamic semantics.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/python/python-v3.12.2-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "nodejs",
+        "version": "20.11.1",
+        "description": "JavaScript runtime built on Chrome's V8 JavaScript engine.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/nodejs/nodejs-v20.11.1-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "intellij-idea-community",
+        "version": "2023.3.4",
+        "description": "Capable and ergonomic IDE for JVM development.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/intellij-idea-community/intellij-idea-community-v2023.3.4-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "pycharm-community",
+        "version": "2023.3.4",
+        "description": "Python IDE for professional developers.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/pycharm-community/pycharm-community-v2023.3.4-x64.exe",
+        "dependency": [
+            "python3-runtime"
+        ]
+    },
+    {
+        "name": "sublime-text",
+        "version": "4169",
+        "description": "A sophisticated text editor for code, markup and prose.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sublime-text/sublime-text-v4169-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "notepad-plus-plus",
+        "version": "8.6.4",
+        "description": "Free source code editor and Notepad replacement.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/notepad-plus-plus/notepad-plus-plus-v8.6.4-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "docker-desktop",
+        "version": "4.28.0",
+        "description": "Containerization platform for building, sharing, and running applications.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/docker-desktop/docker-desktop-v4.28.0-x64.exe",
+        "dependency": [
+            "wsl2-kernel"
+        ]
+    },
+    {
+        "name": "postman",
+        "version": "10.23.5",
+        "description": "API platform for building and using APIs.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/postman/postman-v10.23.5-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "neovim",
+        "version": "0.9.5",
+        "description": "Vim-fork focused on extensibility and usability.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/neovim/neovim-v0.9.5-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "go",
+        "version": "1.22.1",
+        "description": "Open source programming language to build simple, secure, and scalable software.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/go/go-v1.22.1-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "rust",
+        "version": "1.76.0",
+        "description": "Language empowering everyone to build reliable and efficient software.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/rust/rust-v1.76.0-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "jdk-oracle",
+        "version": "21.0.2",
+        "description": "Oracle Java Development Kit for building Java applications.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/jdk-oracle/jdk-oracle-v21.0.2-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "android-studio",
+        "version": "2023.2.1",
+        "description": "Official IDE for Android app development.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/android-studio/android-studio-v2023.2.1-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "dbeaver",
+        "version": "24.0.0",
+        "description": "Free universal database tool and SQL client.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/dbeaver/dbeaver-v24.0.0-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "pgadmin4",
+        "version": "8.4",
+        "description": "Comprehensive management platform for PostgreSQL.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/pgadmin4/pgadmin4-v8.4-x64.exe",
+        "dependency": [
+            "python3-runtime",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "insomnia",
+        "version": "8.6.1",
+        "description": "The open-source, cross-platform API Design platform.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/insomnia/insomnia-v8.6.1-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "cmake",
+        "version": "3.28.3",
+        "description": "Cross-platform family of tools designed to build, test and package software.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/cmake/cmake-v3.28.3-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "7zip",
+        "version": "23.01",
+        "description": "File archiver with a high compression ratio.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/7zip/7zip-v23.01-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "winrar",
+        "version": "7.00",
+        "description": "Powerful archive manager that can backup data and reduce size of email attachments.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/winrar/winrar-v7.00-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "everything",
+        "version": "1.4.1.1024",
+        "description": "Locate files and folders by name instantly.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/everything/everything-v1.4.1.1024-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "power-toys",
+        "version": "0.79.0",
+        "description": "System utilities for power users to customize Windows experience.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/power-toys/power-toys-v0.79.0-x64.exe",
+        "dependency": [
+            "dotnet6",
+            "vc2015-2022",
+            "webview2"
+        ]
+    },
+    {
+        "name": "rufus",
+        "version": "4.4",
+        "description": "Utility that helps format and create bootable USB flash drives.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/rufus/rufus-v4.4-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "auto-hotkey",
+        "version": "2.0.11",
+        "description": "Ultimate automation scripting language for Windows.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/auto-hotkey/auto-hotkey-v2.0.11-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "tree-size-free",
+        "version": "4.7.2",
+        "description": "Quickly scan directory sizes and find space hogs.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/tree-size-free/tree-size-free-v4.7.2-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "windirstat",
+        "version": "1.1.2",
+        "description": "Disk usage statistics viewer and cleanup tool.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/windirstat/windirstat-v1.1.2-x64.exe",
+        "dependency": [
+            "vc2008"
+        ]
+    },
+    {
+        "name": "bleachbit",
+        "version": "4.6.0",
+        "description": "Clean your system and free disk space while protecting privacy.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/bleachbit/bleachbit-v4.6.0-x64.exe",
+        "dependency": [
+            "python3-runtime"
+        ]
+    },
+    {
+        "name": "ccleaner",
+        "version": "6.21.10918",
+        "description": "Clean junk files, registry, and improve system performance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/ccleaner/ccleaner-v6.21.10918-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "wiztree",
+        "version": "4.18",
+        "description": "The fastest disk space analyzer for Windows.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/wiztree/wiztree-v4.18-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "sharex",
+        "version": "16.0.1",
+        "description": "Screen capture, file sharing and productivity tool.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sharex/sharex-v16.0.1-x64.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "greenshot",
+        "version": "1.2.10.6",
+        "description": "Light-weight screenshot software tool for Windows.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/greenshot/greenshot-v1.2.10.6-x64.exe",
+        "dependency": [
+            "dotnet35"
+        ]
+    },
+    {
+        "name": "flameshot",
+        "version": "12.1.0",
+        "description": "Powerful yet simple to use screenshot software.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/flameshot/flameshot-v12.1.0-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "ditto",
+        "version": "3.24.246.0",
+        "description": "Extension to the standard Windows clipboard.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/ditto/ditto-v3.24.246.0-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "crystaldiskinfo",
+        "version": "9.2.2",
+        "description": "HDD/SSD utility software that monitors drive health and temperature.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/crystaldiskinfo/crystaldiskinfo-v9.2.2-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "crystaldiskmark",
+        "version": "8.0.5",
+        "description": "Disk benchmark software to measure read/write performance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/crystaldiskmark/crystaldiskmark-v8.0.5-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "hwinfo",
+        "version": "7.72",
+        "description": "Comprehensive hardware monitoring and reporting tool.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/hwinfo/hwinfo-v7.72-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "cpu-z",
+        "version": "2.09",
+        "description": "System information software that gathers information on main devices.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/cpu-z/cpu-z-v2.09-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "gpu-z",
+        "version": "2.57.0",
+        "description": "Lightweight system utility designed to give you all information about graphics card.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/gpu-z/gpu-z-v2.57.0-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vlc",
+        "version": "3.0.20",
+        "description": "Free and open source cross-platform multimedia player.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/vlc/vlc-v3.0.20-x64.exe",
+        "dependency": [
+            "k-lite-codecs-core"
+        ]
+    },
+    {
+        "name": "obs-studio",
+        "version": "30.0.2",
+        "description": "Free and open source software for video recording and live streaming.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/obs-studio/obs-studio-v30.0.2-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "vulkan-rt"
+        ]
+    },
+    {
+        "name": "audacity",
+        "version": "3.4.2",
+        "description": "Free, open source, cross-platform audio software.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/audacity/audacity-v3.4.2-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "handbrake",
+        "version": "1.7.3",
+        "description": "Open source video transcoder for converting video from nearly any format.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/handbrake/handbrake-v1.7.3-x64.exe",
+        "dependency": [
+            "dotnet8",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "mpc-hc",
+        "version": "2.1.7",
+        "description": "Extremely lightweight, open source media player for Windows.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/mpc-hc/mpc-hc-v2.1.7-x64.exe",
+        "dependency": [
+            "directx-june2010",
+            "k-lite-codecs-core"
+        ]
+    },
+    {
+        "name": "spotify",
+        "version": "1.2.31.1205",
+        "description": "Digital music, podcast, and video service.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/spotify/spotify-v1.2.31.1205-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "foobar2000",
+        "version": "2.1.2",
+        "description": "Advanced freeware audio player for the Windows platform.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/foobar2000/foobar2000-v2.1.2-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "k-lite-codec-pack",
+        "version": "18.2.0",
+        "description": "Collection of DirectShow filters, VFW/ACM codecs, and tools.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/k-lite-codec-pack/k-lite-codec-pack-v18.2.0-x64.exe",
+        "dependency": [
+            "k-lite-codecs-core",
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "potplayer",
+        "version": "1.7.22078",
+        "description": "Comprehensive audio and video player with built-in codecs.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/potplayer/potplayer-v1.7.22078-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "musicbee",
+        "version": "3.5.8427",
+        "description": "The ultimate music manager and player.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/musicbee/musicbee-v3.5.8427-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openal"
+        ]
+    },
+    {
+        "name": "ffmpeg",
+        "version": "6.1.1",
+        "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/ffmpeg/ffmpeg-v6.1.1-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "makemkv",
+        "version": "1.17.6",
+        "description": "One-click solution to convert video clips from proprietary format into MKV.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/makemkv/makemkv-v1.17.6-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "screen-to-gif",
+        "version": "2.41",
+        "description": "Screen, webcam and sketchboard recorder with an integrated editor.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/screen-to-gif/screen-to-gif-v2.41-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "reaper",
+        "version": "7.11",
+        "description": "Complete digital audio production application for computers.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/reaper/reaper-v7.11-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "tidbyt",
+        "version": "1.0.0",
+        "description": "Desktop companion for managing Tidbyt display widgets.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/tidbyt/tidbyt-v1.0.0-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "discord",
+        "version": "1.0.9018",
+        "description": "All-in-one voice and text chat for gamers and communities.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/discord/discord-v1.0.9018-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "slack",
+        "version": "4.36.140",
+        "description": "Team communication and collaboration software.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/slack/slack-v4.36.140-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "zoom",
+        "version": "5.17.11",
+        "description": "Video conferencing, cloud phone, and chat platform.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/zoom/zoom-v5.17.11-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "telegram",
+        "version": "4.15.2",
+        "description": "Pure instant messaging - simple, fast, secure, and synced across all your devices.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/telegram/telegram-v4.15.2-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "signal",
+        "version": "7.0.0",
+        "description": "Private messenger with end-to-end encryption.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/signal/signal-v7.0.0-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "microsoft-teams",
+        "version": "24033.812.2721.9190",
+        "description": "Workplace chat, video meetings, and file storage.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/microsoft-teams/microsoft-teams-v24033.812.2721.9190-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "thunderbird",
+        "version": "115.8.0",
+        "description": "Free email application that is easy to set up and customize.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/thunderbird/thunderbird-v115.8.0-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "notion",
+        "version": "2.0.30",
+        "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/notion/notion-v2.0.30-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "obsidian",
+        "version": "1.5.8",
+        "description": "A powerful knowledge base that works on top of a local folder of plain text Markdown files.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/obsidian/obsidian-v1.5.8-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "logseq",
+        "version": "0.10.8",
+        "description": "A privacy-first, open-source platform for knowledge management and peer-to-peer collaboration.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/logseq/logseq-v0.10.8-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "libreoffice",
+        "version": "24.2.1",
+        "description": "Powerful open-source office suite with clean interface and feature-rich tools.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/libreoffice/libreoffice-v24.2.1-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "onlyoffice",
+        "version": "8.0.1",
+        "description": "Comprehensive office suite including editors for documents, spreadsheets, and presentations.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/onlyoffice/onlyoffice-v8.0.1-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "calibre",
+        "version": "7.6.0",
+        "description": "Powerful and easy to use e-book manager.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/calibre/calibre-v7.6.0-x64.exe",
+        "dependency": [
+            "python3-runtime",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "sumatrapdf",
+        "version": "3.5.2",
+        "description": "Slim, free, open source PDF, eBook, XPS, CHM, Comic Book viewer for Windows.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sumatrapdf/sumatrapdf-v3.5.2-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "adobe-acrobat-reader",
+        "version": "24.001.20604",
+        "description": "The free global standard for reliably viewing, printing, signing, and commenting on PDF documents.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/adobe-acrobat-reader/adobe-acrobat-reader-v24.001.20604-x64.exe",
+        "dependency": [
+            "vc2013"
+        ]
+    },
+    {
+        "name": "steam",
+        "version": "2.10.91",
+        "description": "Ultimate destination for playing, discussing, and creating games.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/steam/steam-v2.10.91-x64.exe",
+        "dependency": [
+            "directx-june2010",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "epic-games-launcher",
+        "version": "15.17.0",
+        "description": "Storefront and launcher for Epic Games.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/epic-games-launcher/epic-games-launcher-v15.17.0-x64.exe",
+        "dependency": [
+            "directx-june2010",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "heroic-games-launcher",
+        "version": "2.13.0",
+        "description": "An Open Source GOG, Epic Games, and Prime Gaming Launcher.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/heroic-games-launcher/heroic-games-launcher-v2.13.0-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "gog-galaxy",
+        "version": "2.0.73",
+        "description": "All-in-one game client that connects your games and friends across platforms.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/gog-galaxy/gog-galaxy-v2.0.73-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "retroarch",
+        "version": "1.17.0",
+        "description": "Frontend for emulators, game engines and media players.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/retroarch/retroarch-v1.17.0-x64.exe",
+        "dependency": [
+            "directx-june2010",
+            "vc2015-2022",
+            "openal"
+        ]
+    },
+    {
+        "name": "pcsx2",
+        "version": "1.7.5500",
+        "description": "PlayStation 2 emulator for Windows, Linux, and macOS.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/pcsx2/pcsx2-v1.7.5500-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "vulkan-rt"
+        ]
+    },
+    {
+        "name": "rpcs3",
+        "version": "0.0.31",
+        "description": "Open-source Sony PlayStation 3 emulator and debugger.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/rpcs3/rpcs3-v0.0.31-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "vulkan-rt"
+        ]
+    },
+    {
+        "name": "dolphin-emulator",
+        "version": "5.0-21264",
+        "description": "GameCube and Wii console emulator.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/dolphin-emulator/dolphin-emulator-v5.0-21264-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "vulkan-rt",
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "prism-launcher",
+        "version": "8.2",
+        "description": "An open source Minecraft launcher with the ability to manage multiple instances.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/prism-launcher/prism-launcher-v8.2-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "playnite",
+        "version": "10.32",
+        "description": "Video game library manager with support for third party libraries like Steam, GOG, Origin, EA and Ubisoft.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/playnite/playnite-v10.32-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "webview2"
+        ]
+    },
+    {
+        "name": "sysinternals-suite",
+        "version": "2.3.31",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sysinternals-suite/sysinternals-suite-v2.3.31-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "process-explorer",
+        "version": "2.4.32",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/process-explorer/process-explorer-v2.4.32-x64.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "process-monitor",
+        "version": "2.5.33",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/process-monitor/process-monitor-v2.5.33-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "autoruns",
+        "version": "2.6.34",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/autoruns/autoruns-v2.6.34-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "vmware-workstation-player",
+        "version": "2.7.35",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/vmware-workstation-player/vmware-workstation-player-v2.7.35-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "virtualbox",
+        "version": "2.8.36",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/virtualbox/virtualbox-v2.8.36-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "sandboxie-plus",
+        "version": "2.9.37",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sandboxie-plus/sandboxie-plus-v2.9.37-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "etms-task-manager",
+        "version": "2.10.38",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/etms-task-manager/etms-task-manager-v2.10.38-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "fastcopy",
+        "version": "2.11.39",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/fastcopy/fastcopy-v2.11.39-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "teracopy",
+        "version": "2.0.0",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/teracopy/teracopy-v2.0.0-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "hwi-mon",
+        "version": "2.1.1",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/hwi-mon/hwi-mon-v2.1.1-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "aida64",
+        "version": "2.2.2",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/aida64/aida64-v2.2.2-x64.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "occt",
+        "version": "2.3.3",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/occt/occt-v2.3.3-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "prime95",
+        "version": "2.4.4",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/prime95/prime95-v2.4.4-x64.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "furmark",
+        "version": "2.5.5",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/furmark/furmark-v2.5.5-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "memtest86",
+        "version": "2.6.6",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/memtest86/memtest86-v2.6.6-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "coretemp",
+        "version": "2.7.7",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/coretemp/coretemp-v2.7.7-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "macrium-reflect",
+        "version": "2.8.8",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/macrium-reflect/macrium-reflect-v2.8.8-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "clonezilla-tools",
+        "version": "2.9.9",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/clonezilla-tools/clonezilla-tools-v2.9.9-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "rufus-portable",
+        "version": "2.10.10",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/rufus-portable/rufus-portable-v2.10.10-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "ventoy",
+        "version": "2.11.11",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/ventoy/ventoy-v2.11.11-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "isousb",
+        "version": "2.0.12",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/isousb/isousb-v2.0.12-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "imgburn",
+        "version": "2.1.13",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/imgburn/imgburn-v2.1.13-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "cdburnerxp",
+        "version": "2.2.14",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/cdburnerxp/cdburnerxp-v2.2.14-x64.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "balena-etcher",
+        "version": "2.3.15",
+        "description": "Windows sys utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/balena-etcher/balena-etcher-v2.3.15-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "cmake-gui",
+        "version": "2.4.16",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/cmake-gui/cmake-gui-v2.4.16-x64.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "ninja",
+        "version": "2.5.17",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/ninja/ninja-v2.5.17-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "llvm-clang",
+        "version": "2.6.18",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/llvm-clang/llvm-clang-v2.6.18-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "mingw-w64",
+        "version": "2.7.19",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/mingw-w64/mingw-w64-v2.7.19-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "cygwin",
+        "version": "2.8.20",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/cygwin/cygwin-v2.8.20-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "msys2",
+        "version": "2.9.21",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/msys2/msys2-v2.9.21-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "doxygen",
+        "version": "2.10.22",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/doxygen/doxygen-v2.10.22-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "graphviz",
+        "version": "2.11.23",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/graphviz/graphviz-v2.11.23-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "gradle",
+        "version": "2.0.24",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/gradle/gradle-v2.0.24-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "apache-maven",
+        "version": "2.1.25",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/apache-maven/apache-maven-v2.1.25-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "sbt",
+        "version": "2.2.26",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sbt/sbt-v2.2.26-x64.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "dotnet-sdk-8",
+        "version": "2.3.27",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/dotnet-sdk-8/dotnet-sdk-8-v2.3.27-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "dotnet-sdk-7",
+        "version": "2.4.28",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/dotnet-sdk-7/dotnet-sdk-7-v2.4.28-x64.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "dotnet-runtime-8",
+        "version": "2.5.29",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/dotnet-runtime-8/dotnet-runtime-8-v2.5.29-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "go-land",
+        "version": "2.6.30",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/go-land/go-land-v2.6.30-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "clion",
+        "version": "2.7.31",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/clion/clion-v2.7.31-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "webstorm",
+        "version": "2.8.32",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/webstorm/webstorm-v2.8.32-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "rider",
+        "version": "2.9.33",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/rider/rider-v2.9.33-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "phpstorm",
+        "version": "2.10.34",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/phpstorm/phpstorm-v2.10.34-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "ruby-mine",
+        "version": "2.11.35",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/ruby-mine/ruby-mine-v2.11.35-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "datagrip",
+        "version": "2.0.36",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/datagrip/datagrip-v2.0.36-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "sublime-merge",
+        "version": "2.1.37",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sublime-merge/sublime-merge-v2.1.37-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "git-kraken",
+        "version": "2.2.38",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/git-kraken/git-kraken-v2.2.38-x64.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "fork-git",
+        "version": "2.3.39",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/fork-git/fork-git-v2.3.39-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "sourcetree",
+        "version": "2.4.0",
+        "description": "Windows dev utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sourcetree/sourcetree-v2.4.0-x64.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "pdf24-creator",
+        "version": "2.5.1",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/pdf24-creator/pdf24-creator-v2.5.1-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "foxit-reader",
+        "version": "2.6.2",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/foxit-reader/foxit-reader-v2.6.2-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "pdf-xchange-editor",
+        "version": "2.7.3",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/pdf-xchange-editor/pdf-xchange-editor-v2.7.3-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "pandoc",
+        "version": "2.8.4",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/pandoc/pandoc-v2.8.4-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "texstudio",
+        "version": "2.9.5",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/texstudio/texstudio-v2.9.5-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "miktex",
+        "version": "2.10.6",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/miktex/miktex-v2.10.6-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "scribus",
+        "version": "2.11.7",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/scribus/scribus-v2.11.7-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "typora",
+        "version": "2.0.8",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/typora/typora-v2.0.8-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "marktext",
+        "version": "2.1.9",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/marktext/marktext-v2.1.9-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "joplin",
+        "version": "2.2.10",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/joplin/joplin-v2.2.10-x64.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "standard-notes",
+        "version": "2.3.11",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/standard-notes/standard-notes-v2.3.11-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "trilium-notes",
+        "version": "2.4.12",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/trilium-notes/trilium-notes-v2.4.12-x64.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "cherrytree",
+        "version": "2.5.13",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/cherrytree/cherrytree-v2.5.13-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "xmind",
+        "version": "2.6.14",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/xmind/xmind-v2.6.14-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "drawio-desktop",
+        "version": "2.7.15",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/drawio-desktop/drawio-desktop-v2.7.15-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "freeplane",
+        "version": "2.8.16",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/freeplane/freeplane-v2.8.16-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "zim-wiki",
+        "version": "2.9.17",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/zim-wiki/zim-wiki-v2.9.17-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "zettlr",
+        "version": "2.10.18",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/zettlr/zettlr-v2.10.18-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "taskwarrior",
+        "version": "2.11.19",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/taskwarrior/taskwarrior-v2.11.19-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "todoist",
+        "version": "2.0.20",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/todoist/todoist-v2.0.20-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "ticktick",
+        "version": "2.1.21",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/ticktick/ticktick-v2.1.21-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "espanso",
+        "version": "2.2.22",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/espanso/espanso-v2.2.22-x64.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "texmaker",
+        "version": "2.3.23",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/texmaker/texmaker-v2.3.23-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "mendeley-reference-manager",
+        "version": "2.4.24",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/mendeley-reference-manager/mendeley-reference-manager-v2.4.24-x64.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "zotero",
+        "version": "2.5.25",
+        "description": "Windows office utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/zotero/zotero-v2.5.25-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "handbrake-cli",
+        "version": "2.6.26",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/handbrake-cli/handbrake-cli-v2.6.26-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "mkvtoolnix",
+        "version": "2.7.27",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/mkvtoolnix/mkvtoolnix-v2.7.27-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "staxrip",
+        "version": "2.8.28",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/staxrip/staxrip-v2.8.28-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "avidemux",
+        "version": "2.9.29",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/avidemux/avidemux-v2.9.29-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "kdenlive",
+        "version": "2.10.30",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/kdenlive/kdenlive-v2.10.30-x64.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "shotcut",
+        "version": "2.11.31",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/shotcut/shotcut-v2.11.31-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "davinci-resolve",
+        "version": "2.0.32",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/davinci-resolve/davinci-resolve-v2.0.32-x64.exe",
+        "dependency": [
+            "vc2015-2022",
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "capcut",
+        "version": "2.1.33",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/capcut/capcut-v2.1.33-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "lightworks",
+        "version": "2.2.34",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/lightworks/lightworks-v2.2.34-x64.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "natron",
+        "version": "2.3.35",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/natron/natron-v2.3.35-x64.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "synfig-studio",
+        "version": "2.4.36",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/synfig-studio/synfig-studio-v2.4.36-x64.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "pencil2d",
+        "version": "2.5.37",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/pencil2d/pencil2d-v2.5.37-x64.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "openToonz",
+        "version": "2.6.38",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/openToonz/openToonz-v2.6.38-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "blender-lts",
+        "version": "2.7.39",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/blender-lts/blender-lts-v2.7.39-x64.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "sound-forge",
+        "version": "2.8.0",
+        "description": "Windows media utility/software suite for desktop productivity and maintenance.",
+        "operating_system": "nt",
+        "url": "https://downloads.example.org/win/sound-forge/sound-forge-v2.8.0-x64.exe",
+        "dependency": [
+            "dotnet48",
+            "openjdk17"
+        ]
+    }
+]
