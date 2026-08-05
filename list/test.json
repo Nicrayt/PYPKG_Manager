@@ -1,0 +1,10 @@
+[
+    {
+        "list_name": "hey",
+        "url": "https://pypkg-manager.vercel.app/list/linux_official_list.json"
+    },
+    {
+        "list_name": "oui",
+        "url": "https://pypkg-manager.vercel.app/list/windows_official_list.json"
+    }
+]
