@@ -1,0 +1,10 @@
+[
+    {
+        "list_name": "linux_official_list",
+        "url": "https://pypkg-manager.vercel.app/list/linux_official_list.json"
+    },
+    {
+        "list_name": "windows_official_list",
+        "url": "https://pypkg-manager.vercel.app/list/windows_official_list.json"
+    }
+]

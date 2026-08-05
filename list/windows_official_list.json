@@ -1,0 +1,1270 @@
+[
+    {
+        "name": "vc2005",
+        "version": "8.0.61001",
+        "description": "Microsoft Visual C++ 2005 Redistributable Package (x64). Required runtime library for legacy software.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/d/d/e/dde427ee-065e-411a-9c74-1786f23c5777/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2008",
+        "version": "9.0.30729.6161",
+        "description": "Microsoft Visual C++ 2008 SP1 Redistributable Package (x64). Standard C runtime component.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/5/D/8/5D875D14-5723-444C-B9D0-9D723B2A08A2/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2010",
+        "version": "10.0.40219.1",
+        "description": "Microsoft Visual C++ 2010 SP1 Redistributable Package (x64). C/C++ runtime library.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2012",
+        "version": "11.0.61030.0",
+        "description": "Microsoft Visual C++ 2012 Update 4 Redistributable Package (x64).",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/1/6/B/16B06F7A-A5E2-4DC2-8256-9B29F31A09DF/VSU4/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2013",
+        "version": "12.0.40660.0",
+        "description": "Microsoft Visual C++ 2013 Redistributable Package (x64).",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4A6F-9145-802521C6409F/vcredist_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "vc2015-2022",
+        "version": "14.38.33135.0",
+        "description": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - Combined runtime library.",
+        "operating_system": "nt",
+        "url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "dotnet35",
+        "version": "3.5.1",
+        "description": "Microsoft .NET Framework 3.5 SP1 includes legacy runtime components.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/2/0/E/20E90413-A65F-4A1B-0E3F-AA70C0205DDA/dotnetfx35.exe",
+        "dependency": []
+    },
+    {
+        "name": "dotnet48",
+        "version": "4.8.1",
+        "description": "Microsoft .NET Framework 4.8.1 runtime environment for Windows applications.",
+        "operating_system": "nt",
+        "url": "https://download.visualstudio.microsoft.com/download/pr/7f5cda1a-4fcd-4060-a2d9-13840e4f3586/14fef57404e9c703e33f3c16262453f6/ndp481-x86-x64-allos-enu.exe",
+        "dependency": []
+    },
+    {
+        "name": "dotnet6",
+        "version": "6.0.27",
+        "description": "Microsoft .NET 6.0 Desktop Runtime (x64). Cross-platform UI application framework.",
+        "operating_system": "nt",
+        "url": "https://download.visualstudio.microsoft.com/download/pr/9b4f0b2f-9273-41bb-a5a4-22b27a3c75d4/1271f8b8941f71df4cb7f79417d3a04e/windowsdesktop-runtime-6.0.27-win-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "dotnet8",
+        "version": "8.0.2",
+        "description": "Microsoft .NET 8.0 Desktop Runtime (x64) for running Windows Desktop applications.",
+        "operating_system": "nt",
+        "url": "https://download.visualstudio.microsoft.com/download/pr/61dca7f1-79b8-466f-b258-294fa315aa49/3c9e6bb07a4a2b9064c51480fefca231/windowsdesktop-runtime-8.0.2-win-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "directx-june2010",
+        "version": "9.29.1974.1",
+        "description": "DirectX End-User Runtimes (June 2010) legacy multimedia libraries.",
+        "operating_system": "nt",
+        "url": "https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe",
+        "dependency": []
+    },
+    {
+        "name": "openjdk17",
+        "version": "17.0.10",
+        "description": "Eclipse Temurin OpenJDK 17 LTS Runtime Environment.",
+        "operating_system": "nt",
+        "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_x64_windows_hotspot_17.0.10_7.msi",
+        "dependency": []
+    },
+    {
+        "name": "openjdk21",
+        "version": "21.0.2",
+        "description": "Eclipse Temurin OpenJDK 21 LTS Runtime Environment.",
+        "operating_system": "nt",
+        "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_x64_windows_hotspot_21.0.2_13.msi",
+        "dependency": []
+    },
+    {
+        "name": "npcap",
+        "version": "1.79",
+        "description": "Npcap packet capture library for Windows.",
+        "operating_system": "nt",
+        "url": "https://npcap.com/dist/npcap-1.79.exe",
+        "dependency": []
+    },
+    {
+        "name": "wsl2-kernel",
+        "version": "5.10.102.1",
+        "description": "Windows Subsystem for Linux 2 Linux Kernel package.",
+        "operating_system": "nt",
+        "url": "https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi",
+        "dependency": []
+    },
+    {
+        "name": "webview2",
+        "version": "122.0.2365.66",
+        "description": "Microsoft Edge WebView2 Runtime for embedding web technology in native apps.",
+        "operating_system": "nt",
+        "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/05a10986-7108-4d56-b040-3b9b47cf3326/MicrosoftEdgeWebView2RuntimeInstallerX64.exe",
+        "dependency": []
+    },
+    {
+        "name": "python3-runtime",
+        "version": "3.12.2",
+        "description": "Python 3.12 Core Interpreter and Standard Library dependencies.",
+        "operating_system": "nt",
+        "url": "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "vulkan-rt",
+        "version": "1.3.275.0",
+        "description": "Vulkan Runtime Installer for Windows graphics API execution.",
+        "operating_system": "nt",
+        "url": "https://sdk.lunarg.com/sdk/download/1.3.275.0/windows/VulkanRT-1.3.275.0-Installer.exe",
+        "dependency": []
+    },
+    {
+        "name": "openal",
+        "version": "1.23.1",
+        "description": "OpenAL Core Audio Library and 3D spatial audio API.",
+        "operating_system": "nt",
+        "url": "https://openal-soft.org/openal-binaries/openal-soft-1.23.1-bin.zip",
+        "dependency": []
+    },
+    {
+        "name": "k-lite-codecs-core",
+        "version": "18.2.0",
+        "description": "Core DirectShow filters and audio/video decoders.",
+        "operating_system": "nt",
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1820_Basic.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "brave",
+        "version": "BRV090",
+        "description": "The browser that puts you first. Block ads, save data, and get way faster webpages.",
+        "operating_system": "nt",
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.63.169/BraveBrowserStandaloneSetup.exe",
+        "dependency": [
+            "vc2010",
+            "webview2"
+        ]
+    },
+    {
+        "name": "google-chrome",
+        "version": "122.0.6261.95",
+        "description": "Fast, secure, and customizable web browser built by Google.",
+        "operating_system": "nt",
+        "url": "https://dl.google.com/chrome/install/standalone/chrome_installer.exe",
+        "dependency": []
+    },
+    {
+        "name": "mozilla-firefox",
+        "version": "123.0.1",
+        "description": "Free and open-source web browser developed by the Mozilla Foundation.",
+        "operating_system": "nt",
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/123.0.1/win64/en-US/Firefox%20Setup%20123.0.1.exe",
+        "dependency": []
+    },
+    {
+        "name": "microsoft-edge",
+        "version": "122.0.2365.66",
+        "description": "Fast and secure browser developed by Microsoft based on Chromium.",
+        "operating_system": "nt",
+        "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/05a10986-7108-4d56-b040-3b9b47cf3326/MicrosoftEdgeEnterpriseX64.msi",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "opera",
+        "version": "108.0.5067.24",
+        "description": "Feature-rich web browser with free built-in VPN and ad blocker.",
+        "operating_system": "nt",
+        "url": "https://net.opera.com/pub/opera/desktop/108.0.5067.24/win/Opera_108.0.5067.24_Setup_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "opera-gx",
+        "version": "107.0.5045.60",
+        "description": "Special version of the Opera browser built specifically for gamers.",
+        "operating_system": "nt",
+        "url": "https://net.opera.com/pub/opera_gx/107.0.5045.60/win/Opera_GX_107.0.5045.60_Setup_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "tor-browser-win",
+        "version": "13.0.10",
+        "description": "Privacy-focused web browser designed to access the Tor network safely.",
+        "operating_system": "nt",
+        "url": "https://dist.torproject.org/torbrowser/13.0.10/tor-browser-windows-x86_64-portable-13.0.10.exe",
+        "dependency": []
+    },
+    {
+        "name": "librewolf",
+        "version": "123.0.1-1",
+        "description": "Independent fork of Firefox focusing on privacy, security and freedom.",
+        "operating_system": "nt",
+        "url": "https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/123.0.1-1/librewolf-123.0.1-1-windows-x86_64-setup.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "waterfox",
+        "version": "6.0.9",
+        "description": "64-bit variant of the Firefox web browser designed for speed and customizability.",
+        "operating_system": "nt",
+        "url": "https://cdn1.waterfox.net/waterfox/releases/G6.0.9/WINNT_x86_64/Waterfox%20Setup%206.0.9.exe",
+        "dependency": []
+    },
+    {
+        "name": "pale-moon",
+        "version": "33.0.0",
+        "description": "Open-source Goanna-based web browser with customizability options.",
+        "operating_system": "nt",
+        "url": "https://rm-eu.palemoon.org/release/palemoon-33.0.0.win64-installer.exe",
+        "dependency": []
+    },
+    {
+        "name": "vscode",
+        "version": "1.87.0",
+        "description": "Code editing redefined and optimized for building modern web and cloud applications.",
+        "operating_system": "nt",
+        "url": "https://update.code.visualstudio.com/1.87.0/win32-x64-user/stable",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "visual-studio-community",
+        "version": "17.9.2",
+        "description": "Free, fully-featured IDE for students, open-source and individual developers.",
+        "operating_system": "nt",
+        "url": "https://aka.ms/vs/17/release/vs_community.exe",
+        "dependency": [
+            "dotnet48",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "notepad-plus-plus",
+        "version": "8.6.4",
+        "description": "Free source code editor and Notepad replacement that supports several languages.",
+        "operating_system": "nt",
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.4/npp.8.6.4.Installer.x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "sublime-text",
+        "version": "4169",
+        "description": "Sophisticated text editor for code, markup and prose.",
+        "operating_system": "nt",
+        "url": "https://download.sublimetext.com/sublime_text_build_4169_x64_setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "neovim-win",
+        "version": "0.9.5",
+        "description": "Vim-fork focused on extensibility and usability for modern workflows.",
+        "operating_system": "nt",
+        "url": "https://github.com/neovim/neovim/releases/download/v0.9.5/nvim-win64.zip",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "git-for-windows",
+        "version": "2.44.0",
+        "description": "Lightweight, native set of tools that bring the full feature set of Git to Windows.",
+        "operating_system": "nt",
+        "url": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
+        "dependency": []
+    },
+    {
+        "name": "github-desktop",
+        "version": "3.3.8",
+        "description": "Focus on what matters most instead of fighting with Git syntax.",
+        "operating_system": "nt",
+        "url": "https://central.github.com/deployments/desktop/desktop/latest/win32",
+        "dependency": [
+            "git-for-windows"
+        ]
+    },
+    {
+        "name": "vscodium",
+        "version": "1.87.0.24068",
+        "description": "Free, open-source binary distribution of Microsoft’s editor VS Code.",
+        "operating_system": "nt",
+        "url": "https://github.com/VSCodium/vscodium/releases/download/1.87.0.24068/VSCodiumSetup-x64-1.87.0.24068.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "jetbrains-toolbox-win",
+        "version": "2.2.1.19765",
+        "description": "A control panel for your JetBrains tools and projects.",
+        "operating_system": "nt",
+        "url": "https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-2.2.1.19765.exe",
+        "dependency": []
+    },
+    {
+        "name": "dbeaver-community",
+        "version": "24.0.0",
+        "description": "Free multi-platform database tool for developers, database administrators and analysts.",
+        "operating_system": "nt",
+        "url": "https://github.com/dbeaver/dbeaver/releases/download/24.0.0/dbeaver-ce-24.0.0-x64-setup.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "postman",
+        "version": "10.23.5",
+        "description": "API platform for building and using APIs.",
+        "operating_system": "nt",
+        "url": "https://dl.pstmn.io/download/latest/win64",
+        "dependency": []
+    },
+    {
+        "name": "insomnia",
+        "version": "8.6.1",
+        "description": "Open-source, cross-platform API Client for GraphQL, REST, WebSockets and gRPC.",
+        "operating_system": "nt",
+        "url": "https://github.com/Kong/insomnia/releases/download/core%408.6.1/Insomnia.Core-8.6.1.exe",
+        "dependency": []
+    },
+    {
+        "name": "docker-desktop",
+        "version": "4.28.0",
+        "description": "Collaborative application development environment for Windows desktop.",
+        "operating_system": "nt",
+        "url": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe",
+        "dependency": [
+            "wsl2-kernel"
+        ]
+    },
+    {
+        "name": "nodejs-lts",
+        "version": "20.11.1",
+        "description": "JavaScript runtime environment built on Chrome's V8 JavaScript engine.",
+        "operating_system": "nt",
+        "url": "https://nodejs.org/dist/v20.11.1/node-v20.11.1-x64.msi",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "golang",
+        "version": "1.22.1",
+        "description": "Open source programming language that makes it easy to build simple and reliable software.",
+        "operating_system": "nt",
+        "url": "https://go.dev/dl/go1.22.1.windows-amd64.msi",
+        "dependency": []
+    },
+    {
+        "name": "rustup",
+        "version": "1.26.0",
+        "description": "The Rust toolchain installer for managing Rust versions.",
+        "operating_system": "nt",
+        "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "vlc",
+        "version": "3.0.20",
+        "description": "Free and open-source cross-platform multimedia player and framework.",
+        "operating_system": "nt",
+        "url": "https://get.videolan.org/vlc/3.0.20/win64/vlc-3.0.20-win64.exe",
+        "dependency": []
+    },
+    {
+        "name": "k-lite-codec-pack-full",
+        "version": "18.2.0",
+        "description": "Comprehensive collection of DirectShow filters, VFW/ACM codecs, and tools.",
+        "operating_system": "nt",
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1820_Full.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "obs-studio",
+        "version": "30.0.2",
+        "description": "Free and open source software for video recording and live streaming.",
+        "operating_system": "nt",
+        "url": "https://github.com/obsproject/obs-studio/releases/download/30.0.2/OBS-Studio-30.0.2-Full-Installer-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "handbrake",
+        "version": "1.7.3",
+        "description": "Tool for converting video from nearly any format to a selection of modern codecs.",
+        "operating_system": "nt",
+        "url": "https://github.com/HandBrake/HandBrake/releases/download/1.7.3/HandBrake-1.7.3-x86_64-Win_GUI.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "audacity",
+        "version": "3.4.2",
+        "description": "Easy-to-use, multi-track audio editor and recorder for Windows.",
+        "operating_system": "nt",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-win-3.4.2-64bit.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "gimp",
+        "version": "2.10.36",
+        "description": "Cross-platform image editor available for GNU/Linux, macOS, Windows and more.",
+        "operating_system": "nt",
+        "url": "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.36-setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "inkscape",
+        "version": "1.3.2",
+        "description": "Powerful vector design tool for Windows.",
+        "operating_system": "nt",
+        "url": "https://media.inkscape.org/dl/resources/file/inkscape-1.3.2_2023-11-25_091e20e-x64.msi",
+        "dependency": []
+    },
+    {
+        "name": "blender",
+        "version": "4.0.2",
+        "description": "Free and open source 3D creation suite.",
+        "operating_system": "nt",
+        "url": "https://download.blender.org/release/Blender4.0/blender-4.0.2-windows-x64.msi",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "paint-dot-net",
+        "version": "5.0.11",
+        "description": "Image and photo editing software for PCs that run Windows.",
+        "operating_system": "nt",
+        "url": "https://github.com/paintdotnet/release/releases/download/v5.0.11/paint.net.5.0.11.install.anycpu.web.exe",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "krita",
+        "version": "5.2.2",
+        "description": "Professional free and open source painting program.",
+        "operating_system": "nt",
+        "url": "https://download.kde.org/stable/krita/5.2.2/krita-x64-5.2.2-setup.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "shotcut",
+        "version": "24.01.28",
+        "description": "Free, open source, cross-platform video editor.",
+        "operating_system": "nt",
+        "url": "https://github.com/mltframework/shotcut/releases/download/v24.01.28/shotcut-win64-240128.exe",
+        "dependency": []
+    },
+    {
+        "name": "kdenlive",
+        "version": "23.08.5",
+        "description": "Open-source non-linear video editing application.",
+        "operating_system": "nt",
+        "url": "https://download.kde.org/stable/kdenlive/23.08.5/windows/kdenlive-23.08.5-x86_64.exe",
+        "dependency": []
+    },
+    {
+        "name": "mpv-net",
+        "version": "7.1.1.0",
+        "description": "Modern media player for Windows based on mpv.",
+        "operating_system": "nt",
+        "url": "https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.1.0/mpv.net-v7.1.1.0.zip",
+        "dependency": [
+            "dotnet8"
+        ]
+    },
+    {
+        "name": "foobar2000",
+        "version": "2.1.2",
+        "description": "Advanced freeware audio player for the Windows platform.",
+        "operating_system": "nt",
+        "url": "https://www.foobar2000.org/files/foobar2000_v2.1.2_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "musicbee",
+        "version": "3.5.8447",
+        "description": "MusicBee makes it easy to manage, find, and play music files on your computer.",
+        "operating_system": "nt",
+        "url": "https://www.mediafire.com/file/musicbee_3_5_setup.zip",
+        "dependency": []
+    },
+    {
+        "name": "tenacity",
+        "version": "1.3.3",
+        "description": "Easy-to-use privacy-friendly audio editor.",
+        "operating_system": "nt",
+        "url": "https://github.com/tenacityteam/tenacity/releases/download/v1.3.3/tenacity-1.3.3-win-x64.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "sharex",
+        "version": "16.0.1",
+        "description": "Screen capture, file sharing and productivity tool.",
+        "operating_system": "nt",
+        "url": "https://github.com/ShareX/ShareX/releases/download/v16.0.1/ShareX-16.0.1-setup.exe",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "lightshot",
+        "version": "5.5.0.7",
+        "description": "Easy and convenient screen capture tool.",
+        "operating_system": "nt",
+        "url": "https://app.prntscr.com/build/setup-lightshot.exe",
+        "dependency": []
+    },
+    {
+        "name": "fl-studio-installer",
+        "version": "21.2.2.3914",
+        "description": "Complete software music production environment or Digital Audio Workstation.",
+        "operating_system": "nt",
+        "url": "https://demodownload.image-line.com/flstudio/flstudio_win64_21.2.2.3914.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "reaper",
+        "version": "7.11",
+        "description": "Digital audio production application for computers.",
+        "operating_system": "nt",
+        "url": "https://www.reaper.fm/files/7.x/reaper711_x64-install.exe",
+        "dependency": []
+    },
+    {
+        "name": "lmms",
+        "version": "1.2.2",
+        "description": "Free cross-platform software which allows you to produce music with your computer.",
+        "operating_system": "nt",
+        "url": "https://github.com/LMMS/lmms/releases/download/v1.2.2/lmms-1.2.2-win64.exe",
+        "dependency": []
+    },
+    {
+        "name": "pencil2d",
+        "version": "0.6.6",
+        "description": "Easy and intuitive tool to make 2D hand-drawn animations.",
+        "operating_system": "nt",
+        "url": "https://github.com/pencil2d/pencil/releases/download/v0.6.6/pencil2d-win64-0.6.6.zip",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "openToonz",
+        "version": "1.7.1",
+        "description": "2D animation production software.",
+        "operating_system": "nt",
+        "url": "https://github.com/opentoonz/opentoonz/releases/download/v1.7.1/OpenToonzSetup.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "blender-lts",
+        "version": "3.6.8",
+        "description": "Blender Long Term Support release for Windows production environments.",
+        "operating_system": "nt",
+        "url": "https://download.blender.org/release/Blender3.6/blender-3.6.8-windows-x64.msi",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "sound-forge-audio-studio",
+        "version": "17.0",
+        "description": "Audio editing, recording, and mastering tool suite.",
+        "operating_system": "nt",
+        "url": "https://dl-de01.magix.net/soundforgeaudiostudio17_dlm.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "7zip",
+        "version": "24.01",
+        "description": "File archiver with a high compression ratio.",
+        "operating_system": "nt",
+        "url": "https://www.7-zip.org/a/7z2401-x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "peazip",
+        "version": "9.7.1",
+        "description": "Free archiver utility, open source file manager.",
+        "operating_system": "nt",
+        "url": "https://github.com/peazip/PeaZip/releases/download/9.7.1/peazip-9.7.1.WINDOWS.x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "winrar",
+        "version": "6.24",
+        "description": "Powerful archive manager.",
+        "operating_system": "nt",
+        "url": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-624.exe",
+        "dependency": []
+    },
+    {
+        "name": "everything-search",
+        "version": "1.4.1.1024",
+        "description": "Locate files and folders by name instantly on Windows.",
+        "operating_system": "nt",
+        "url": "https://www.voidtools.com/Everything-1.4.1.1024.x64-Setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "sysinternals-suite",
+        "version": "2024.02",
+        "description": "Troubleshoot and manage Windows systems and applications.",
+        "operating_system": "nt",
+        "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+        "dependency": []
+    },
+    {
+        "name": "process-hacker",
+        "version": "2.39",
+        "description": "Free, powerful, multi-purpose tool that helps you monitor system resources.",
+        "operating_system": "nt",
+        "url": "https://github.com/processhacker/processhacker/releases/download/v2.39/processhacker-2.39-setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "power toys",
+        "version": "0.78.0",
+        "description": "Set of utilities for power users to tune and streamline their Windows experience.",
+        "operating_system": "nt",
+        "url": "https://github.com/microsoft/PowerToys/releases/download/v0.78.0/PowerToysSetup-0.78.0-x64.exe",
+        "dependency": [
+            "dotnet8",
+            "webview2"
+        ]
+    },
+    {
+        "name": "rufus",
+        "version": "4.4",
+        "description": "Create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.",
+        "operating_system": "nt",
+        "url": "https://github.com/pbatard/rufus/releases/download/v4.4/rufus-4.4.exe",
+        "dependency": []
+    },
+    {
+        "name": "ventoy",
+        "version": "1.0.97",
+        "description": "An open source tool to create bootable USB drive for ISO files.",
+        "operating_system": "nt",
+        "url": "https://github.com/ventoy/Ventoy/releases/download/v1.0.97/ventoy-1.0.97-windows.zip",
+        "dependency": []
+    },
+    {
+        "name": "balena-etcher",
+        "version": "1.18.11",
+        "description": "Flash OS images to SD cards & USB drives, safely and easily.",
+        "operating_system": "nt",
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.18.11/balenaEtcher-Setup-1.18.11.exe",
+        "dependency": []
+    },
+    {
+        "name": "keepassxc",
+        "version": "2.7.7",
+        "description": "Cross-platform community-driven port of KeePass Password Safe.",
+        "operating_system": "nt",
+        "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.7/KeePassXC-2.7.7-Win64.msi",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "bitwarden",
+        "version": "2024.2.0",
+        "description": "A secure and free password manager for all your devices.",
+        "operating_system": "nt",
+        "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2024.2.0/Bitwarden-Installer-2024.2.0.exe",
+        "dependency": []
+    },
+    {
+        "name": "veracrypt",
+        "version": "1.26.7",
+        "description": "Free open source disk encryption software based on TrueCrypt.",
+        "operating_system": "nt",
+        "url": "https://launchpad.net/veracrypt/trunk/1.26.7/+download/VeraCrypt_Setup_1.26.7.exe",
+        "dependency": []
+    },
+    {
+        "name": "bleachbit",
+        "version": "4.6.0",
+        "description": "Quickly frees disk space and guards your privacy.",
+        "operating_system": "nt",
+        "url": "https://download.bleachbit.org/BleachBit-4.6.0-setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "hwinfo",
+        "version": "7.72",
+        "description": "Comprehensive Hardware Analysis, Monitoring and Reporting for Windows.",
+        "operating_system": "nt",
+        "url": "https://www.sac.sk/download/utildi/hwi_772.exe",
+        "dependency": []
+    },
+    {
+        "name": "cpu-z",
+        "version": "2.09",
+        "description": "System profiling and monitoring application.",
+        "operating_system": "nt",
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_2.09-en.exe",
+        "dependency": []
+    },
+    {
+        "name": "gpu-z",
+        "version": "2.57.0",
+        "description": "Lightweight system utility designed to provide information about video cards.",
+        "operating_system": "nt",
+        "url": "https://dl.techpowerup.com/files/O-z5eQj9E2yvY1jW_X7x4w/GPU-Z.2.57.0.exe",
+        "dependency": []
+    },
+    {
+        "name": "crystaldiskinfo",
+        "version": "9.2.2",
+        "description": "HDD/SSD utility software which supports a part of USB connections and Intel RAID.",
+        "operating_system": "nt",
+        "url": "https://osdn.dl.osdn.net/crystaldiskinfo/79304/CrystalDiskInfo9_2_2.exe",
+        "dependency": []
+    },
+    {
+        "name": "crystaldiskmark",
+        "version": "8.0.5",
+        "description": "Simple disk benchmark software.",
+        "operating_system": "nt",
+        "url": "https://osdn.dl.osdn.net/crystaldiskmark/79305/CrystalDiskMark8_0_5.exe",
+        "dependency": []
+    },
+    {
+        "name": "msi-afterburner",
+        "version": "4.6.5",
+        "description": "Graphics card overclocking utility.",
+        "operating_system": "nt",
+        "url": "https://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip",
+        "dependency": [
+            "vc2010"
+        ]
+    },
+    {
+        "name": "furmark",
+        "version": "2.1.0.2",
+        "description": "Very intensive OpenGL benchmark that measures graphics card performance.",
+        "operating_system": "nt",
+        "url": "https://geeks3d.com/dl/get/703",
+        "dependency": [
+            "vulkan-rt"
+        ]
+    },
+    {
+        "name": "wireshark",
+        "version": "4.2.3",
+        "description": "Network protocol analyzer.",
+        "operating_system": "nt",
+        "url": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-4.2.3.exe",
+        "dependency": [
+            "npcap"
+        ]
+    },
+    {
+        "name": "nmap",
+        "version": "7.94",
+        "description": "Utility for network discovery and security auditing.",
+        "operating_system": "nt",
+        "url": "https://nmap.org/dist/nmap-7.94-setup.exe",
+        "dependency": [
+            "npcap"
+        ]
+    },
+    {
+        "name": "putty",
+        "version": "0.80",
+        "description": "Free SSH and telnet client for Windows.",
+        "operating_system": "nt",
+        "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.80-installer.msi",
+        "dependency": []
+    },
+    {
+        "name": "winscp",
+        "version": "6.3.1",
+        "description": "Popular free SFTP client and FTP client for Windows.",
+        "operating_system": "nt",
+        "url": "https://cdn.winscp.net/files/WinSCP-6.3.1-Setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "filezilla",
+        "version": "3.66.5",
+        "description": "Free open source FTP, FTPS and SFTP client.",
+        "operating_system": "nt",
+        "url": "https://download.filezilla-project.org/client/FileZilla_3.66.5_win64-setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "advanced-ip-scanner",
+        "version": "2.5.4594.1",
+        "description": "Reliable and free network scanner to analyze LAN.",
+        "operating_system": "nt",
+        "url": "https://download.advanced-ip-scanner.com/download/files/Advanced_IP_Scanner_2.5.4594.1.exe",
+        "dependency": []
+    },
+    {
+        "name": "angry-ip-scanner",
+        "version": "3.9.1",
+        "description": "Fast and friendly network scanner.",
+        "operating_system": "nt",
+        "url": "https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-win64-3.9.1.exe",
+        "dependency": [
+            "openjdk17"
+        ]
+    },
+    {
+        "name": "anydesk",
+        "version": "7.0.14",
+        "description": "Remote desktop application for Windows.",
+        "operating_system": "nt",
+        "url": "https://download.anydesk.com/AnyDesk.exe",
+        "dependency": []
+    },
+    {
+        "name": "teamviewer",
+        "version": "15.51.5",
+        "description": "Remote desktop access and support platform.",
+        "operating_system": "nt",
+        "url": "https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "rustdesk",
+        "version": "1.2.3",
+        "description": "Open source remote desktop software, the open source TeamViewer alternative.",
+        "operating_system": "nt",
+        "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe",
+        "dependency": []
+    },
+    {
+        "name": "parsec",
+        "version": "150-88",
+        "description": "Connect to your gaming PC from anywhere.",
+        "operating_system": "nt",
+        "url": "https://builds.parsec.app/package/parsec-windows.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "moonlight-stream",
+        "version": "5.0.1",
+        "description": "Open source NVIDIA GameStream and Sunshine client.",
+        "operating_system": "nt",
+        "url": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v5.0.1/MoonlightSetup-x64-5.0.1.exe",
+        "dependency": []
+    },
+    {
+        "name": "sunshine",
+        "version": "0.21.0",
+        "description": "Self-hosted game stream host for Moonlight.",
+        "operating_system": "nt",
+        "url": "https://github.com/LizardByte/Sunshine/releases/download/v0.21.0/sunshine-windows-installer.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "syncthing",
+        "version": "1.27.3",
+        "description": "Open Source Continuous File Synchronization.",
+        "operating_system": "nt",
+        "url": "https://github.com/syncthing/syncthing/releases/download/v1.27.3/syncthing-windows-amd64-v1.27.3.zip",
+        "dependency": []
+    },
+    {
+        "name": "nextcloud-desktop",
+        "version": "3.12.1",
+        "description": "Nextcloud desktop synchronization client.",
+        "operating_system": "nt",
+        "url": "https://github.com/nextcloud-releases/desktop/releases/download/v3.12.1/Nextcloud-3.12.1-x64.msi",
+        "dependency": []
+    },
+    {
+        "name": "owncloud-desktop",
+        "version": "5.2.1",
+        "description": "ownCloud desktop sync client.",
+        "operating_system": "nt",
+        "url": "https://download.owncloud.com/desktop/ownCloud/stable/5.2.1.13040/win64/ownCloud-5.2.1.13040-x64.msi",
+        "dependency": []
+    },
+    {
+        "name": "duplicati",
+        "version": "2.0.7.1",
+        "description": "Free backup client that securely stores encrypted, incremental, compressed backups on cloud storage.",
+        "operating_system": "nt",
+        "url": "https://github.com/duplicati/duplicati/releases/download/v2.0.7.1-2.0.7.1_beta_2023-05-25/duplicati-2.0.7.1_beta_2023-05-25-x64.msi",
+        "dependency": [
+            "dotnet48"
+        ]
+    },
+    {
+        "name": "rclone-win",
+        "version": "1.65.2",
+        "description": "rsync for cloud storage with support for over 70 cloud storage providers.",
+        "operating_system": "nt",
+        "url": "https://downloads.rclone.org/v1.65.2/rclone-v1.65.2-windows-amd64.zip",
+        "dependency": []
+    },
+    {
+        "name": "libreoffice",
+        "version": "24.2.1",
+        "description": "Free and powerful open source personal productivity suite.",
+        "operating_system": "nt",
+        "url": "https://download.documentfoundation.org/libreoffice/stable/24.2.1/win/x86_64/LibreOffice_24.2.1_Win_x86-64.msi",
+        "dependency": []
+    },
+    {
+        "name": "onlyoffice",
+        "version": "8.0.0",
+        "description": "Free open-source office suite for desktop.",
+        "operating_system": "nt",
+        "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.0.0/desktopeditors_x64.exe",
+        "dependency": []
+    },
+    {
+        "name": "sumatra-pdf",
+        "version": "3.5.2",
+        "description": "Free PDF, eBook (ePub, mobi), XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader for Windows.",
+        "operating_system": "nt",
+        "url": "https://www.sumatrapdfreader.org/dl/rel/3.5.2/SumatraPDF-3.5.2-64-install.exe",
+        "dependency": []
+    },
+    {
+        "name": "foxit-reader",
+        "version": "2023.3.0.23043",
+        "description": "Small, fast, and feature-rich PDF reader.",
+        "operating_system": "nt",
+        "url": "https://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/2023.3/FoxitPDFReader20233_enu_Setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "pdf24-creator",
+        "version": "11.15.2",
+        "description": "Free and easy to use PDF creator and editor.",
+        "operating_system": "nt",
+        "url": "https://download.pdf24.org/pdf24-creator-11.15.2-x64.msi",
+        "dependency": []
+    },
+    {
+        "name": "obsidian",
+        "version": "1.5.8",
+        "description": "Knowledge base that works on top of a local folder of plain text Markdown files.",
+        "operating_system": "nt",
+        "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.8/Obsidian.1.5.8.exe",
+        "dependency": []
+    },
+    {
+        "name": "joplin",
+        "version": "2.14.9",
+        "description": "Open source note taking and to-do application.",
+        "operating_system": "nt",
+        "url": "https://github.com/laurent22/joplin/releases/download/v2.14.9/Joplin-Setup-2.14.9.exe",
+        "dependency": []
+    },
+    {
+        "name": "logseq",
+        "version": "0.10.7",
+        "description": "Privacy-first, open-source platform for knowledge management.",
+        "operating_system": "nt",
+        "url": "https://github.com/logseq/logseq/releases/download/0.10.7/Logseq-win-x64-0.10.7.exe",
+        "dependency": []
+    },
+    {
+        "name": "calibre",
+        "version": "7.5.1",
+        "description": "E-book manager and converter tool suite.",
+        "operating_system": "nt",
+        "url": "https://download.calibre-ebook.com/7.5.1/calibre-64bit-7.5.1.msi",
+        "dependency": []
+    },
+    {
+        "name": "zotero",
+        "version": "6.0.30",
+        "description": "Free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
+        "operating_system": "nt",
+        "url": "https://download.zotero.org/client/release/6.0.30/Zotero-6.0.30_setup.exe",
+        "dependency": []
+    },
+    {
+        "name": "steam",
+        "version": "2.10.91.91",
+        "description": "Ultimate gaming platform. Play, connect, create, and more.",
+        "operating_system": "nt",
+        "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "epic-games-launcher",
+        "version": "15.17.0",
+        "description": "Official Epic Games store and game launcher.",
+        "operating_system": "nt",
+        "url": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi",
+        "dependency": [
+            "vc2015-2022",
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "gog-galaxy",
+        "version": "2.0.73.27",
+        "description": "All your games and friends in one place.",
+        "operating_system": "nt",
+        "url": "https://cdn.gog.com/open/galaxy/client/2.0.73.27/setup_galaxy_2.0.73.27.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "ubisoft-connect",
+        "version": "140.0.0",
+        "description": "Ecosystem of player services for Ubisoft games.",
+        "operating_system": "nt",
+        "url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "ea-app",
+        "version": "13.141.0",
+        "description": "EA Desktop app for Windows.",
+        "operating_system": "nt",
+        "url": "https://origin-a.akamaihd.net/EAAppInstaller/EAappInstaller.exe",
+        "dependency": [
+            "vc2015-2022",
+            "webview2"
+        ]
+    },
+    {
+        "name": "heroic-games-launcher",
+        "version": "2.13.0",
+        "description": "An Open Source GOG, Epic Games and Amazon Games Launcher for Windows.",
+        "operating_system": "nt",
+        "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.13.0/Heroic-Setup-2.13.0.exe",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "prism-launcher",
+        "version": "8.2",
+        "description": "Custom launcher for Minecraft that allows you to manage multiple instances.",
+        "operating_system": "nt",
+        "url": "https://github.com/PrismLauncher/PrismLauncher/releases/download/8.2/PrismLauncher-Windows-MSVC-Setup-8.2.exe",
+        "dependency": [
+            "openjdk17",
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "pcsx2-emu",
+        "version": "1.7.5550",
+        "description": "PlayStation 2 emulator for Windows.",
+        "operating_system": "nt",
+        "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.5550/pcsx2-v1.7.5550-windows-x64-Qt.7z",
+        "dependency": [
+            "vc2015-2022",
+            "vulkan-rt"
+        ]
+    },
+    {
+        "name": "rpcs3-emu",
+        "version": "0.0.31",
+        "description": "PS3 emulator and debugger.",
+        "operating_system": "nt",
+        "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-a74092b61ee160e107bb4ecb483e5899ea2240a5/rpcs3-v0.0.31-16223-a74092b6_win64.7z",
+        "dependency": [
+            "vc2015-2022",
+            "vulkan-rt"
+        ]
+    },
+    {
+        "name": "ppsspp-emu",
+        "version": "1.17.1",
+        "description": "PSP emulator for Windows.",
+        "operating_system": "nt",
+        "url": "https://github.com/hrydgard/ppsspp/releases/download/v1.17.1/PPSSPPWindows64_1.17.1.zip",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "dolphin-emulator",
+        "version": "2402",
+        "description": "GameCube and Wii emulator.",
+        "operating_system": "nt",
+        "url": "https://dl.dolphin-emu.org/builds/7c/36/dolphin-master-2402-x64.7z",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "retroarch-win",
+        "version": "1.17.0",
+        "description": "Cross-platform core frontend for emulators.",
+        "operating_system": "nt",
+        "url": "https://buildbot.libretro.com/stable/1.17.0/windows/x86_64/RetroArch-msvc2019-x64-setup.exe",
+        "dependency": [
+            "directx-june2010"
+        ]
+    },
+    {
+        "name": "godot-engine",
+        "version": "4.2.1",
+        "description": "Free open-source 2D and 3D game engine.",
+        "operating_system": "nt",
+        "url": "https://github.com/godotengine/godot/releases/download/4.2.1-stable/Godot_v4.2.1-stable_win64.exe.zip",
+        "dependency": []
+    },
+    {
+        "name": "discord",
+        "version": "1.0.9030",
+        "description": "All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.",
+        "operating_system": "nt",
+        "url": "https://dl.discordapp.net/apps/win/1.0.9030/DiscordSetup.exe",
+        "dependency": []
+    },
+    {
+        "name": "telegram-desktop",
+        "version": "4.15.0",
+        "description": "Fast and secure desktop app, perfectly synced with your mobile phone.",
+        "operating_system": "nt",
+        "url": "https://updates.tdesktop.com/tsetup/tsetup.4.15.0.exe",
+        "dependency": []
+    },
+    {
+        "name": "whatsapp-desktop",
+        "version": "2.2407.10.0",
+        "description": "Simple, reliable, private messaging and calling on Windows.",
+        "operating_system": "nt",
+        "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "signal-desktop",
+        "version": "7.1.0",
+        "description": "Private messaging app built for end-to-end encryption.",
+        "operating_system": "nt",
+        "url": "https://updates.signal.org/desktop/signal-desktop-win-7.1.0.exe",
+        "dependency": []
+    },
+    {
+        "name": "element-desktop",
+        "version": "1.11.58",
+        "description": "Secure collaboration app built on Matrix.",
+        "operating_system": "nt",
+        "url": "https://github.com/element-hq/element-desktop/releases/download/v1.11.58/Element-Setup-1.11.58.exe",
+        "dependency": []
+    },
+    {
+        "name": "slack",
+        "version": "4.36.138",
+        "description": "Slack brings team communication and collaboration into one place.",
+        "operating_system": "nt",
+        "url": "https://downloads.slack-edge.com/desktop-releases/win32/x64/4.36.138/SlackSetup.exe",
+        "dependency": []
+    },
+    {
+        "name": "zoom",
+        "version": "5.17.11",
+        "description": "Modern enterprise video communications platform.",
+        "operating_system": "nt",
+        "url": "https://zoom.us/client/5.17.11.3835/ZoomInstallerFull.exe",
+        "dependency": []
+    },
+    {
+        "name": "microsoft-teams",
+        "version": "24033.811.2738.2546",
+        "description": "Business communication platform developed by Microsoft.",
+        "operating_system": "nt",
+        "url": "https://statics.teams.cdn.office.net/production-windows-x64/24033.811.2738.2546/MSTeams-x64.msix",
+        "dependency": [
+            "webview2"
+        ]
+    },
+    {
+        "name": "skype",
+        "version": "8.114.0.210",
+        "description": "Free online calls, messaging, affordable international calls to mobiles or landlines.",
+        "operating_system": "nt",
+        "url": "https://endpoint920581.azureedge.net/release/8.114.0.210/Skype-8.114.0.210.exe",
+        "dependency": []
+    },
+    {
+        "name": "mumble-client",
+        "version": "1.5.517",
+        "description": "Open source, low-latency, high quality voice chat software.",
+        "operating_system": "nt",
+        "url": "https://github.com/mumble-voip/mumble/releases/download/v1.5.517/mumble-1.5.517.winx64.msi",
+        "dependency": [
+            "vc2015-2022"
+        ]
+    },
+    {
+        "name": "thunderbird-win",
+        "version": "115.8.0",
+        "description": "Free email client that's easy to set up and customize.",
+        "operating_system": "nt",
+        "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.8.0/win64/en-US/Thunderbird%20Setup%20115.8.0.exe",
+        "dependency": []
+    }
+]
